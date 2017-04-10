@@ -13,4 +13,8 @@ router.get("/getListData",function(req,res,next){
 	userSql.getListData(req,res,next);
 });
 
+router.get("/getDetails",function(req,res,next){
+	userSql.getDetails(req,res,next);
+});
+
 module.exports = router;

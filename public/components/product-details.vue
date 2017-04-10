@@ -14,7 +14,7 @@
 			</div>
 		</div>
 		<div>
-			
+			<p>{{initData.desc}}</p>
 		</div>
 	</div>
 </template>
@@ -24,22 +24,30 @@
 	export default {
 		data(){
 			return {
-				
+				initData:null
 			}
 		},
 		beforeCreate(){
 			layer.open({
 			    type:2
-			 });
+			});
+			
+			//获取数据
+			var _this = this;
+			console.log(_this.$route.params.id);
+			$.get("/getDetails",{id:_this.$route.params.id},function(result){
+				console.log(JSON.parse(JSON.stringify(result)));
+				_this.initData = JSON.parse(JSON.stringify(result));
+			});
 		},
 		mounted(){
-			var loader = new loadMedia({
+			new loadMedia({
 				parent:".product-details",
 				loadComplete:function(){
 					layer.closeAll();
 				}
 			});
-			var swiper = new Swiper(".swiper-banner",{
+			new Swiper(".swiper-banner",{
 				autoplay: 4000,
 				autoplayDisableOnInteraction: false,
 				loop: true

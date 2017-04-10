@@ -10,7 +10,7 @@ var pool = mySql.createPool(sqlConfig.mySql);
 module.exports = {
 	getListData: function(req,res,next){
 		pool.getConnection(function(err,connection){
-			connection.query(sql.queryAll,function(err,result){
+			connection.query(sql.queryPart,function(err,result){
 				if(err){
 					throw err;
 				}
@@ -18,5 +18,18 @@ module.exports = {
 				connection.release();
 			});
 		})
+	},
+	getDetails: function(req,res,next){
+		var id = req.query.id;
+		pool.getConnection(function(err,connection){
+			connection.query(sql.queryById,id,function(err,result){
+				if(err){
+					throw err;
+				}
+				console.log(result);
+				res.json(result);
+				connection.release();
+			});
+		});
 	}
 }

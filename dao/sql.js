@@ -1,3 +1,4 @@
 module.exports = {
-	queryAll: "select * from products"
+	queryById: "select * from products where id=?",
+	queryPart: "select id,`desc`,pv,src from products"
 }
