@@ -3,13 +3,15 @@
 		<div class="title border-bottom">产品展示区域<span>[点击图片可查看详细说明]</span></div>
 		<ul>
 			<li v-for="item in listData" :param="item.id">
-				<div class="border-bottom">
-					<img :src="item.src" />
-				</div>
-				<div>
-					<span class="tips">{{item.desc}}</span>
-					<span class="scan-num"><i class="fa fa-eye"></i><span>{{item.pv}}</span></span>
-				</div>
+				<router-link :to="/pDetails/+item.id">
+					<div class="border-bottom">
+						<img :src="item.src" />
+					</div>
+					<div>
+						<span class="tips">{{item.desc}}</span>
+						<span class="scan-num"><i class="fa fa-eye"></i><span>{{item.pv}}</span></span>
+					</div>
+				</router-link>
 			</li>
 		</ul>
 	</div>
@@ -66,14 +68,14 @@
 				background-color:#fff;
 				box-shadow: 0 0 4px 0px #ddd;
 				margin-bottom:0.5rem;
-				& > div:nth-child(1){
+				div:nth-child(1){
 					height: 7rem;
 				    flex-direction: column;
 				    justify-content: center;
 				    display: flex;
 				    padding:0 4%;
 				}
-				& > div:nth-child(2) {
+				div:nth-child(2) {
 					padding: 0.4rem 6%;
 				    height: 1.4rem;
 				    background-color: #F8F8F8;

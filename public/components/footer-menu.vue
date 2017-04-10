@@ -91,7 +91,7 @@
 				i {
 					color:@lightText;
 					margin:0.3rem 0 0.3rem 0;
-					font-size:1.1rem;
+					font-size:1rem;
 				}
 				span {
 					font-size:0.6rem;

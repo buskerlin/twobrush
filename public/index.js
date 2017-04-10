@@ -11,6 +11,7 @@ import Router from "vue-router";
 import loadMedia from "./js/loadMedia.js";
 
 Vue.use(Router);
+
 /*..components..*/
 import myFooter from "./components/footer-menu";
 import myHeader from "./components/header";
@@ -23,7 +24,8 @@ console.log(this); //undefined ES6默认js的严格模式 ，this禁止指向全
 const router = new Router({
 //	mode: "history",
 	routes:[
-		{path: "/contactUs",component: resolve => require(['./components/contact-us.vue'],resolve)}
+		{path: "/contactUs",component: resolve => require(['./components/contact-us.vue'],resolve)},
+		{path: "/pDetails/:id",component: resolve => require(['./components/product-details.vue'],resolve)}
 	]
 });
 
