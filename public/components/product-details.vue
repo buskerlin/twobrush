@@ -41,13 +41,13 @@
 			});
 		},
 		mounted(){
-			new loadMedia({
+			var loader = new loadMedia({
 				parent:".product-details",
 				loadComplete:function(){
 					layer.closeAll();
 				}
 			});
-			new Swiper(".swiper-banner",{
+			var swiper = new Swiper(".swiper-banner",{
 				autoplay: 4000,
 				autoplayDisableOnInteraction: false,
 				loop: true
