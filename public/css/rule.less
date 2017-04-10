@@ -1,0 +1,53 @@
+
+/*..颜色值..*/
+@iconbg:#66c4ff;
+@elebg:#fff;
+@darkText:#34495e;
+@lightText:#9aabb8;
+
+/*..图标大小..*/
+@iconmin: 1rem;
+@iconmid: 1.2rem;
+@iconmax: 1.4rem;
+
+/*..文字大小..*/
+@fontmin: 0.7rem;
+@fontmid: 0.9rem;
+@fontmax: 1.2rem;
+
+/*..1px解决方案..*/
+/*..垂直..*/
+.border-1px-vertical (@color:#ddd){
+	content:"";
+	border-top:1px solid @color;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+/*..水平..*/
+.border-1px-horzien (@color:#ddd){
+	content:"";
+	border-left:1px solid @color;
+	-webkit-transform: scaleX(.5);
+	transform: scaleX(.5);
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+/*..按钮..*/
+.button (@height:2rem,@radius:5px,@color:#00B7FF){
+    width:100%;
+    border-radius:@radius;
+    height:@height;
+    line-height:@height;
+    text-align: center;
+    background-color:@color;
+    letter-spacing:1px;
+    color:#fff;
+    font-size:0.8rem;
+}
+
