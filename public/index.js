@@ -11,7 +11,6 @@ import Router from "vue-router";
 import loadMedia from "./js/loadMedia.js";
 
 Vue.use(Router);
-
 /*..components..*/
 import myFooter from "./components/footer-menu";
 import myHeader from "./components/header";
