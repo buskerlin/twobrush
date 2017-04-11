@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>demo</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui"/>
+	<link rel="shortcut icon" href="./img/favicon.ico">
 	<link href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 	<!-- loading css文件中的样式会在bundle加载成功以后才会渲染，所以写成内联样式 -->
 	<style>
-		#app {min-height:32rem;} /*及时遮住loading animation*/
+		#app {min-height:32rem;background-color: #fff;position:absolute;z-index: 2;top:0;width:100%;} /*及时遮住loading animation*/
 		.load-index {position:absolute;top:0;left:0;right:0;bottom:0;width:6rem;height:6rem;margin:auto;}
 		.load-index img {width:100%;-webkit-animation:loadIndexA 3s infinite;}
 		@-webkit-keyframes loadIndexA{

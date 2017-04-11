@@ -13,29 +13,41 @@
 				</div>
 			</div>
 		</div>
-		<div>
+		<p class="title">直接定义initData:null会导致 desc null</p>
+		<div class="details">
+			<ul>
+				<li><label>优惠：</label>xxxxxxxxxxx</li>
+				<li><label>材质：</label>xxxxxxxxxxxxxxxx</li>
+			</ul>
+		</div>
+		<div class="explation">
 			<!-- desc null 导致模板挂载过程出错，在mounted()钩子函数内无法获取到模板内元素 -->
 			<!-- 直接定义initData:null会导致 desc null -->
+			<div class="nav-title border-bottom">产品说明</div>
 			<p>{{initData.desc}}</p>
 		</div>
+		<!-- v-bind 将属性值当作表达式执行 -->
+		<my-board :thumbs="{thumb:initData.thumbs,id:initData.id}"></my-board>
 	</div>
 </template>
 
 <script>
 	import "swiper";
+	import board from "./board.vue";
 	export default {
 		data(){
 			return {
 				initData:{}
 			}
 		},
+		components:{myBoard:board},
 		methods:{
 			getDetails(){
 				//获取数据
 				var _this = this;
 				console.log(_this.$route.params.id);
-				$.get("/getDetails",{id:_this.$route.params.id},function(result){
-					_this.initData = result[0];
+				$.get("/products/getDetails",{id:_this.$route.params.id},function(result){
+					_this.initData = result;
 				});
 			}
 		},
@@ -65,14 +77,37 @@
 </script>
 
 <style lang="less">
+	@import "../css/rule.less";
 	.product-details {
 		position:absolute;
 		top:0;
 		width:100%;
 		min-height:100%;
-		background-color:#fff;
+		background-color:#f5f5f5;
 		.swiper-banner {
 			height:9.4rem;
+		}
+		.title {
+			background-color:#fff;
+			margin:0;
+			padding:0.8rem 5%;
+		}
+		.details {
+			margin:0.4rem auto;
+			background-color:#fff;
+			padding:0.4rem 5%;
+			font-size:0.6rem;
+			line-height:1rem;
+		}
+		.explation {
+			p{
+				color:#9AABB8;
+				padding:0.8rem 5% 2rem 5%;
+				line-height:@fontbody * 1.6;
+				background-color:#fff;
+				margin:0;
+				text-indent:(@fontbody * 2);
+			}
 		}
 	}
 </style>

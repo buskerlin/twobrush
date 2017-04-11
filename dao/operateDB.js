@@ -26,9 +26,26 @@ module.exports = {
 				if(err){
 					throw err;
 				}
-				console.log(result);
-				res.json(result);
+				res.json(result[0]);
 				connection.release();
+			});
+		});
+	},
+	addThumb:function(req,res,next){
+		var id = req.body.id;
+		pool.getConnection(function(err,connection){
+			connection.query(sql.addThumb,id,function(err,result){
+				if(err){
+					throw err;
+				}
+				//mysql同时只能允许一个操作，故update后再select
+				connection.query(sql.queryThumb,id,function(err,result){
+					if(err){
+						throw err;
+					}
+					res.json(result[0]);
+					connection.release();
+				});
 			});
 		});
 	}

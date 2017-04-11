@@ -17,4 +17,8 @@ router.get("/getDetails",function(req,res,next){
 	userSql.getDetails(req,res,next);
 });
 
+//点赞接口
+router.post("/addThumb",function(req,res,next){
+	userSql.addThumb(req,res,next);
+});
 module.exports = router;

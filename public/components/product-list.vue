@@ -1,6 +1,6 @@
 <template>
 	<div class="content-part box-shadow-top">
-		<div class="title border-bottom">产品展示区域<span>[点击图片可查看详细说明]</span></div>
+		<div class="nav-title border-bottom">产品展示区域<span>[点击图片可查看详细说明]</span></div>
 		<ul>
 			<li v-for="item in listData" :param="item.id">
 				<router-link :to="/pDetails/+item.id">
@@ -30,7 +30,7 @@
 		beforeCreate(){
 			var _this = this;
 			console.log(this);
-			$.get("/getListData",function(result){
+			$.get("/products/getListData",function(result){
 				console.log(this);
 				_this.listData = result;
 			})
@@ -45,23 +45,13 @@
 		img {
 			width:100%;
 		}
-		.title {
-			font-size:0.7rem;
-			padding:0.8rem 0 0.6rem 4%;
-			background-color:#F4F9FD;
-			span {
-				font-size:0.6rem;
-				color:#9aabb8;
-				margin-left:2%;
-			}
-		}
 		/*直系子元素*/
 		& > ul {
 			display:flex;
 			align-content: center;
 			justify-content: space-around;
 			flex-wrap: wrap;
-			padding:0.5rem 2% 1.6rem 2%;
+			padding:0.5rem 2% 3rem 2%;
 			background-color: #fff;
 			& > li {
 				width:48%;
