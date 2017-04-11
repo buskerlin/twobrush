@@ -25,7 +25,7 @@ window.loadMedia = function(setParam){
 	for(var i in setParam){
 		defaultSet[i] = setParam[i];
 	}
-	
+	console.log(document.querySelector(".product-details"));
 	defaultSet.parent = defaultSet.parent == "body" ? document.body : document.querySelector(defaultSet.parent);
 	var media = {
 		imgs: defaultSet.parent.querySelectorAll("img"),
