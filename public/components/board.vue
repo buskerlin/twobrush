@@ -16,7 +16,7 @@
 			<div class="remark-list">
 				<div v-show="commentList.remarks[0].remark">
 					<span class="floor">新</span>
-					<span class="textarea">{{commentList.remarks[commentList.remarks.length - 1].remark}}</span>
+					<span class="textarea"></span>
 				</div>
 				<ul>
 					<!-- v-if 和 v-show的区别 -->
