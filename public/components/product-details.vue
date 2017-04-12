@@ -27,7 +27,7 @@
 			<p>{{initData.desc}}</p>
 		</div>
 		<!-- v-bind 将属性值当作表达式执行 -->
-		<my-board :thumbs="{thumb:initData.thumbs,id:initData.id}"></my-board>
+		<my-board :thumbs="{thumb:initData.thumbs,id:initData.id,remarks:initData.remarks}"></my-board>
 	</div>
 </template>
 
@@ -45,10 +45,20 @@
 			getDetails(){
 				//获取数据
 				var _this = this;
-				console.log(_this.$route.params.id);
-				$.get("/products/getDetails",{id:_this.$route.params.id},function(result){
-					_this.initData = result;
+				$.ajax({
+					type:"post",
+					url:"/products/getDetails",
+					dataType:"json",
+					data:{id:_this.$route.params.id},
+					success(result){
+						_this.initData = result;
+					}
 				});
+//				$.get("/products/getDetails",{id:_this.$route.params.id},function(result){
+//					_this.initData = result;
+//					console.log("999999999");
+//					console.log(result);
+//				});
 			}
 		},
 		beforeCreate(){
@@ -61,6 +71,7 @@
 			this.getDetails();
 		},
 		mounted(){
+			console.log(this.initData);
 			var loader = new loadMedia({
 				parent:".product-details",
 				loadComplete:function(){

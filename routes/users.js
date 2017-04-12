@@ -13,7 +13,7 @@ router.get("/getListData",function(req,res,next){
 	userSql.getListData(req,res,next);
 });
 
-router.get("/getDetails",function(req,res,next){
+router.post("/getDetails",function(req,res,next){
 	userSql.getDetails(req,res,next);
 });
 
@@ -21,4 +21,10 @@ router.get("/getDetails",function(req,res,next){
 router.post("/addThumb",function(req,res,next){
 	userSql.addThumb(req,res,next);
 });
+
+//评论接口
+router.post("/leaveMessage",function(req,res,next){
+	userSql.leaveMessage(req,res,next);
+});
+
 module.exports = router;

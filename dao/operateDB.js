@@ -2,13 +2,14 @@
 const mySql = require("mysql");
 const sqlConfig = require("./sqlConfig");
 const sql = require("./sql");
+const common = require("./common.js");
 
 //创建连接池
 var pool = mySql.createPool(sqlConfig.mySql);
 
 //是exports而不是export
 module.exports = {
-	getListData: function(req,res,next){
+	getListData(req,res,next){
 		pool.getConnection(function(err,connection){
 			connection.query(sql.queryPart,function(err,result){
 				if(err){
@@ -19,19 +20,19 @@ module.exports = {
 			});
 		})
 	},
-	getDetails: function(req,res,next){
-		var id = req.query.id;
+	getDetails(req,res,next){
+		var id = req.body.id;
 		pool.getConnection(function(err,connection){
-			connection.query(sql.queryById,id,function(err,result){
+			connection.query(sql.queryById,[id,id],function(err,result){
 				if(err){
 					throw err;
 				}
-				res.json(result[0]);
+				res.json(common.jointData(["pid","remark"],result,"remarks"));
 				connection.release();
 			});
 		});
 	},
-	addThumb:function(req,res,next){
+	addThumb(req,res,next){
 		var id = req.body.id;
 		pool.getConnection(function(err,connection){
 			connection.query(sql.addThumb,id,function(err,result){
@@ -44,6 +45,22 @@ module.exports = {
 						throw err;
 					}
 					res.json(result[0]);
+					connection.release();
+				});
+			});
+		});
+	},
+	leaveMessage(req,res,next){
+		pool.getConnection(function(err,connection){
+			connection.query(sql.leaveMessage,[req.body.remark,req.body.id],function(err,result){
+				if(err){
+					throw err;
+				}
+				connection.query(sql.queryMessage,req.body.id,function(err,result){
+					if(err){
+						throw err;
+					}
+					res.json(result);
 					connection.release();
 				});
 			});
