@@ -60,12 +60,21 @@
 			},
 			leaveMessage(){
 				var _this = this;
+				bwShowLoading("正在提交");
 				$.ajax({
 					type:"post",
 					url:"/products/leaveMessage",
 					data:{id:_this.thumbs.id,remark:$("#message").val()},
 					dataType:"json",
 					success(result){
+						bwHideLoading();
+						bwShowSuccess({
+							point:"留言成功",
+							time:2000,
+							callback:function(){
+								$(".board-say > div").eq(0).slideUp();
+							}
+						});
 						_this.thumbs.remarks = result;
 					}
 				});

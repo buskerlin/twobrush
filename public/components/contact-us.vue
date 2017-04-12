@@ -30,16 +30,14 @@
 			
 		},
 		beforeCreate(){
-			 layer.open({
-			    type:2
-			  });
+			bwShowLoading("正在加载");
 		},
 		mounted(){
 			//改变this指向
 			var loader = new loadMedia({
 				parent:".contact-us",
 				loadComplete:function(){
-					layer.closeAll();
+					bwHideLoading();
 				}
 			});
 		},

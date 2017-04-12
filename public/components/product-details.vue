@@ -62,9 +62,7 @@
 			}
 		},
 		beforeCreate(){
-			layer.open({
-			    type:2
-			});
+			bwShowLoading("正在加载");
 			$("body").scrollTop(0);
 		},
 		created(){
@@ -75,7 +73,7 @@
 			var loader = new loadMedia({
 				parent:".product-details",
 				loadComplete:function(){
-					layer.closeAll();
+					bwHideLoading();
 				}
 			});
 			var swiper = new Swiper(".swiper-banner",{

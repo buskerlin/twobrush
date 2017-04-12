@@ -4,7 +4,7 @@
 
 import "./css/main.less";
 import "./js/main.js";
-import "layer.mobile";
+//import "layer.mobile";
 import Vue from "vue";
 import Router from "vue-router";
 //export default window.loadMedia 将loadMedia暴露于window对象中其他组件也可以获取
