@@ -266,7 +266,7 @@
 	// success shape
 	var successHtml = '<div class="bw-successShape">\
 						<div class="bw-success f08">\
-							<i class="fa fa-check-circle-o fa-5x"></i>\
+							<svg><polyline points="0,50 24,76 70,20"></polyline></svg>\
 							<p></p>\
 						</div>\
 					</div>';
@@ -285,6 +285,9 @@
 		if($(".bw-successShape").length <= 0)$("body").append(successHtml);
 		
 		$(".bw-successShape p").html(defaultSet.point);
+		console.log($(".bw-successShape polyline"));
+		console.log($(".bw-successShape polyline").length);
+		$(".bw-successShape polyline").attr("class","polyline-A");
 		$(".bw-successShape").show();
 		setTimeout(function(){
 			$(".bw-successShape").hide();

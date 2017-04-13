@@ -23,6 +23,7 @@
 					<li v-for="(word,index) in commentList.remarks" v-show="word.remark">
 						<span class="floor">{{index+1}}楼</span>
 						<span class="textarea">{{word.remark}}</span>
+						<!--<div class="reply">回复[]</div>-->
 					</li>
 				</ul>
 			</div>

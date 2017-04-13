@@ -283,9 +283,27 @@
     letter-spacing:1px;
     box-shadow: 1px 1px 10px 2px #bbb;
 } 
-.bw-success .fa {
-	color:#4ECF82;
-	margin-top:1rem;
+.bw-success svg {
+	color: #4ECF82;
+    width: 72px;
+    height: 4.4rem;
+}
+.bw-success svg polyline {
+	stroke: #4ECF82;
+    stroke-width: 3px;
+    fill: transparent;
+    width: 2rem;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+}
+.polyline-A {
+	-webkit-animation: polyline 1s ease-in forwards;
+}
+@-webkit-keyframes polyline{
+	from{stroke-dashoffset: 200;}
+	to{stroke-dashoffset: 0;}
 }
 
 /*..remind shape..*/
