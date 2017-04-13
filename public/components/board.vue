@@ -16,7 +16,7 @@
 			<div class="remark-list">
 				<div v-show="commentList.remarks[0].remark">
 					<span class="floor">新</span>
-					<span class="textarea"></span>
+					<span class="textarea">{{commentList.remarks[commentList.remarks.length - 1].remark}}</span>
 				</div>
 				<ul>
 					<!-- v-if 和 v-show的区别 -->
@@ -75,7 +75,6 @@
 								$(".board-say > div").eq(0).slideUp();
 							}
 						});
-						console.log(result);
 						_this.thumbs.remarks = result;
 					}
 				});
@@ -83,7 +82,6 @@
 		},
 		//mounted时执行this.thumbs各属性值还为空;因为子组件的mounted()要先于父祖件的created()执行
 		updated(){
-			console.log("9999999999999");
 			console.log(this.thumbs);
 			this.commentList = this.thumbs;
 		}
