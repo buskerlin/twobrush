@@ -20,7 +20,7 @@ var compiler = webpack(webpackConfig);
 //将编译器连接至 webpack中间件
 var WebpackHotMid = require("webpack-hot-middleware");
 var WebpackDevMid = require("webpack-dev-middleware");
-var webpackHotMid = new WebpackHotMid(compiler);
+var webpackHotMid = new WebpackHotMid(compiler);  //=>require("webpack-hot-middleware")(complier)
 var webpackDevMid = new WebpackDevMid(compiler, {
 	publicPath: '/', 
     stats: {
@@ -28,9 +28,40 @@ var webpackDevMid = new WebpackDevMid(compiler, {
 	    chunks: false  
 	  }
 	});
+
+// webpack插件，监听html文件改变事件html-webpack-plugin-after-emit    htmlwebpackplugin提供
+compiler.plugin('compilation', function (compilation) {
+    compilation.plugin('html-webpack-plugin-after-emit', function (data, cb) {
+        // 发布事件
+        webpackHotMid.publish({ action: 'reload' })
+        cb()
+    })
+})
+
 //使用中间件
 app.use(webpackDevMid);
 app.use(webpackHotMid);
+
+//获取webpack打包进内存的文件，结合路由访问
+app.get('/:viewname?', function(req, res, next) {
+    
+    var viewname = req.params.viewname 
+        ? req.params.viewname + '.html' 
+        : 'index.html';
+        
+    var filepath = path.join(compiler.outputPath, viewname);
+    
+    // 使用webpack提供的outputFileSystem
+    compiler.outputFileSystem.readFile(filepath, function(err, result) {
+        if (err) {
+            // something error
+            return next(err);
+        }
+        res.set('content-type', 'text/html');
+        res.send(result);
+        res.end();
+    });
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'public'));

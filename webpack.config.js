@@ -1,18 +1,32 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
-const HotMiddleWareConfig = 'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000';
+const HotScript = 'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000';
+const hotjs = "./dev/recieveReLoad.js"; //入口文件之一，接受reload事件 缺点：会直接刷新页面
+
+const hotScript = "webpack-hot-middleware/client?reload=true"; //不能hotload就reload
+const acceptHot = "./dev/acceptHot.js";
 
 module.exports = {
-    entry: [
-        // 添加一个和HotMiddleWare通信的客户端
-        HotMiddleWareConfig,
-    	// 添加web应用入口文件
-    	'./public/index.js'
-    ],
+	//这样配置无法接受.html的更新内容
+//  entry: {
+//  	// 添加web应用入口文件 和HotMiddleWare通信
+//  	index:[Hot,'./public/index.js'],
+//  	upload:[Hot,'./public/js/upload.main.js']
+//  },
+	//会直接刷新页面
+//	entry: {
+//	  	index:[hotjs,'./public/index.js'],
+//	  	upload:[hotjs,'./public/js/upload.main.js']
+//	  },
+	entry: {
+	  	index:[acceptHot,hotScript,'./public/index.js'],
+	  	upload:[hotScript,'./public/js/upload.main.js',acceptHot]
+	},
     output: {
-        filename: '[name].[hash].bundle.js',
-        path: path.resolve(__dirname, './public/build')
+        filename: '[name].bundle.js',
+        path: path.resolve(__dirname, './public'),
+        publicPath: "http://localhost:3000/"
     },
 //  devtool: '#eval-source-map',
 //  devServer: {
@@ -60,7 +74,7 @@ module.exports = {
                 use: ['style-loader','css-loader','less-loader']
             },
             {
-                test: /\.(png|jpg)$/,
+                test: /\.(png|jpg|ttf|eot|woff)$/,
                 use: ['file-loader']
             }
         ]
@@ -80,9 +94,16 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            inject: "body",
+            inject: false,
             template:  path.resolve(__dirname, './public/index.html'),
             hash: false
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'upload.html',
+            favicon:"./public/img/favicon.ico",
+            inject: false,
+            template:  path.resolve(__dirname, './public/upload.html'),
+            hash: true
         }),
         new webpack.HotModuleReplacementPlugin()
     ]
