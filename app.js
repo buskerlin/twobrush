@@ -11,7 +11,6 @@ var users = require('./routes/users');
 
 var app = express();
 
-
 //引入webpack配置文件，生成webpack编译器  [热加载]
 var webpack = require("webpack");
 var webpackConfig = require("./webpack.config.js");
@@ -20,9 +19,9 @@ var compiler = webpack(webpackConfig);
 //将编译器连接至 webpack中间件
 var WebpackHotMid = require("webpack-hot-middleware");
 var WebpackDevMid = require("webpack-dev-middleware");
-var webpackHotMid = new WebpackHotMid(compiler);  //=>require("webpack-hot-middleware")(complier)
-var webpackDevMid = new WebpackDevMid(compiler, {
-	publicPath: '/', 
+var webpackHotMid = WebpackHotMid(compiler);  //=>require("webpack-hot-middleware")(complier)
+var webpackDevMid = WebpackDevMid(compiler, {
+	publicPath: 'http://localhost:3000/', 
     stats: {
 	    colors: true,    
 	    chunks: false  
@@ -38,7 +37,8 @@ compiler.plugin('compilation', function (compilation) {
     })
 })
 
-//使用中间件
+
+//使用中间件  【要获取webpack打包进内存的文件，应先注册webpackDevMid中间件】
 app.use(webpackDevMid);
 app.use(webpackHotMid);
 
@@ -78,6 +78,8 @@ app.use(cookieParser());
 app.use('/products',users);
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

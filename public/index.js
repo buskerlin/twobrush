@@ -28,7 +28,6 @@ const router = new Router({
 		{path: "/pDetails/:id",component: resolve => require(['./components/product-details.vue'],resolve)}
 	]
 });
-
 //如果#app元素还没有生成则需要延迟挂载 $mount("#app")
 //components内包含的组件和contact-us.vue里的this都指向下面的这个Vue实例 ? err:组件也会被实例化，所以都指向组件本身的实例
 var bbb = new Vue({
@@ -39,3 +38,7 @@ var bbb = new Vue({
 		console.log(this);
 	}
 });
+
+if (module.hot) {
+  module.hot.accept();
+}

@@ -170,7 +170,7 @@
 					box-sizing:border-box;
 				}
 				.textarea {
-					width:86%;
+					width:84%;
 					line-height:1rem;
 					vertical-align: middle;
 					word-wrap: break-word;

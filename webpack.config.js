@@ -20,13 +20,13 @@ module.exports = {
 //	  	upload:[hotjs,'./public/js/upload.main.js']
 //	  },
 	entry: {
-	  	index:[acceptHot,hotScript,'./public/index.js'],
-	  	upload:[hotScript,'./public/js/upload.main.js',acceptHot]
+	  	index:[HotScript,'./public/index.js'],
+	  	upload:[HotScript,'./public/js/upload.main.js']
 	},
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, './public'),
-        publicPath: "http://localhost:3000/"
+        path: path.resolve(__dirname, './public')
+//      publicPath: "http://localhost:3000/"
     },
 //  devtool: '#eval-source-map',
 //  devServer: {
@@ -76,7 +76,11 @@ module.exports = {
             {
                 test: /\.(png|jpg|ttf|eot|woff)$/,
                 use: ['file-loader']
-            }
+            },
+            {
+		      test: /\.json$/,
+		      loader: 'json-loader'
+		    }
         ]
     },
     resolve: {
@@ -103,7 +107,7 @@ module.exports = {
             favicon:"./public/img/favicon.ico",
             inject: false,
             template:  path.resolve(__dirname, './public/upload.html'),
-            hash: true
+            hash: false
         }),
         new webpack.HotModuleReplacementPlugin()
     ]

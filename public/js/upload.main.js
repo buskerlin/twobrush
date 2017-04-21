@@ -8,10 +8,9 @@ Vue.use(Element);
 new Vue({
 	el:"#upload",
 	data:{
-		input:"sha"
+		input:"sad"
 	}
 });
-
 if (module.hot) {
   module.hot.accept();
 }
