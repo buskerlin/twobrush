@@ -90,7 +90,7 @@
 </script>
 
 <style lang="less">
-	@import "../css/rule.less";
+	@import "../../css/rule.less";
 	.board-part {
 		.board-button {
 			width:100%;

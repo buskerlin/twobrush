@@ -21,7 +21,7 @@ var WebpackHotMid = require("webpack-hot-middleware");
 var WebpackDevMid = require("webpack-dev-middleware");
 var webpackHotMid = WebpackHotMid(compiler);  //=>require("webpack-hot-middleware")(complier)
 var webpackDevMid = WebpackDevMid(compiler, {
-	publicPath: 'http://localhost:3000/', 
+	publicPath: '/', 
     stats: {
 	    colors: true,    
 	    chunks: false  

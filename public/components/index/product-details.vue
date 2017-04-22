@@ -3,13 +3,13 @@
 		<div class="swiper-banner">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<img src="../img/details/details01.jpg"/>
+					<img src="/img/details/details01.jpg"/>
 				</div>
 				<div class="swiper-slide">
-					<img src="../img/details/details02.jpg"/>
+					<img src="/img/details/details02.jpg"/>
 				</div>
 				<div class="swiper-slide">
-					<img src="../img/details/details03.jpg"/>
+					<img src="/img/details/details03.jpg"/>
 				</div>
 			</div>
 		</div>
@@ -86,7 +86,7 @@
 </script>
 
 <style lang="less">
-	@import "../css/rule.less";
+	@import "../../css/rule.less";
 	.product-details {
 		position:absolute;
 		top:0;

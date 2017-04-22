@@ -8,7 +8,7 @@
 			</li>
 			<li>
 				<p>关注官方公众号</p>
-				<img class="qrcode" src="img/qrcode.png" />
+				<img class="qrcode" src="/img/qrcode.png" />
 				<p>或</p>
 			</li>
 			<li>
@@ -19,7 +19,7 @@
 	</div>
 </template>
 <script>
-	import bus from "../js/eventBus.js";
+	import bus from "../../js/eventBus.js";
 	export default {
 		data(){
 			return {
@@ -48,7 +48,7 @@
 	
 </script>
 <style lang="less">
-	@import "../css/rule.less";
+	@import "../../css/rule.less";
 	.contact-us {
 		position:fixed;
 		top:0;

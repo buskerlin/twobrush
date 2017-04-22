@@ -30,7 +30,7 @@
 </template>
 <script>
 	
-	import bus from "../js/eventBus.js";
+	import bus from "../../js/eventBus.js";
 	
 	//导出一个函数块，将会被挂载到index.js中的vue实例内
 	export default {
@@ -61,7 +61,7 @@
 	}
 </script>
 <style lang="less">
-	@import "../css/rule.less";
+	@import "../../css/rule.less";
 	
 	.border-top:after {
 		.border-1px-vertical(@iconbg);

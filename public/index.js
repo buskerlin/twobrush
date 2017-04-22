@@ -13,10 +13,10 @@ import loadMedia from "./js/loadMedia.js";
 Vue.use(Router);
 
 /*..components..*/
-import myFooter from "./components/footer-menu";
-import myHeader from "./components/header";
-import myBanner from "./components/banner";
-import myContent from "./components/product-list";
+import myFooter from "./components/index/footer-menu";
+import myHeader from "./components/index/header";
+import myBanner from "./components/index/banner";
+import myContent from "./components/index/product-list";
 
 console.log(this); //undefined ES6默认js的严格模式 ，this禁止指向全局对象 
 
@@ -24,8 +24,8 @@ console.log(this); //undefined ES6默认js的严格模式 ，this禁止指向全
 const router = new Router({
 //	mode: "history",
 	routes:[
-		{path: "/contactUs",component: resolve => require(['./components/contact-us.vue'],resolve)},
-		{path: "/pDetails/:id",component: resolve => require(['./components/product-details.vue'],resolve)}
+		{path: "/contactUs",component: resolve => require(['./components/index/contact-us.vue'],resolve)},
+		{path: "/pDetails/:id",component: resolve => require(['./components/index/product-details.vue'],resolve)}
 	]
 });
 //如果#app元素还没有生成则需要延迟挂载 $mount("#app")

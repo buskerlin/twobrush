@@ -2,13 +2,13 @@
 	<div class="swiper-banner">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<img src="../img/banner01.jpg"/>
+				<img src="/img/banner01.jpg"/>
 			</div>
 			<div class="swiper-slide">
-				<img src="../img/banner02.jpg"/>
+				<img src="/img/banner02.jpg"/>
 			</div>
 			<div class="swiper-slide">
-				<img src="../img/banner03.jpg"/>
+				<img src="/img/banner03.jpg"/>
 			</div>
 		</div>
 	</div>
