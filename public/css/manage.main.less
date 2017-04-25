@@ -1,0 +1,105 @@
+@import "./rule.less";
+
+html,body {
+	width:100%;
+	height:100%;
+	padding:0;
+	padding-bottom:6rem;
+	margin:0;
+	background-color:#f8f8f8;
+	color:@darkText;
+}
+ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+img {
+	display: block;
+}
+span {
+	display: inline-block;
+}
+input {
+	border:1px solid @lightText;
+	height:1.1rem;
+	width:92%;
+	padding:0 4%;
+	&:hover {
+		box-shadow:0 0 2px 1px #ddd;
+	}
+}
+body a {
+	text-decoration: none;
+}
+textarea {
+    border:1px solid @lightText;
+    height:6rem;
+    width:100%;
+    padding:0.6rem 4%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+/*..常用样式..*/
+.db {display: block;}
+.di {display: inline-block;}
+
+.box-shadow-top {
+	box-shadow:0 0 6px 1px #ddd;
+}
+
+.font-min {font-size: @fontmin;}
+.font-mid {font-size: @fontmid;}
+.font-max {font-size: @fontmax;}
+
+.icon-min {font-size: @iconmin;}
+.icon-mid {font-size: @iconmid;}
+.icon-max {font-size: @iconmax;}
+
+.small-button {.button(1.4rem);}
+.normal-button {.button(1.8rem);}
+
+.border-top:after {
+	.border-1px-vertical;
+    top:0;
+}
+.border-bottom:after {
+	.border-1px-vertical;
+    bottom:0;
+}
+.border-left:after {
+	.border-1px-horzien;
+    left:0;
+}
+.border-right:after {
+	.border-1px-horzien;
+    right:0;
+}
+.border-top,.border-bottom,.border-left,.border-right {
+	position:relative;
+}
+
+.nav-title {
+    font-size:0.7rem;
+    padding:0.6rem 0 0.5rem 4%;
+    background-color:#F4F9FD;
+    span {
+        font-size:0.6rem;
+        color:#9aabb8;
+        margin-left:2%;
+    }
+}
+.h100 {
+    height:100%;
+}
+
+/*.. index ..*/
+#manage {
+    background-color: #fff;
+    position:absolute;
+    z-index: 2;
+    top:0;
+    width:100%;
+    height:100%;
+}

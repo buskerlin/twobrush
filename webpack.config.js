@@ -12,16 +12,16 @@ module.exports = {
 //  entry: {
 //  	// 添加web应用入口文件 和HotMiddleWare通信
 //  	index:[Hot,'./public/index.js'],
-//  	upload:[Hot,'./public/js/upload.main.js']
+//  	manage:[Hot,'./public/js/manage.main.js']
 //  },
 	//会直接刷新页面
 //	entry: {
 //	  	index:[hotjs,'./public/index.js'],
-//	  	upload:[hotjs,'./public/js/upload.main.js']
+//	  	manage:[hotjs,'./public/js/manage.main.js']
 //	  },
 	entry: {
 	  	index:[HotScript,'./public/index.js'],
-	  	upload:[HotScript,'./public/js/upload.main.js']
+	  	manage:[HotScript,'./public/js/manage.main.js']
 	},
     output: {
         filename: '[name].bundle.js',
@@ -103,10 +103,10 @@ module.exports = {
             hash: false
         }),
         new HtmlWebpackPlugin({
-            filename: 'upload.html',
+            filename: 'manage.html',
             favicon:"./public/img/favicon.ico",
             inject: false,
-            template:  path.resolve(__dirname, './public/upload.html'),
+            template:  path.resolve(__dirname, './public/manage.html'),
             hash: false
         }),
         new webpack.HotModuleReplacementPlugin()
