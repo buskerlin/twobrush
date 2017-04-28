@@ -25,8 +25,8 @@ module.exports = {
 	},
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, './public')
-//      publicPath: "http://localhost:3000/"
+        path: path.resolve(__dirname, './public'),
+        publicPath: "/"
     },
 //  devtool: '#eval-source-map',
 //  devServer: {
