@@ -1,0 +1,67 @@
+
+[2017-05-02 15:59:31.454] [DEBUG] app - GET /img/logo.png
+[2017-05-02 15:59:31.629] [DEBUG] app - POST /manage/getProductsType
+[2017-05-02 16:01:07.485] [ERROR] opreateDB.manage.js - getProductsType--err
+[2017-05-02 16:55:22.647] [ERROR] opreateDB.manage.js - getProductsType--err
+[2017-05-02 16:56:04.921] [ERROR] opreateDB.manage.js - getProductsType--err
+[2017-05-02 16:56:47.286] [DEBUG] app - GET /img/logo.png
+[2017-05-02 16:56:47.441] [DEBUG] app - POST /manage/getProductsType
+[2017-05-02 17:17:28.822] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:17:28.981] [DEBUG] app - POST /manage/getProductsType
+[2017-05-02 17:24:36.719] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:25:13.003] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:26:08.298] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:27:57.460] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:30:26.026] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:30:40.375] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:33:09.487] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:33:58.436] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:39:35.815] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:40:22.906] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:40:25.407] [DEBUG] app - POST /manage/upload_imgs
+[2017-05-02 17:41:07.688] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:42:17.689] [DEBUG] app - GET /img/logo.png
+[2017-05-02 17:44:41.401] [DEBUG] app - GET /img/logo.png
+[2017-05-02 18:02:45.655] [DEBUG] app - GET /img/logo.png
+[2017-05-02 18:02:48.298] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 18:05:32.793] [DEBUG] app - GET /img/logo.png
+[2017-05-02 18:05:35.226] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 18:07:29.147] [DEBUG] app - GET /img/logo.png
+[2017-05-02 18:07:32.138] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 19:08:09.871] [ERROR] acceptUpload.js - zaizhe
+[2017-05-02 19:08:30.091] [DEBUG] app - GET /img/logo.png
+[2017-05-02 19:08:36.268] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 20:29:53.117] [ERROR] acceptUpload.js - zaizhe
+[2017-05-02 20:30:07.667] [DEBUG] app - GET /img/logo.png
+[2017-05-02 20:30:12.096] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 20:41:11.635] [DEBUG] app - GET /img/logo.png
+[2017-05-02 20:41:13.656] [DEBUG] app - GET /img/logo.png
+[2017-05-02 20:41:17.878] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 20:42:32.155] [DEBUG] app - GET /img/logo.png
+[2017-05-02 20:42:36.994] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 20:51:31.216] [DEBUG] app - GET /img/logo.png
+[2017-05-02 20:51:34.555] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 20:53:34.616] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 21:00:29.492] [DEBUG] app - GET /img/logo.png
+[2017-05-02 21:00:33.007] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 21:02:33.039] [ERROR] acceptUpload.js - zaizhene
+[2017-05-02 21:06:11.735] [DEBUG] app - GET /img/logo.png
+[2017-05-02 21:07:13.530] [DEBUG] app - GET /img/logo.png
+[2017-05-02 21:12:03.507] [DEBUG] app - GET /img/logo.png
+[2017-05-02 21:15:03.958] [DEBUG] app - GET /img/logo.png
+[2017-05-02 21:17:27.378] [DEBUG] app - GET /img/logo.png
+[2017-05-02 21:17:30.034] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 22:51:38.605] [DEBUG] app - GET /img/logo.png
+[2017-05-02 22:54:34.521] [DEBUG] app - GET /img/logo.png
+[2017-05-02 22:56:23.610] [DEBUG] app - GET /img/logo.png
+[2017-05-02 22:56:58.731] [DEBUG] app - GET /img/logo.png
+[2017-05-02 22:58:17.412] [DEBUG] app - GET /img/logo.png
+[2017-05-02 22:59:31.844] [DEBUG] app - GET /img/logo.png
+[2017-05-02 22:59:34.583] [ERROR] acceptUpload.js - handleImg-- image type error
+[2017-05-02 22:59:34.586] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 23:05:33.977] [DEBUG] app - GET /img/logo.png
+[2017-05-02 23:06:37.984] [DEBUG] app - GET /img/logo.png
+[2017-05-02 23:06:41.324] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 23:08:28.895] [DEBUG] app - GET /img/logo.png
+[2017-05-02 23:09:18.297] [DEBUG] app - GET /img/logo.png
+[2017-05-02 23:09:21.134] [DEBUG] app - POST /manage/uploadImgs

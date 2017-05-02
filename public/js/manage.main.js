@@ -12,7 +12,7 @@ import navMenu from "../components/manage/nav-menu.vue"
 
 const router = new Router({
 	routes:[
-		{path: "/upload_new_product",component: resolve => require(['../components/manage/upload-new-product.vue'],resolve)},
+		{path: "/upload_new_product",component: resolve => require(['../components/manage/test.vue'],resolve)},
 	]
 })
 

@@ -5,12 +5,15 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+//var ueditor = require('ueditor');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 var manage = require('./routes/manage');
+var log4js = require('./dev/log.js');
 
 var app = express();
+
 
 //引入webpack配置文件，生成webpack编译器  [热加载]
 var webpack = require("webpack");
@@ -38,7 +41,6 @@ compiler.plugin('compilation', function (compilation) {
     })
 })
 
-
 //使用中间件  【要获取webpack打包进内存的文件，应先注册webpackDevMid中间件】
 app.use(webpackDevMid);
 app.use(webpackHotMid);
@@ -64,6 +66,9 @@ app.get('/:viewname?', function(req, res, next) {
     });
 });
 
+//注册log4js.connectLogger中间件
+log4js.usemid(app);
+
 // view engine setup
 app.set('views', path.join(__dirname, 'public'));
 app.engine('.html',require('ejs').renderFile);
@@ -78,6 +83,30 @@ app.use(cookieParser());
 
 app.use('/products',users);
 app.use('/manage',manage);
+
+//配置ueditor
+//app.use("/ue", ueditor(path.join(__dirname, 'public'), function(req, res, next) {  
+//// ueditor 客户发起上传图片请求  
+//  if(req.query.action === 'uploadimage'){  
+//      var foo = req.ueditor;  
+//      var date = new Date();  
+//      var imgname = req.ueditor.filename;  
+//
+//      var img_url = '/images/ueditor/';  
+//      res.ue_up(img_url); //你只要输入要保存的地址 。保存操作交给ueditor来做  
+//  }  
+////  客户端发起图片列表请求  
+//  else if (req.query.action === 'listimage'){  
+//      var dir_url = '/images/ueditor/';  
+//      res.ue_list(dir_url);  // 客户端会列出 dir_url 目录下的所有图片  
+//  }  
+//// 客户端发起其它请求  
+//  else {  
+//
+//      res.setHeader('Content-Type', 'application/json');  
+//      res.redirect('/ueditor/ueditor.config.json')  
+//  }
+//}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

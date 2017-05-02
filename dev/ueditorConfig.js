@@ -1,0 +1,1 @@
+var ueditor = require('ueditor');
