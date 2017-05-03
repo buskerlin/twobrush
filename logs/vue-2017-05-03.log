@@ -153,3 +153,159 @@
 [2017-05-03 12:01:18.864] [DEBUG] app - POST /manage/uploadImgs
 [2017-05-03 13:23:11.172] [DEBUG] app - GET /img/logo.png
 [2017-05-03 13:23:18.618] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 13:28:47.060] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:28:47.309] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:29:41.868] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 13:31:20.706] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:31:20.865] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:31:23.958] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 13:35:32.201] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:35:32.314] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:35:35.294] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 13:35:53.802] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 13:37:16.159] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:37:16.678] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:37:25.174] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:37:25.504] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:45:07.119] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:46:01.891] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:46:03.040] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:46:09.848] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:46:13.343] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:46:13.450] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:48:15.511] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:53:56.332] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 13:58:18.806] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:00:57.235] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:00:57.486] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:01:06.664] [INFO] acceptUpload.js - {}
+[2017-05-03 14:01:06.802] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:03:12.483] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:03:12.639] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:03:15.697] [INFO] acceptUpload.js - {}
+[2017-05-03 14:03:15.763] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:03:39.167] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:03:39.362] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:03:42.071] [INFO] acceptUpload.js - {}
+[2017-05-03 14:03:42.341] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:05:32.802] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:05:32.970] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:05:36.081] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:09:42.506] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:10:55.903] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:18:16.940] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:21:08.187] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:21:08.418] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:21:11.972] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:23:52.030] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:23:52.214] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:23:55.045] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:27:53.662] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:28:02.764] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:28:02.904] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:28:06.222] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:28:34.232] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:29:13.771] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:29:13.976] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:29:16.983] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:31:11.694] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:31:11.857] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:34:53.814] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:34:54.006] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:34:57.582] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:40:52.372] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:40:52.717] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:40:56.198] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:41:52.502] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:41:52.777] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:41:55.819] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 14:43:54.390] [DEBUG] app - GET /img/logo.png
+[2017-05-03 14:43:54.710] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 14:43:58.371] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 15:22:17.471] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:23:06.587] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:23:36.444] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:24:19.079] [DEBUG] app - GET /img/logo.png
+[2017-05-03 15:24:19.198] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:25:05.685] [DEBUG] app - GET /img/logo.png
+[2017-05-03 15:25:05.826] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:33:48.143] [DEBUG] app - GET /img/logo.png
+[2017-05-03 15:33:48.270] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:34:40.866] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:35:27.322] [DEBUG] app - GET /img/logo.png
+[2017-05-03 15:35:27.441] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 15:36:59.095] [DEBUG] app - GET /img/logo.png
+[2017-05-03 15:36:59.223] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:00:56.174] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:00:56.418] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:01:01.042] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:03:13.990] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:03:14.170] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:03:24.977] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:06:18.614] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:06:18.855] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:09:14.472] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:09:14.717] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:09:17.945] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:09:17.949] [INFO] acceptUpload.js - mkdir null success
+[2017-05-03 16:10:38.280] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:10:38.614] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:22:19.471] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:22:19.686] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:25:04.248] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:25:04.462] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:26:45.776] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:26:46.010] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:26:56.423] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:31:33.663] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:31:33.965] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:33:38.354] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:33:38.587] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:35:41.368] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:35:41.519] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:35:58.717] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:35:59.246] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:36:11.373] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:41:34.061] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:46:22.804] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:50:12.447] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:50:12.725] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:50:19.671] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:50:19.673] [INFO] acceptUpload.js - mkdir 004 success
+[2017-05-03 16:51:47.334] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:51:47.739] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 16:51:54.343] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 16:51:54.346] [INFO] acceptUpload.js - mkdir 001 success
+[2017-05-03 16:52:57.777] [DEBUG] app - GET /img/logo.png
+[2017-05-03 16:52:58.028] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:09:30.743] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:09:30.936] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:09:39.410] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:12:16.540] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:12:16.885] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:12:22.063] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:19:50.718] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:19:50.927] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:19:56.133] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:19:56.148] [INFO] acceptUpload.js - mkdir 001 success
+[2017-05-03 17:22:57.814] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:22:58.115] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:23:03.085] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:23:03.086] [INFO] acceptUpload.js - start move to /001 success
+[2017-05-03 17:23:03.146] [INFO] acceptUpload.js - mkdir /001 success
+[2017-05-03 17:23:55.258] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:23:55.512] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:24:00.277] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:24:00.278] [INFO] acceptUpload.js - start move to /002 success
+[2017-05-03 17:25:46.441] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:25:46.776] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:25:57.579] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:25:57.580] [INFO] acceptUpload.js - start move to /005 success
+[2017-05-03 17:25:57.617] [INFO] acceptUpload.js - mkdir /005 success
+[2017-05-03 17:26:22.649] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:26:22.657] [INFO] acceptUpload.js - start move to /005 success
+[2017-05-03 17:29:23.032] [DEBUG] app - GET /img/logo.png
+[2017-05-03 17:29:23.267] [DEBUG] app - POST /manage/getProductsType
+[2017-05-03 17:29:29.830] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 17:29:29.844] [INFO] acceptUpload.js - start move to /002 success [sync]
+[2017-05-03 17:29:29.930] [INFO] acceptUpload.js - mkdir /002 success

@@ -1,21 +1,21 @@
 <template>
 	<div class="upload-new-product">
 		<span>
-			<label>刷辊类型：</label>
+			<label>类型：</label>
 			<el-select v-model="name" placeholder="请选择类型">
-				<el-option v-for="item in options" :value="item.name"></el-option>
+				<el-option v-for="item in options" :value="item.name" @click.native="getBrushCode(item.brush_code)" :type="item.brush_code"></el-option>
 			</el-select>
 		</span>
 		<span>
-			<label>刷辊描述：</label>
+			<label>描述：</label>
 			<el-input type="textarea" :autosize="{ minRows: 6}" placeholder="请输入文字介绍" v-model="desc"></el-input>
 		</span>
 		<span>
-			<el-upload action="manage/uploadImgs" list-type="picture-card" :on-success="responseFiles" :auto-upload="false" :on-preview="handlePictureCardPreview" :on-remove="handleRemove">
-			   <i class="el-icon-plus"></i>
+			<el-upload action="/manage/uploadImgs" list-type="picture-card" :data="dirData" :on-preview="handlePictureCardPreview" :on-remove="handleRemove">
+			  	<i class="el-icon-plus"></i>
 			</el-upload>
-			<el-dialog v-model="dialogVisible" size="tiny">
-			   <img width="100%" :src="dialogImageUrl" alt="">
+			<el-dialog v-model="dialogVisible" size="big">
+			  	<img width="100%" :src="dialogImageUrl" alt="">
 			</el-dialog>
 		</span>
 		<!-- 富文本编辑器 start -->
@@ -36,7 +36,10 @@
 				name: "",
 				desc: "",
 				dialogImageUrl: '',
-       			dialogVisible: false
+       			dialogVisible: false,
+       			dirData: {
+       				dirCode:null
+       			}
 			}
 		},
 		methods:{
@@ -47,16 +50,26 @@
 	            this.dialogImageUrl = file.url;
 	            this.dialogVisible = true;
 	        },
-	        responseFiles(res,file,filelist){
-	        	console.log(filelist);
+	        getBrushCode(code){
+	        	this.dirData.dirCode = code;
+//	        	$.ajax({
+//	        		type: "post",
+//	        		url: "/manage/whichDirectory",
+//	        		data: {dirCode:code},
+//	        		success: function(result){
+//	        			
+//	        		}
+//	        	})
 	        }
+		},
+		watch:{
+			name(newV,oldV){
+				console.log(this.dirData.dirCode);
+			}
 		},
 		created(){
 			var _this = this;
-//			$commonReques.getProductsType().then(function(result){
-//				_this.options = result;
-//			});
-			$commonReques.getProductsType(function(result){
+			$commonReques.getProductsType().then(function(result){
 				_this.options = result;
 			});
 			
@@ -68,14 +81,14 @@
 
 <style lang="less">
 	.upload-new-product {
-		label {
-			vertical-align: top;
-			margin-top: 10px;
-			display: inline-block;
-		}
 		& > span {
 			display: block;
 			margin-top: 20px;
+			& > label {
+				vertical-align: top;
+				margin-top: 10px;
+				display: inline-block;
+			}
 		}
 		.el-input,.el-textarea {
 			width:70%;

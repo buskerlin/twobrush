@@ -12,4 +12,8 @@ router.post("/uploadImgs",function(req,res,next){
 	acceptUpload.handleImg(req,res,next); 
 });
 
+//获取轮播图上传文件夹
+router.post("/whichDirectory",function(req,res,next){
+	
+});
 module.exports = router;
