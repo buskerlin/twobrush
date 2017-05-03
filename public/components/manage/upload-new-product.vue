@@ -11,7 +11,7 @@
 			<el-input type="textarea" :autosize="{ minRows: 6}" placeholder="请输入文字介绍" v-model="desc"></el-input>
 		</span>
 		<span>
-			<el-upload action="manage/uploadImgs" list-type="picture-card" :auto-upload="false" :on-preview="handlePictureCardPreview" :on-remove="handleRemove">
+			<el-upload action="manage/uploadImgs" list-type="picture-card" :on-success="responseFiles" :auto-upload="false" :on-preview="handlePictureCardPreview" :on-remove="handleRemove">
 			   <i class="el-icon-plus"></i>
 			</el-upload>
 			<el-dialog v-model="dialogVisible" size="tiny">
@@ -46,6 +46,9 @@
 	        handlePictureCardPreview(file) {
 	            this.dialogImageUrl = file.url;
 	            this.dialogVisible = true;
+	        },
+	        responseFiles(res,file,filelist){
+	        	console.log(filelist);
 	        }
 		},
 		created(){

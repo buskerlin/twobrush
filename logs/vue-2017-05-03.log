@@ -1,0 +1,155 @@
+[2017-05-03 09:20:09.334] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:20:16.402] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:20:24.416] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:23:20.891] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:23:24.190] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:24:10.360] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:35:17.261] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:38:49.462] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:40:31.903] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:40:35.162] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:47:07.462] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:47:10.017] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:50:48.014] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:51:13.742] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:52:41.868] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:52:44.459] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:57:33.591] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:57:36.191] [ERROR] acceptUpload.js - handleImg-- image type error
+[2017-05-03 09:57:36.192] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:58:40.226] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:58:41.494] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:58:45.010] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:58:47.724] [ERROR] acceptUpload.js - handleImg-- image type
+[2017-05-03 09:58:47.727] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 09:59:49.249] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:59:50.489] [DEBUG] app - GET /img/logo.png
+[2017-05-03 09:59:53.822] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:10:37.431] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:10:40.203] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:11:14.804] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:11:17.934] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:11:57.203] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:11:58.462] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:12:01.259] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:12:08.207] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:13:08.218] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:13:55.066] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:13:58.189] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:14:02.392] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:18:41.724] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:18:48.709] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:18:48.859] [INFO] acceptUpload.js - jpeg
+[2017-05-03 10:19:08.570] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:19:08.645] [INFO] acceptUpload.js - jpeg
+[2017-05-03 10:21:28.312] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:21:31.390] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:21:31.554] [INFO] acceptUpload.js - jpeg
+[2017-05-03 10:21:56.430] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:21:56.515] [INFO] acceptUpload.js - jpeg
+[2017-05-03 10:24:11.797] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:24:15.048] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:24:15.230] [INFO] acceptUpload.js - 0
+[2017-05-03 10:24:35.838] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:24:35.906] [INFO] acceptUpload.js - 1
+[2017-05-03 10:26:08.818] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:26:12.124] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:26:12.205] [INFO] acceptUpload.js - { file: 
+   File {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     size: 2334840,
+     path: 'public\\img\\upload\\upload_a18a2a17c5be916c7e44ccb724c66ecc',
+     name: 'IMG_2161.jpg',
+     type: 'image/jpeg',
+     hash: null,
+     lastModifiedDate: Wed May 03 2017 10:26:12 GMT+0800 (中国标准时间),
+     _writeStream: 
+      WriteStream {
+        _writableState: [Object],
+        writable: false,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        path: 'public\\img\\upload\\upload_a18a2a17c5be916c7e44ccb724c66ecc',
+        fd: null,
+        flags: 'w',
+        mode: 438,
+        start: undefined,
+        autoClose: true,
+        pos: undefined,
+        bytesWritten: 2334840,
+        closed: true } } }
+[2017-05-03 10:26:45.631] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:26:49.104] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:26:49.255] [INFO] acceptUpload.js - undefined
+[2017-05-03 10:27:04.557] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:27:04.619] [INFO] acceptUpload.js - undefined
+[2017-05-03 10:34:25.158] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:34:30.683] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:34:36.921] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:37:08.146] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:37:10.844] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:37:13.795] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:43:21.784] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:43:35.335] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:43:40.335] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:46:14.244] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:46:34.308] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:49:36.576] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:49:39.726] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:49:50.471] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 10:54:43.241] [DEBUG] app - GET /img/logo.png
+[2017-05-03 10:54:46.735] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:01:43.693] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:01:47.676] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:02:14.804] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:02:52.753] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:02:56.712] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:03:01.058] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:05:16.025] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:05:19.896] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:05:34.141] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:07:27.022] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:07:29.215] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:07:33.169] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:18:38.611] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:18:47.875] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:18:59.452] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:28:43.847] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:28:49.490] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:29:15.734] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:32:23.842] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:32:26.082] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:32:29.253] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:32:54.906] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:34:04.471] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:34:07.169] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:34:25.973] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:36:14.929] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:36:19.289] [ERROR] acceptUpload.js - show times
+[2017-05-03 11:36:19.292] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:36:27.686] [ERROR] acceptUpload.js - show times
+[2017-05-03 11:36:27.687] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:42:00.136] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:42:03.601] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:42:07.018] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:42:11.488] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:42:35.212] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:50:37.235] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:50:40.396] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:50:44.393] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:50:48.002] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:52:30.635] [DEBUG] app - GET /img/logo.png
+[2017-05-03 11:52:36.957] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:52:52.089] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:52:56.284] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:53:28.854] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 11:53:53.941] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 12:01:15.960] [DEBUG] app - GET /img/logo.png
+[2017-05-03 12:01:18.864] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-03 13:23:11.172] [DEBUG] app - GET /img/logo.png
+[2017-05-03 13:23:18.618] [DEBUG] app - POST /manage/uploadImgs

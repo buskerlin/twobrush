@@ -7,10 +7,13 @@ var logger = require("../dev/log.js").getLogger("acceptUpload.js");
 form.uploadDir = './public/img/upload/';
 
 module.exports = {
-	
 	handleImg: function(req, res, next) {
+		var parseTimes = true;
 	    form.parse(req, function(err, fields, files) {
-	        console.log(files);
+	    	
+	    	if(!parseTimes)return;  //使用element-ui的上传组件时，当提交第二(N)张图时，form.parse()会执行二(N)次，应该是upload组件提交了重复信息
+	    	
+	    	parseTimes = false;
 	        if (err) {
 	            console.log(err);
 	          	return res.json(0);        
@@ -23,17 +26,19 @@ module.exports = {
 	            			  : false;
 				if(!extName){
 					logger.error("handleImg-- image type error");
-					res.json({
+					return res.json({
 						code: "0",
 						msg: "image type error"
 					});
-					return;
 				}
 	            var avatarName = (new Date()).getTime() + '.' + extName;
 	            var newPath = form.uploadDir + avatarName;
 	            
 	            fs.renameSync(files[key].path, newPath); //重命名
-	            res.json("/upload/temp/"+ avatarName);
+	            //这里的form.parse()只执行一次，所以res.json()可以写在函数内部【一次请求只能response一次】
+	            res.json({
+	            	data:newPath
+	            });
 	        }
 	    });
 	}

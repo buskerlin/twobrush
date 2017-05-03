@@ -65,3 +65,5 @@
 [2017-05-02 23:08:28.895] [DEBUG] app - GET /img/logo.png
 [2017-05-02 23:09:18.297] [DEBUG] app - GET /img/logo.png
 [2017-05-02 23:09:21.134] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-02 23:39:35.244] [DEBUG] app - GET /img/logo.png
+[2017-05-02 23:39:40.739] [DEBUG] app - POST /manage/uploadImgs
