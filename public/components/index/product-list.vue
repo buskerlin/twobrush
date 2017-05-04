@@ -5,7 +5,7 @@
 			<li v-for="item in listData" :param="item.id">
 				<router-link :to="/pDetails/+item.id">
 					<div class="border-bottom">
-						<img :src="item.src" />
+						<img :src="item.cover" />
 					</div>
 					<div>
 						<span class="tips">{{item.desc}}</span>

@@ -2,25 +2,41 @@
 	<div class="upload-new-product">
 		<span>
 			<label>类型：</label>
-			<el-select v-model="name" placeholder="请选择类型">
-				<el-option v-for="item in options" :value="item.name" @click.native="getBrushCode(item.brush_code)" :type="item.brush_code"></el-option>
+			<el-select v-model="brush_type" placeholder="请选择类型">
+				<el-option v-for="item in options" :value="item.name" @click.native="getbrush_code(item.brush_code)" :type="item.brush_code"></el-option>
 			</el-select>
 		</span>
 		<span>
-			<label>描述：</label>
-			<el-input type="textarea" :autosize="{ minRows: 6}" placeholder="请输入文字介绍" v-model="desc"></el-input>
+			<label>名称：</label>
+			<el-input type="text" placeholder="请输入文字介绍" v-model="postData.name"></el-input>
+		</span>
+		<!--<span>
+			<label>材料：</label>
+			<el-input type="text" placeholder="请输入文字介绍" v-model="postData.material"></el-input>
 		</span>
 		<span>
-			<el-upload action="/manage/uploadImgs" list-type="picture-card" :data="dirData" :on-preview="handlePictureCardPreview" :on-remove="handleRemove">
-			  	<i class="el-icon-plus"></i>
-			</el-upload>
-			<el-dialog v-model="dialogVisible" size="big">
-			  	<img width="100%" :src="dialogImageUrl" alt="">
-			</el-dialog>
+			<label>材料：</label>
+			<el-input type="text" placeholder="请输入文字介绍" v-model="postData.benefit"></el-input>
+		</span>-->
+		<span>
+			<label>描述：</label>
+			<el-input type="textarea" :autosize="{ minRows: 6}" placeholder="请输入文字介绍" v-model="postData.desc"></el-input>
 		</span>
-		<!-- 富文本编辑器 start -->
-		<script id="container" name="content" type="text/plain"></script>
-		<!-- 富文本编辑器 end -->
+		<span>
+			<label>图片上传：</label>
+			<div class="upload-img-box">
+				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple ref="uoloadImg" :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code}" 
+					:on-preview="handlePictureCardPreview"
+					:on-remove="handleRemove"
+					:on-change="picturePreview">
+				  	<i class="el-icon-plus"></i>
+				</el-upload>
+				<el-dialog v-model="dialogVisible" size="big">
+				  	<img width="100%" :src="dialogImageUrl" alt="">
+				</el-dialog>
+			</div>
+		</span>
+		<el-button type="primary" @click.native="submitPostData" size="large">上传<i class="el-icon-upload el-icon--right"></i></el-button>
 	</div>
 </template>
 
@@ -33,12 +49,17 @@
 		data(){
 			return {
 				options: [],
-				name: "",
+				brush_type: "",
 				desc: "",
-				dialogImageUrl: '',
+				dialogImageUrl: "",
        			dialogVisible: false,
-       			dirData: {
-       				dirCode:null
+       			postData: {
+       				brush_code: "",
+       				name: "",
+       				desc: "",
+       				carousel: [],
+       				material: "",
+       				benefit: ""
        			}
 			}
 		},
@@ -50,21 +71,42 @@
 	            this.dialogImageUrl = file.url;
 	            this.dialogVisible = true;
 	        },
-	        getBrushCode(code){
-	        	this.dirData.dirCode = code;
-//	        	$.ajax({
-//	        		type: "post",
-//	        		url: "/manage/whichDirectory",
-//	        		data: {dirCode:code},
-//	        		success: function(result){
-//	        			
-//	        		}
-//	        	})
+	        picturePreview(file,filelist){
+	        	console.log(file);
+	        },
+	        getbrush_code(code){
+	        	this.postData.brush_code = code;
+	        },
+	        surebrush_code(){
+	        	if(!this.postData.brush_code && event.target.tagName == "INPUT"){
+	        		alert("请先选择类型");
+	        		event.preventDefault();
+	        		return;
+	        	}
+	        },
+	        submitPostData(){
+	        	var postData = new FormData();
+	        	for(var key in this.postData){
+	        		postData.append(key,this.postData[key]);
+	        	}
+	        	$.ajax({
+	        		type: "post",
+	        		url: "/manage/uploadImgs",
+	        		data: postData,
+	        		processData: false,  // 告诉jQuery不要去处理发送的数据
+  					contentType: false,   // 告诉jQuery不要去设置Content-Type请求头
+	        		success: function(res){
+	        			console.log(res);
+	        		}
+	        	});
 	        }
 		},
 		watch:{
-			name(newV,oldV){
-				console.log(this.dirData.dirCode);
+			postData: {
+				handler(newVal,oldVal){
+					//console.log(newVal);
+				},
+				deep: true
 			}
 		},
 		created(){
@@ -72,9 +114,6 @@
 			$commonReques.getProductsType().then(function(result){
 				_this.options = result;
 			});
-			
-			//实例化ueditor
-//			var ue = UE.getEditor("container");
 		}
 	}
 </script>
@@ -88,10 +127,16 @@
 				vertical-align: top;
 				margin-top: 10px;
 				display: inline-block;
+				width:90px;
+				margin-right:10px;
+				text-align: right;
 			}
 		}
 		.el-input,.el-textarea {
 			width:70%;
+		}
+		.upload-img-box {
+			display: inline-block;
 		}
 	}
 </style>
