@@ -83,6 +83,12 @@ var products = function(sequelize,dataTypes){
 			allowNull: true,
 			autoIncrement: false,
 			primaryKet: false
+		},
+		subfile_dir:{
+			type: dataTypes.STRING,
+			allowNull: true,
+			autoIncrement: false,
+			primaryKet: false
 		}
 	},{
 		tableName: "products",

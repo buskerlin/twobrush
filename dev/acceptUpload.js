@@ -2,7 +2,8 @@ var fs = require("fs");
 var manageDb = require("../dao/operateDB.manage");
 var formidable = require("formidable");
 var form = new formidable.IncomingForm();
-var logger = require("../dev/log.js").getLogger("acceptUpload.js");
+var logger = require("../dev/log").getLogger("acceptUpload.js");
+var $common = require("./common");
 
 //存储目录
 var sqlPath = '/img/carousel/';
@@ -37,31 +38,16 @@ module.exports = {
 					});
 				}
 				
-				var imgPath = form.uploadDir + fields.brush_code + "/",
+				var imgPath = form.uploadDir + fields.brush_code + "/" + fields.subfile_dir,
 					avatarName = (new Date()).getTime() + '.' + extName,
-					newPath = imgPath + avatarName;
+					newPath = imgPath + "/" + avatarName;
 				
 				//存储到database的图片路径
-				productImgPath.carousel += sqlPath + fields.brush_code + "/" + avatarName + ",";
-				//新版本中fs.exists()被废弃
-		        fs.stat(imgPath,function(err,stat){
-		        	if(err){
-		        		fs.mkdir(imgPath,function(err){
-		        			if(err){
-		        				logger.error("mkdir err -- " + err);
-		        			}
-		        			else{
-				        		logger.info("mkdir /" + fields.brush_code + " success");
-					        	fs.renameSync(files[key].path, newPath);
-				        	}
-		        		});
-		        	}
-		        	else{
-		        		//重命名并把文件放到指定文件夹newPath
-			        	logger.info("start move to /" + fields.brush_code + " [sync]");
-			        	fs.renameSync(files[key].path, newPath);
-		        	}
-		        })
+				productImgPath.carousel += sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName + ",";
+				//mkdir多层文件夹[新版本中fs.exists()被废弃]
+				$common.mkdirs(imgPath,function(type){
+					fs.renameSync(files[key].path, newPath);
+				});
 	            //这里的form.parse()只执行一次，所以res.json()可以写在函数内部【一次请求只能response一次】
 	            res.json('Image upload success,but the path has not yet save to mysql');
 	            return;

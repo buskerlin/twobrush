@@ -2,22 +2,16 @@
 	<div class="product-details">
 		<div class="swiper-banner">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<img src="/img/details/details01.jpg"/>
-				</div>
-				<div class="swiper-slide">
-					<img src="/img/details/details02.jpg"/>
-				</div>
-				<div class="swiper-slide">
-					<img src="/img/details/details03.jpg"/>
+				<div class="swiper-slide" v-for="item in carousel">
+					<img :src="item"/>
 				</div>
 			</div>
 		</div>
-		<p class="title">直接定义initData:null会导致 desc null</p>
+		<p class="title">{{initData.title}}</p>
 		<div class="details">
 			<ul>
-				<li><label>优惠：</label>xxxxxxxxxxx</li>
-				<li><label>材质：</label>xxxxxxxxxxxxxxxx</li>
+				<li><label>刷辊材质：</label>{{initData.material}}</li>
+				<li><label>适用于：</label>{{initData.benefit}}</li>
 			</ul>
 		</div>
 		<div class="explation">
@@ -37,28 +31,25 @@
 	export default {
 		data(){
 			return {
-				initData:{}
+				initData: {},
+				carousel: []
 			}
 		},
 		components:{myBoard:board},
 		methods:{
 			getDetails(){
 				//获取数据
-				var _this = this;
+				var $vm = this;
 				$.ajax({
 					type:"post",
 					url:"/products/getDetails",
 					dataType:"json",
-					data:{id:_this.$route.params.id},
+					data:{id:$vm.$route.params.id},
 					success(result){
-						_this.initData = result;
+						$vm.initData = result;
+						$vm.carousel = result.carousel.split(",");
 					}
 				});
-//				$.get("/products/getDetails",{id:_this.$route.params.id},function(result){
-//					_this.initData = result;
-//					console.log("999999999");
-//					console.log(result);
-//				});
 			}
 		},
 		beforeCreate(){
@@ -76,6 +67,9 @@
 					bwHideLoading();
 				}
 			});
+		},
+		updated(){
+			//v-for会在updated钩子阶段触发
 			var swiper = new Swiper(".swiper-banner",{
 				autoplay: 4000,
 				autoplayDisableOnInteraction: false,

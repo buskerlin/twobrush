@@ -18,6 +18,13 @@ module.exports = {
 	},
 	//新增产品
 	uploadProduct(postData,res,next){
+		
+		//set dafaults
+		postData.prizeMin = postData.prizeMin ? postData.prizeMin : "1";
+		postData.prizeMax = postData.prizeMax ? postData.prizeMax : "100";
+		postData.thumbs = postData.thumbs ? postData.thumbs : parseInt(Math.random()*200);
+		postData.pv = postData.pv ? postData.pv : parseInt(Math.random()*200);
+		
 		productsModel(seqPool,Sequelize).create(postData)
 			.then(function(result){
 				res.json({

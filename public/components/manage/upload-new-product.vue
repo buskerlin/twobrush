@@ -10,25 +10,25 @@
 			<label>名称：</label>
 			<el-input type="text" placeholder="请输入文字介绍" v-model="postData.name"></el-input>
 		</span>
-		<!--<span>
+		<span>
 			<label>材料：</label>
 			<el-input type="text" placeholder="请输入文字介绍" v-model="postData.material"></el-input>
 		</span>
 		<span>
-			<label>材料：</label>
+			<label>适用范围：</label>
 			<el-input type="text" placeholder="请输入文字介绍" v-model="postData.benefit"></el-input>
-		</span>-->
+		</span>
 		<span>
 			<label>描述：</label>
 			<el-input type="textarea" :autosize="{ minRows: 6}" placeholder="请输入文字介绍" v-model="postData.desc"></el-input>
 		</span>
 		<span>
-			<label>图片上传：</label>
+			<label>cover上传：</label>
 			<div class="upload-img-box">
-				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple ref="uoloadImg" :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code}" 
-					:on-preview="handlePictureCardPreview"
-					:on-remove="handleRemove"
-					:on-change="picturePreview">
+				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code,subfile_dir:postData.subfile_dir}" 
+					:on-preview="handlePictureCardPreview" 
+					:on-success="successDilog" 
+					:on-remove="handleRemove">
 				  	<i class="el-icon-plus"></i>
 				</el-upload>
 				<el-dialog v-model="dialogVisible" size="big">
@@ -36,7 +36,21 @@
 				</el-dialog>
 			</div>
 		</span>
-		<el-button type="primary" @click.native="submitPostData" size="large">上传<i class="el-icon-upload el-icon--right"></i></el-button>
+		<span>
+			<label>banner上传：</label>
+			<div class="upload-img-box">
+				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple ref="uoloadImg" :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code,subfile_dir:postData.subfile_dir}" 
+					:on-preview="handlePictureCardPreview" 
+					:on-success="successDilog" 
+					:on-remove="handleRemove">
+				  	<i class="el-icon-plus"></i>
+				</el-upload>
+				<el-dialog v-model="dialogVisible" size="big">
+				  	<img width="100%" :src="dialogImageUrl" alt="">
+				</el-dialog>
+			</div>
+		</span>
+		<el-button type="primary" @click="submitPostData" size="large">上传<i class="el-icon-upload el-icon--right"></i></el-button>
 	</div>
 </template>
 
@@ -59,7 +73,8 @@
        				desc: "",
        				carousel: [],
        				material: "",
-       				benefit: ""
+       				benefit: "",
+       				subfile_dir: ""
        			}
 			}
 		},
@@ -71,22 +86,41 @@
 	            this.dialogImageUrl = file.url;
 	            this.dialogVisible = true;
 	        },
-	        picturePreview(file,filelist){
-	        	console.log(file);
-	        },
 	        getbrush_code(code){
+	        	//brush_code:类型文件夹名称
 	        	this.postData.brush_code = code;
+	        	//subfile_dir:子文件夹名称
+	        	this.postData.subfile_dir  = new Date().getTime();
+	        },
+	        successDilog(){
+	        	this.$message({
+	        		type: "success",
+	        		showClose: true,
+	        		message: "图片上传服务器成功"
+	        	});
 	        },
 	        surebrush_code(){
 	        	if(!this.postData.brush_code && event.target.tagName == "INPUT"){
-	        		alert("请先选择类型");
+	        		this.$message({
+		        		type: "error",
+		        		showClose: true,
+		        		message: "请先选择图片类型"
+		        	});
 	        		event.preventDefault();
 	        		return;
 	        	}
 	        },
 	        submitPostData(){
-	        	var postData = new FormData();
+	        	var postData = new FormData(),$vm = this;
 	        	for(var key in this.postData){
+	        		if(!this.postData[key]){
+	        			this.$message({
+			        		type: "error",
+			        		showClose: true,
+			        		message: "请填写所有信息"
+			        	});
+			        	return;
+	        		}
 	        		postData.append(key,this.postData[key]);
 	        	}
 	        	$.ajax({
@@ -94,7 +128,14 @@
 	        		url: "/manage/uploadImgs",
 	        		data: postData,
 	        		processData: false,  // 告诉jQuery不要去处理发送的数据
-  					contentType: false,   // 告诉jQuery不要去设置Content-Type请求头
+  					contentType: false,   // content-type已被设置为:multipart/form-data
+  					xhrFields: {
+				        onprogress: function(e) {
+				            //this是指向XHR (xhrFields属性返回的是一个xhr对象)
+				            //console.log(e.total);
+				            console.log(e.loaded);
+				        }
+				    },
 	        		success: function(res){
 	        			console.log(res);
 	        		}
@@ -127,7 +168,7 @@
 				vertical-align: top;
 				margin-top: 10px;
 				display: inline-block;
-				width:90px;
+				width:100px;
 				margin-right:10px;
 				text-align: right;
 			}
@@ -137,6 +178,9 @@
 		}
 		.upload-img-box {
 			display: inline-block;
+		}
+		.v-modal {
+			opacity: .1;
 		}
 	}
 </style>

@@ -21,7 +21,7 @@ module.exports = {
 //	  },
 	entry: {
 	  	index:[HotScript,'./public/index.js'],
-	  	manage:[HotScript,'./public/js/manage.main.js']
+	  	manage:[HotScript,'./public/manage.main.js']
 	},
     output: {
         filename: '[name].bundle.js',

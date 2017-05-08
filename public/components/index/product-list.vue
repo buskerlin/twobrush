@@ -28,11 +28,11 @@
 			
 		},
 		beforeCreate(){
-			var _this = this;
+			var $vm = this;
 			console.log(this);
 			$.get("/products/getListData",function(result){
 				console.log(this);
-				_this.listData = result;
+				$vm.listData = result;
 			})
 		}
 	}
