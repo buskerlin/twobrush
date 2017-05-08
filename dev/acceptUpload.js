@@ -43,7 +43,12 @@ module.exports = {
 					newPath = imgPath + "/" + avatarName;
 				
 				//存储到database的图片路径
-				productImgPath.carousel += sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName + ",";
+				if(fields.type == "cover"){
+					productImgPath.cover = sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName + ",";
+				}
+				else{
+					productImgPath.carousel += sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName + ",";	
+				}
 				//mkdir多层文件夹[新版本中fs.exists()被废弃]
 				$common.mkdirs(imgPath,function(type){
 					fs.renameSync(files[key].path, newPath);
@@ -56,6 +61,7 @@ module.exports = {
 	        //上传所有字段到数据库
 	        //if(productImgPath.carousel.match(/,/g).length > 1){}
 	        productImgPath.carousel = productImgPath.carousel.slice(0,productImgPath.carousel.length-1); //去除字符串末尾的逗号
+	        productImgPath.cover = productImgPath.carousel.slice(0,productImgPath.carousel.length-1); //去除字符串末尾的逗号
 	        manageDb.uploadProduct(Object.assign(fields,productImgPath),res,next);
 	    });
 	}

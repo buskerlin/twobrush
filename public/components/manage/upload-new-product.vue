@@ -25,7 +25,7 @@
 		<span>
 			<label>cover上传：</label>
 			<div class="upload-img-box">
-				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code,subfile_dir:postData.subfile_dir}" 
+				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code,subfile_dir:postData.subfile_dir,type:'cover'}" 
 					:on-preview="handlePictureCardPreview" 
 					:on-success="successDilog" 
 					:on-remove="handleRemove">
@@ -39,7 +39,7 @@
 		<span>
 			<label>banner上传：</label>
 			<div class="upload-img-box">
-				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple ref="uoloadImg" :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code,subfile_dir:postData.subfile_dir}" 
+				<el-upload action="/manage/uploadImgs" @click.native="surebrush_code" multiple ref="uoloadImg" :auto-upload="true" list-type="picture-card" :data="{brush_code:postData.brush_code,subfile_dir:postData.subfile_dir,type:'banner'}" 
 					:on-preview="handlePictureCardPreview" 
 					:on-success="successDilog" 
 					:on-remove="handleRemove">
@@ -56,9 +56,6 @@
 
 <script>
 	import $commonReques from "../../js/commonRequest.js"
-//	import "../../js/ueditor/ueditor.config.js"
-//	import "../../js/ueditor/ueditor.all.js"
-//	import "../../js/ueditor/lang/zh-cn/zh-cn.js"
 	export default {
 		data(){
 			return {

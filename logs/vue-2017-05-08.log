@@ -159,3 +159,41 @@
 [2017-05-08 15:33:18.729] [INFO] dev/common.js - mkdir success -- ./public/img/carousel/002/1494228792556/
 [2017-05-08 15:33:42.337] [DEBUG] app - POST /manage/uploadImgs
 [2017-05-08 15:36:22.129] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:42:45.178] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:42:45.364] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:45:48.726] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:47:13.255] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:50:36.852] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:50:36.985] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:50:42.208] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:50:42.312] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:51:35.229] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:51:38.214] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:51:38.308] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:52:11.946] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:52:14.760] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:52:14.846] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:52:40.716] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:52:43.071] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:52:43.174] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:54:24.689] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:54:54.194] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:55:05.261] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:55:05.398] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:56:03.376] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:57:03.377] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:57:03.381] [ERROR] dev/common.js - mkdir err -- Error: ENOENT: no such file or directory, mkdir 'D:\job\twobrush\public\img\carousel\001\1494233803362'
+[2017-05-08 16:57:08.566] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:57:08.572] [INFO] dev/common.js - mkdir success -- ./public/img/carousel/001/1494233803362/
+[2017-05-08 16:57:11.629] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:57:15.584] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:58:14.247] [DEBUG] app - GET /img/logo.png
+[2017-05-08 16:58:14.444] [DEBUG] app - POST /manage/getProductsType
+[2017-05-08 16:58:29.238] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:58:29.241] [ERROR] dev/common.js - mkdir err -- Error: ENOENT: no such file or directory, mkdir 'D:\job\twobrush\public\img\carousel\005\1494233896828'
+[2017-05-08 16:58:33.358] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:58:33.362] [INFO] dev/common.js - mkdir success -- ./public/img/carousel/005/1494233896828/
+[2017-05-08 16:58:36.363] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 16:58:46.352] [DEBUG] app - POST /manage/uploadImgs
+[2017-05-08 17:02:01.872] [DEBUG] app - GET /img/logo.png
+[2017-05-08 17:02:02.085] [DEBUG] app - POST /manage/getProductsType
