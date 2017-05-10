@@ -48,20 +48,32 @@ app.use(webpackHotMid);
 //获取webpack打包进内存的文件，结合路由访问
 app.get('/:viewname?', function(req, res, next) {
     
-    var viewname = req.params.viewname 
-        ? req.params.viewname + '.html' 
-        : 'index.html';
-        
-    var filepath = path.join(compiler.outputPath, viewname);
+    var entry = ["","index","manage"];
     
+    for(var i = 0;i < entry.length;i++){
+    	var val = entry[i];
+    	if(val == req.params.viewname){
+    		var viewname = val == "" ? "index.html" : val + ".html";
+    		break;
+    	}
+    	else if(i == entry.length - 1){
+    		return next(); //移交到下一个中间价继续处理
+    	}
+    }
+    
+    var filepath = path.join(compiler.outputPath, viewname);
+    console.log(filepath);
     // 使用webpack提供的outputFileSystem
     compiler.outputFileSystem.readFile(filepath, function(err, result) {
         if (err) {
             // something error
-            return next(err);
+            console.log(err);
+            //outputFileStream中不包含入口文件的其他文件 ，所以http://localhost:3001/banner03.jpg会提示不存在
+            return next();
         }
         res.set('content-type', 'text/html');
         res.send(result);
+        console.log(result);
         res.end();
     });
 });

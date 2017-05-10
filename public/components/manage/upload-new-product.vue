@@ -1,5 +1,5 @@
 <template>
-	<div class="upload-new-product">
+	<div class="upload-new-product" v-loading.fullscreen.lock="showLoading" element-loading-text="正在提交">
 		<span>
 			<label>类型：</label>
 			<el-select v-model="brush_type" placeholder="请选择类型">
@@ -60,6 +60,7 @@
 		data(){
 			return {
 				options: [],
+				showLoading: false,
 				brush_type: "",
 				desc: "",
 				dialogImageUrl: "",
@@ -120,6 +121,7 @@
 	        		}
 	        		postData.append(key,this.postData[key]);
 	        	}
+	        	$vm.showLoading = true;
 	        	$.ajax({
 	        		type: "post",
 	        		url: "/manage/uploadImgs",
@@ -135,6 +137,14 @@
 				    },
 	        		success: function(res){
 	        			console.log(res);
+	        			setTimeout(function(){
+	        				$vm.showLoading = false;
+	        				$vm.$message({
+				        		type: "success",
+				        		showClose: true,
+				        		message: "信息上传成功"
+				        	});
+	        			},800);
 	        		}
 	        	});
 	        }
@@ -148,9 +158,9 @@
 			}
 		},
 		created(){
-			var _this = this;
+			var $vm = this;
 			$commonReques.getProductsType().then(function(result){
-				_this.options = result;
+				$vm.options = result;
 			});
 		}
 	}
