@@ -5,6 +5,7 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+var http = require('http');
 //var ueditor = require('ueditor');
 
 var index = require('./routes/index');
@@ -141,6 +142,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+var server = http.createServer(app);
+server.listen('3000','60.205.179.68');
 
 module.exports = app;
 
