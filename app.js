@@ -143,8 +143,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-var server = http.createServer(app);
-server.listen('3000','60.205.179.68');
+//var server = http.createServer(app);
+//server.listen('3000','60.205.179.68');
 
 module.exports = app;
 
