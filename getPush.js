@@ -28,12 +28,9 @@ handler.on('push', function (event) {
   var PATH = "/home/twobrush";
   var commands = ['cd ' + PATH,'git pull'].join(' && ');
     require('child_process').exec(commands, function(err, out, code) {
-      if (err instanceof Error) {
-        throw err
-      }
-      process.stderr.write(err);
-      process.stdout.write(out);
-
+        if (err instanceof Error) {
+          throw err
+        }
     })
 //run_cmd('sh', ['./startPull.sh'], function(text){ 
 //	console.log("callback success");
