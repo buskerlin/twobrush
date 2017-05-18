@@ -10,5 +10,4 @@ git clean -f
 git pull
 git checkout master
 echo "changing permissions..."
-chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
 echo "Finished."
