@@ -1,7 +1,6 @@
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/incoming', secret: 'brushUpdate'}) 
-var exec = require('exec');
+var handler = createHandler({ path: '/incoming', secret: 'brushUpdate'})
 // 上面的 secret 保持和 GitHub 后台设置的一致
 
 function run_cmd(cmd, args, callback) {
@@ -28,16 +27,12 @@ handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',event.payload.repository.name,event.payload.ref);
   var PATH = "/home/twobrush";
   var commands = ['cd ' + PATH,'git pull'].join(' && ');
-    exec(commands, function(err, out, code) {
+    require('child_process').exec(commands, function(err, out, code) {
       if (err instanceof Error) {
-        response.writeHead(500)
-        response.end('Server Internal Error.')
         throw err
       }
-      process.stderr.write(err)
-      process.stdout.write(out)
-      response.writeHead(200)
-      response.end('Deploy Done.')
+      process.stderr.write(err);
+      process.stdout.write(out);
 
     })
 //run_cmd('sh', ['./startPull.sh'], function(text){ 
