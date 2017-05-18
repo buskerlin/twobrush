@@ -25,7 +25,9 @@ handler.on('error', function (err) {
 
 handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',event.payload.repository.name,event.payload.ref);
+  //项目在远程主机上的地址
   var PATH = "/home/twobrush";
+  //在终端执行命令
   var commands = ['cd ' + PATH,'git pull'].join(' && ');
     require('child_process').exec(commands, function(err, out, code) {
         if (err instanceof Error) {
