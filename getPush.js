@@ -26,6 +26,7 @@ handler.on('error', function (err) {
 
 handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',event.payload.repository.name,event.payload.ref);
+  var PATH = "/home/twobrush";
   var commands = ['cd ' + PATH,'git pull'].join(' && ');
     exec(commands, function(err, out, code) {
       if (err instanceof Error) {
