@@ -24,8 +24,9 @@ handler.on('error', function (err) {
 })
 
 handler.on('push', function (event) {
-  console.log('Received a push event for %s to %s',
-    event.payload.repository.name,
-    event.payload.ref);
-  run_cmd('sh', ['./startPull.sh'], function(text){ console.log(text) });
+  console.log('Received a push event for %s to %s',event.payload.repository.name,event.payload.ref);
+  run_cmd('sh', ['./startPull.sh'], function(text){ 
+  	console.log("callback success");
+  	console.log(text); 
+  });
 })
