@@ -58,7 +58,7 @@ app.get('/:viewname?', function(req, res, next) {
     		break;
     	}
     	else if(i == entry.length - 1){
-    		return next(); //移交到下一个中间价继续处理
+    		return next(); //移交到下一个中间件继续处理
     	}
     }
     
@@ -143,8 +143,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-//var server = http.createServer(app);
-//server.listen('3000','60.205.179.68');
+var server = http.createServer(app);
+server.listen('3000');
 
 module.exports = app;
 
