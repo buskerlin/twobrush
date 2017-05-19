@@ -44,7 +44,7 @@ module.exports = {
 				
 				//存储到database的图片路径
 				if(fields.type == "cover"){
-					productImgPath.cover = sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName + ",";
+					productImgPath.cover = sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName;
 				}
 				else{
 					productImgPath.carousel += sqlPath + fields.brush_code + "/" + fields.subfile_dir + "/" + avatarName + ",";	
@@ -61,7 +61,6 @@ module.exports = {
 	        //上传所有字段到数据库
 	        //if(productImgPath.carousel.match(/,/g).length > 1){}
 	        productImgPath.carousel = productImgPath.carousel.slice(0,productImgPath.carousel.length-1); //去除字符串末尾的逗号
-	        productImgPath.cover = productImgPath.cover.slice(0,productImgPath.carousel.length-1); //去除字符串末尾的逗号
 	        manageDb.uploadProduct(Object.assign(fields,productImgPath),res,next);
 	    });
 	}
