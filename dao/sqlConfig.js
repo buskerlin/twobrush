@@ -1,5 +1,6 @@
 
 module.exports = {
+	
 	//本地
 //	mySql:{
 //		host:"127.0.0.1",
@@ -8,6 +9,7 @@ module.exports = {
 //		database:"brush",
 //		port:"3306"
 //	}
+
 	//魔泊云
 //	mySql:{
 //		host:"192.168.1.234",
@@ -16,6 +18,7 @@ module.exports = {
 //		database:"caf6039bde844",
 //		port:"30061"
 //	}	
+
 	//阿里云
 	mySql:{
 		host:"60.205.179.68",
