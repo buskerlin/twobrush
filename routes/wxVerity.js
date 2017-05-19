@@ -15,9 +15,9 @@ module.exports = function(req,res,next){
   
     /*  加密/校验流程如下： */
     //1. 将token、timestamp、nonce三个参数进行字典序排序
-    var arr = new Array(token,timestamp,nonce);
-    arr.sort();
-    var str = arr.join("");
+    var array = new Array(token,timestamp,nonce);
+    array.sort();
+    var str = array.toString().replace(/,/g,"");
   
     //2. 将三个参数字符串拼接成一个字符串进行sha1加密
     var sha1Code = crypto.createHash("sha1");
@@ -25,7 +25,7 @@ module.exports = function(req,res,next){
   
     //3. 开发者获得加密后的字符串可与signature对比，标识该请求来源于微信
     if(code===signature){
-       // res.send(echostr)
+        res.send(echostr);
         logger.error(echostr);
     }else{
         res.send("error");
