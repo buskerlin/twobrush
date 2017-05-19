@@ -18,10 +18,10 @@ module.exports = {
 //	}	
 	//阿里云
 	mySql:{
-		host:"127.0.0.1",
-		user:"root",
-		password:"lql@1948",
+		host:"60.205.179.68",
+		user:"bigwoods",
+		password:"lql1948",
 		database:"brush",
-		port:"3006"
+		port:"3306"
 	}
 };
