@@ -11,7 +11,9 @@ var http = require('http');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var manage = require('./routes/manage');
+var wxVerity = require('./routes/wxVerity');
 var log4js = require('./dev/log.js');
+var logger2 = log4js.getLogger("app.js");
 
 var app = express();
 
@@ -50,7 +52,6 @@ app.use(webpackHotMid);
 app.get('/:viewname?', function(req, res, next) {
     
     var entry = ["","index","manage"];
-    
     for(var i = 0;i < entry.length;i++){
     	var val = entry[i];
     	if(val == req.params.viewname){
@@ -94,6 +95,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+//校验微信请求
+//app.get("/",function(req,res,next){
+	//进不来,为什么?被webpack阻塞了?
+//	logger2.error("im in");
+//});
+app.use("/wxVerity",function(req,res,next){wxVerity(req,res)});
 app.use('/products',users);
 app.use('/manage',manage);
 
