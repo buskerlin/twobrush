@@ -15,9 +15,9 @@ module.exports = function(req,res,next){
   
     /*  加密/校验流程如下： */
     //1. 将token、timestamp、nonce三个参数进行字典序排序
-    var array = new Array(token,timestamp,nonce);
-    array.sort();
-    var str = array.toString().replace(/,/g,"");
+    var arr = new Array(token,timestamp,nonce);
+    arr.sort();
+    var str = arr.join("");
   
     //2. 将三个参数字符串拼接成一个字符串进行sha1加密
     var sha1Code = crypto.createHash("sha1");
