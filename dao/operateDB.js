@@ -11,6 +11,7 @@ var pool = mySql.createPool(sqlConfig.mySql);
 module.exports = {
 	getListData(req,res,next){
 		pool.getConnection(function(err,connection){
+			console.log(err);
 			connection.query(sql.queryPart,function(err,result){
 				if(err){
 					throw err;
