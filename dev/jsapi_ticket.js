@@ -7,6 +7,6 @@ var atUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credentia
 
 module.exports = function(){
 	https.get(atUrl,function(res){
-		console.log(res);
+		console.log(res.headers);
 	});
 }
