@@ -41,6 +41,7 @@ var getJsApiTicket = function(url){
 module.exports = function(){
 	weiXinModel.findOne({where:{type:"access_token"}})
 	.then(function(res){
+		console.log(res);
 		res = res.dataValues;
 		var now = new Date().getTime();
 		console.log(res);
@@ -48,7 +49,7 @@ module.exports = function(){
 			getAccessToken().then(function(result){
 				console.log();
 				weiXinModel.update({
-					type: result.access_token,
+					value: result.access_token,
 					time: now
 				},
 				{where:{type:"access_token"}});
