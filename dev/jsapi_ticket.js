@@ -6,14 +6,28 @@ var appId = "wx4d40186bc8574aeb",
 var atUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" + appId + "&secret=" + appSecret;
 
 module.exports = function(){
-	https.get(atUrl,function(res){
-		console.log(res.body);
-		var getData = '';
-		res.on("data",function(data){
-			getData += data;
+	new Promise(function(resolve,reject){
+		https.get(atUrl,function(res){
+			var getData = '';
+			res.on("data",function(data){
+				getData += data;
+			});
+			res.on("end",function(){
+				resolve(JSON.parse(getData));
+			});
 		});
-		res.on("end",function(){
-			console.log(JSON.parse(getData));
+	})
+	.then(function(access_token){
+		var jaUrl = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + access_token + '&type=jsapi';
+		https.get(jaUrl,function(res){
+			getData = '';
+			res.on("data",function(data){
+				getData += data;
+			});
+			res.on("end",function(){
+				console.log(JSON.parse(getData));
+				resolve(JSON.parse(getData));
+			});
 		});
 	});
 }
