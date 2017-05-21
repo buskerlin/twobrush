@@ -46,8 +46,9 @@ module.exports = function(){
 		console.log(res);
 		if(res.value == "" || now - res.time > 7000){
 			getAccessToken().then(function(result){
+				console.log();
 				weiXinModel.update({
-					access_token: result.access_token,
+					type: result.access_token,
 					time: now
 				},
 				{where:{type:"access_token"}});
