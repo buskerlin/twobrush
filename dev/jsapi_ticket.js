@@ -9,10 +9,55 @@ var appId = "wx4d40186bc8574aeb",
 //获取access_token
 var atUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" + appId + "&secret=" + appSecret;
 
+var getAccessToken = function(){
+	return new Promise(function(resolve,reject){
+		https.get(atUrl,function(res){
+			var getData = '';
+			res.on("data",function(data){
+				getData += data;
+			});
+			res.on("end",function(){
+				console.log(JSON.parse(getData));
+				resolve(JSON.parse(getData));
+			});
+		});
+	})
+}
+var getJsApiTicket = function(url){
+	return new Promise(function(resolve,reject){
+		https.get(url,function(res){
+			var getData = '';
+			res.on("data",function(data){
+				getData += data;
+			});
+			res.on("end",function(){
+				console.log(JSON.parse(getData));
+				resolve(JSON.parse(getData));
+			});
+		});
+	})
+}
+
 module.exports = function(){
 	weiXinModel.findOne({where:{type:"access_token"}})
 	.then(function(res){
+		res = res.dataValues;
+		var now = new Date().getTime();
 		console.log(res);
+		if(res.value == "" || now - res.time > 7000){
+			getAccessToken().then(function(result){
+				weiXinModel.update({
+					access_token: result.access_token,
+					time: now
+				},
+				{where:{type:"access_token"}});
+				
+				getJsApiTicket('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + result.access_token + '&type=jsapi');
+			})
+		}
+		else{
+			getJsApiTicket('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + res.access_token + '&type=jsapi')
+		}
 	});
 //	new Promise(function(resolve,reject){
 //		https.get(atUrl,function(res){
