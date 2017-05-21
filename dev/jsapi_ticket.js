@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const seqPool = require("../dao/sequelize");
-const weiXinModel = require("../model/weiXin");
+const weiXinModel = require("../model/weiXin")(seqPool,Sequelize);
 
 var https = require("https");
 var appId = "wx4d40186bc8574aeb",
@@ -10,7 +10,7 @@ var appId = "wx4d40186bc8574aeb",
 var atUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" + appId + "&secret=" + appSecret;
 
 module.exports = function(){
-	weiXinModel(seqPool,Sequelize).findOne({where:{type:"access_token"}})
+	weiXinModel.findOne({where:{type:"access_token"}})
 	.then(function(res){
 		console.log(res);
 	});
