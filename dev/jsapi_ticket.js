@@ -13,6 +13,7 @@ module.exports = function(){
 				getData += data;
 			});
 			res.on("end",function(){
+				console.log(JSON.parse(getData));
 				resolve(JSON.parse(getData));
 			});
 		});
