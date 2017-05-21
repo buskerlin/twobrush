@@ -45,7 +45,7 @@ module.exports = function(){
 		res = res.dataValues;
 		var now = new Date().getTime();
 		console.log(res);
-		if(res.value == "" || now - parseInt(res.time) > 7000){
+		if(res.value == "" || now - parseInt(res.time) > 7000*1000){
 			getAccessToken().then(function(result){
 				console.log();
 				weiXinModel.update({
