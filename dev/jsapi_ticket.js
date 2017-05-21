@@ -11,7 +11,9 @@ module.exports = function(){
 		var getData = '';
 		res.on("data",function(data){
 			getData += data;
-		})
-		console.log(getData);
+		});
+		res.on("end",function(){
+			console.log(getData);
+		});
 	});
 }
