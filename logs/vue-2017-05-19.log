@@ -4167,3 +4167,1689 @@
 [2017-05-19 17:18:30.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185510304-1109
 [2017-05-19 17:18:34.308] [ERROR] app.js - socket.io
 [2017-05-19 17:18:34.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185514303-1113
+[2017-05-19 17:18:36.306] [ERROR] app.js - socket.io
+[2017-05-19 17:18:36.307] [ERROR] app.js - socket.io
+[2017-05-19 17:18:36.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185516303-1110
+[2017-05-19 17:18:36.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185516304-1114
+[2017-05-19 17:18:38.307] [ERROR] app.js - socket.io
+[2017-05-19 17:18:38.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185518303-1115
+[2017-05-19 17:18:42.315] [ERROR] app.js - socket.io
+[2017-05-19 17:18:42.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185522303-1111
+[2017-05-19 17:18:44.305] [ERROR] app.js - socket.io
+[2017-05-19 17:18:44.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185524302-1116
+[2017-05-19 17:18:46.306] [ERROR] app.js - socket.io
+[2017-05-19 17:18:46.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185526303-1117
+[2017-05-19 17:18:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:18:48.308] [ERROR] app.js - socket.io
+[2017-05-19 17:18:48.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185528303-1112
+[2017-05-19 17:18:48.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185528303-1118
+[2017-05-19 17:18:50.306] [ERROR] app.js - socket.io
+[2017-05-19 17:18:50.307] [ERROR] app.js - socket.io
+[2017-05-19 17:18:50.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185530303-1113
+[2017-05-19 17:18:50.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185530304-1119
+[2017-05-19 17:18:52.305] [ERROR] app.js - socket.io
+[2017-05-19 17:18:52.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185532303-1114
+[2017-05-19 17:18:56.306] [ERROR] app.js - socket.io
+[2017-05-19 17:18:56.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185536303-1120
+[2017-05-19 17:18:58.306] [ERROR] app.js - socket.io
+[2017-05-19 17:18:58.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185538303-1115
+[2017-05-19 17:19:00.306] [ERROR] app.js - socket.io
+[2017-05-19 17:19:00.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185540303-1116
+[2017-05-19 17:19:02.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:02.306] [ERROR] app.js - socket.io
+[2017-05-19 17:19:02.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185542302-1121
+[2017-05-19 17:19:02.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185542303-1117
+[2017-05-19 17:19:04.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:04.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185544303-1118
+[2017-05-19 17:19:08.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:08.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185548303-1122
+[2017-05-19 17:19:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:19:10.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:10.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185550303-1119
+[2017-05-19 17:19:10.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185550303-1123
+[2017-05-19 17:19:12.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:12.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185552303-1120
+[2017-05-19 17:19:12.313] [ERROR] app.js - socket.io
+[2017-05-19 17:19:12.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185552304-1124
+[2017-05-19 17:19:14.306] [ERROR] app.js - socket.io
+[2017-05-19 17:19:14.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185554303-1125
+[2017-05-19 17:19:18.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:18.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185558303-1121
+[2017-05-19 17:19:20.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:20.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:20.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185560303-1126
+[2017-05-19 17:19:20.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185560304-1122
+[2017-05-19 17:19:22.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:22.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185562303-1127
+[2017-05-19 17:19:24.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:24.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185564303-1128
+[2017-05-19 17:19:26.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:26.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185566304-1123
+[2017-05-19 17:19:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:19:28.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185568303-1124
+[2017-05-19 17:19:30.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:30.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185570302-1129
+[2017-05-19 17:19:34.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:34.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185574303-1125
+[2017-05-19 17:19:36.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:36.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185576305-1130
+[2017-05-19 17:19:38.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:38.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185578303-1131
+[2017-05-19 17:19:40.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:40.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185580304-1126
+[2017-05-19 17:19:42.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:42.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185582304-1127
+[2017-05-19 17:19:44.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:44.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:44.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185584304-1132
+[2017-05-19 17:19:44.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185584305-1128
+[2017-05-19 17:19:46.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:46.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185586305-1129
+[2017-05-19 17:19:48.305] [ERROR] app.js - socket.io
+[2017-05-19 17:19:48.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185588303-1130
+[2017-05-19 17:19:50.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:50.309] [ERROR] app.js - socket.io
+[2017-05-19 17:19:50.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185590304-1133
+[2017-05-19 17:19:50.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185590305-1131
+[2017-05-19 17:19:52.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:52.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185592304-1134
+[2017-05-19 17:19:54.311] [ERROR] app.js - socket.io
+[2017-05-19 17:19:54.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185594305-1135
+[2017-05-19 17:19:56.307] [ERROR] app.js - socket.io
+[2017-05-19 17:19:56.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185596303-1132
+[2017-05-19 17:19:58.308] [ERROR] app.js - socket.io
+[2017-05-19 17:19:58.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185598305-1133
+[2017-05-19 17:20:00.305] [ERROR] app.js - socket.io
+[2017-05-19 17:20:00.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185600304-1136
+[2017-05-19 17:20:04.308] [ERROR] app.js - socket.io
+[2017-05-19 17:20:04.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185604305-1134
+[2017-05-19 17:20:06.310] [ERROR] app.js - socket.io
+[2017-05-19 17:20:06.312] [ERROR] app.js - socket.io
+[2017-05-19 17:20:06.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185606304-1137
+[2017-05-19 17:20:06.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185606306-1135
+[2017-05-19 17:20:08.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:08.308] [ERROR] app.js - socket.io
+[2017-05-19 17:20:08.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185608304-1138
+[2017-05-19 17:20:08.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185608305-1136
+[2017-05-19 17:20:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:20:10.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185610304-1139
+[2017-05-19 17:20:12.312] [ERROR] app.js - socket.io
+[2017-05-19 17:20:12.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185612305-1140
+[2017-05-19 17:20:14.309] [ERROR] app.js - socket.io
+[2017-05-19 17:20:14.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185614304-1137
+[2017-05-19 17:20:16.306] [ERROR] app.js - socket.io
+[2017-05-19 17:20:16.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185616304-1138
+[2017-05-19 17:20:18.316] [ERROR] app.js - socket.io
+[2017-05-19 17:20:18.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185618305-1141
+[2017-05-19 17:20:18.323] [ERROR] app.js - socket.io
+[2017-05-19 17:20:18.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185618313-1139
+[2017-05-19 17:20:20.306] [ERROR] app.js - socket.io
+[2017-05-19 17:20:20.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185620303-1140
+[2017-05-19 17:20:24.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:24.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185624304-1142
+[2017-05-19 17:20:26.305] [ERROR] app.js - socket.io
+[2017-05-19 17:20:26.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185626304-1141
+[2017-05-19 17:20:26.308] [ERROR] app.js - socket.io
+[2017-05-19 17:20:26.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185626304-1143
+[2017-05-19 17:20:32.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:32.308] [ERROR] app.js - socket.io
+[2017-05-19 17:20:32.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185632304-1142
+[2017-05-19 17:20:32.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185632304-1144
+[2017-05-19 17:20:34.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:34.309] [ERROR] app.js - socket.io
+[2017-05-19 17:20:34.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185634305-1143
+[2017-05-19 17:20:34.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185634305-1145
+[2017-05-19 17:20:36.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:36.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185636304-1144
+[2017-05-19 17:20:40.306] [ERROR] app.js - socket.io
+[2017-05-19 17:20:40.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185640304-1146
+[2017-05-19 17:20:42.305] [ERROR] app.js - socket.io
+[2017-05-19 17:20:42.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185642304-1145
+[2017-05-19 17:20:46.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:46.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185646304-1147
+[2017-05-19 17:20:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:20:48.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:48.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185648304-1146
+[2017-05-19 17:20:48.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185648305-1148
+[2017-05-19 17:20:50.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:50.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185650305-1149
+[2017-05-19 17:20:54.306] [ERROR] app.js - socket.io
+[2017-05-19 17:20:54.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185654304-1147
+[2017-05-19 17:20:56.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:56.308] [ERROR] app.js - socket.io
+[2017-05-19 17:20:56.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185656304-1150
+[2017-05-19 17:20:56.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185656305-1148
+[2017-05-19 17:20:58.307] [ERROR] app.js - socket.io
+[2017-05-19 17:20:58.308] [ERROR] app.js - socket.io
+[2017-05-19 17:20:58.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185658304-1151
+[2017-05-19 17:20:58.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185658304-1149
+[2017-05-19 17:21:04.307] [ERROR] app.js - socket.io
+[2017-05-19 17:21:04.308] [ERROR] app.js - socket.io
+[2017-05-19 17:21:04.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185664304-1152
+[2017-05-19 17:21:04.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185664305-1150
+[2017-05-19 17:21:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:10.307] [ERROR] app.js - socket.io
+[2017-05-19 17:21:10.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185670303-1153
+[2017-05-19 17:21:10.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185670304-1151
+[2017-05-19 17:21:12.330] [ERROR] app.js - socket.io
+[2017-05-19 17:21:12.332] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185672327-1154
+[2017-05-19 17:21:16.313] [ERROR] app.js - socket.io
+[2017-05-19 17:21:16.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185676308-1152
+[2017-05-19 17:21:18.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:18.312] [ERROR] app.js - socket.io
+[2017-05-19 17:21:18.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185678303-1155
+[2017-05-19 17:21:18.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185678305-1153
+[2017-05-19 17:21:20.307] [ERROR] app.js - socket.io
+[2017-05-19 17:21:20.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185680304-1156
+[2017-05-19 17:21:24.305] [ERROR] app.js - socket.io
+[2017-05-19 17:21:24.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185684304-1154
+[2017-05-19 17:21:26.310] [ERROR] app.js - socket.io
+[2017-05-19 17:21:26.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185686303-1157
+[2017-05-19 17:21:30.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:30.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185690303-1155
+[2017-05-19 17:21:32.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:32.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185692303-1158
+[2017-05-19 17:21:34.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:34.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185694304-1159
+[2017-05-19 17:21:36.308] [ERROR] app.js - socket.io
+[2017-05-19 17:21:36.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185696303-1156
+[2017-05-19 17:21:36.318] [ERROR] app.js - socket.io
+[2017-05-19 17:21:36.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185696311-1160
+[2017-05-19 17:21:38.305] [ERROR] app.js - socket.io
+[2017-05-19 17:21:38.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185698303-1161
+[2017-05-19 17:21:42.308] [ERROR] app.js - socket.io
+[2017-05-19 17:21:42.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185702303-1157
+[2017-05-19 17:21:44.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:44.307] [ERROR] app.js - socket.io
+[2017-05-19 17:21:44.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185704304-1162
+[2017-05-19 17:21:44.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185704304-1158
+[2017-05-19 17:21:46.309] [ERROR] app.js - socket.io
+[2017-05-19 17:21:46.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185706305-1163
+[2017-05-19 17:21:50.313] [ERROR] app.js - socket.io
+[2017-05-19 17:21:50.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185710304-1159
+[2017-05-19 17:21:52.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:52.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185712303-1164
+[2017-05-19 17:21:56.312] [ERROR] app.js - socket.io
+[2017-05-19 17:21:56.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185716304-1160
+[2017-05-19 17:21:58.306] [ERROR] app.js - socket.io
+[2017-05-19 17:21:58.307] [ERROR] app.js - socket.io
+[2017-05-19 17:21:58.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185718303-1165
+[2017-05-19 17:21:58.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185718304-1161
+[2017-05-19 17:22:00.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:00.308] [ERROR] app.js - socket.io
+[2017-05-19 17:22:00.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185720304-1166
+[2017-05-19 17:22:00.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185720304-1162
+[2017-05-19 17:22:02.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:02.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185722304-1167
+[2017-05-19 17:22:04.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:04.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185724304-1168
+[2017-05-19 17:22:06.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:06.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185726304-1163
+[2017-05-19 17:22:06.309] [ERROR] app.js - socket.io
+[2017-05-19 17:22:06.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185726305-1169
+[2017-05-19 17:22:08.307] [ERROR] app.js - socket.io
+[2017-05-19 17:22:08.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185728304-1170
+[2017-05-19 17:22:12.309] [ERROR] app.js - socket.io
+[2017-05-19 17:22:12.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185732304-1164
+[2017-05-19 17:22:14.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:14.307] [ERROR] app.js - socket.io
+[2017-05-19 17:22:14.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185734304-1171
+[2017-05-19 17:22:14.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185734305-1165
+[2017-05-19 17:22:16.308] [ERROR] app.js - socket.io
+[2017-05-19 17:22:16.310] [ERROR] app.js - socket.io
+[2017-05-19 17:22:16.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185736305-1172
+[2017-05-19 17:22:16.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185736305-1166
+[2017-05-19 17:22:18.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:18.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185738304-1167
+[2017-05-19 17:22:20.305] [ERROR] app.js - socket.io
+[2017-05-19 17:22:20.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185740304-1168
+[2017-05-19 17:22:22.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:22.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185742304-1173
+[2017-05-19 17:22:24.305] [ERROR] app.js - socket.io
+[2017-05-19 17:22:24.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185744304-1174
+[2017-05-19 17:22:26.307] [ERROR] app.js - socket.io
+[2017-05-19 17:22:26.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185746304-1169
+[2017-05-19 17:22:26.312] [ERROR] app.js - socket.io
+[2017-05-19 17:22:26.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185746305-1175
+[2017-05-19 17:22:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:28.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185748304-1176
+[2017-05-19 17:22:30.309] [ERROR] app.js - socket.io
+[2017-05-19 17:22:30.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185750305-1177
+[2017-05-19 17:22:32.305] [ERROR] app.js - socket.io
+[2017-05-19 17:22:32.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185752304-1170
+[2017-05-19 17:22:36.307] [ERROR] app.js - socket.io
+[2017-05-19 17:22:36.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185756304-1178
+[2017-05-19 17:22:38.305] [ERROR] app.js - socket.io
+[2017-05-19 17:22:38.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185758304-1171
+[2017-05-19 17:22:40.311] [ERROR] app.js - socket.io
+[2017-05-19 17:22:40.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185760304-1172
+[2017-05-19 17:22:42.308] [ERROR] app.js - socket.io
+[2017-05-19 17:22:42.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185762303-1179
+[2017-05-19 17:22:44.311] [ERROR] app.js - socket.io
+[2017-05-19 17:22:44.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185764304-1180
+[2017-05-19 17:22:46.305] [ERROR] app.js - socket.io
+[2017-05-19 17:22:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185766303-1173
+[2017-05-19 17:22:46.311] [ERROR] app.js - socket.io
+[2017-05-19 17:22:46.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185766309-1181
+[2017-05-19 17:22:48.308] [ERROR] app.js - socket.io
+[2017-05-19 17:22:48.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185768304-1174
+[2017-05-19 17:22:53.305] [ERROR] app.js - socket.io
+[2017-05-19 17:22:53.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185773303-1182
+[2017-05-19 17:22:54.308] [ERROR] app.js - socket.io
+[2017-05-19 17:22:54.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185774304-1175
+[2017-05-19 17:22:55.306] [ERROR] app.js - socket.io
+[2017-05-19 17:22:55.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185775304-1183
+[2017-05-19 17:22:56.308] [ERROR] app.js - socket.io
+[2017-05-19 17:22:56.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185776303-1176
+[2017-05-19 17:23:01.308] [ERROR] app.js - socket.io
+[2017-05-19 17:23:01.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185781303-1184
+[2017-05-19 17:23:02.306] [ERROR] app.js - socket.io
+[2017-05-19 17:23:02.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185782303-1177
+[2017-05-19 17:23:07.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:07.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185787302-1185
+[2017-05-19 17:23:08.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:08.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185788303-1178
+[2017-05-19 17:23:13.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:13.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185793303-1186
+[2017-05-19 17:23:14.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:14.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185794303-1179
+[2017-05-19 17:23:16.307] [ERROR] app.js - socket.io
+[2017-05-19 17:23:16.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185796303-1180
+[2017-05-19 17:23:19.304] [ERROR] app.js - socket.io
+[2017-05-19 17:23:19.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185799303-1187
+[2017-05-19 17:23:21.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:21.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185801303-1188
+[2017-05-19 17:23:22.307] [ERROR] app.js - socket.io
+[2017-05-19 17:23:22.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185802303-1181
+[2017-05-19 17:23:23.306] [ERROR] app.js - socket.io
+[2017-05-19 17:23:23.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185803303-1189
+[2017-05-19 17:23:24.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:24.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185804302-1182
+[2017-05-19 17:23:26.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:26.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185806303-1183
+[2017-05-19 17:23:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:23:28.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185808304-1184
+[2017-05-19 17:23:29.311] [ERROR] app.js - socket.io
+[2017-05-19 17:23:29.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185809303-1190
+[2017-05-19 17:23:30.307] [ERROR] app.js - socket.io
+[2017-05-19 17:23:30.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185810304-1185
+[2017-05-19 17:23:32.308] [ERROR] app.js - socket.io
+[2017-05-19 17:23:32.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185812303-1186
+[2017-05-19 17:23:35.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:35.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185815302-1191
+[2017-05-19 17:23:38.312] [ERROR] app.js - socket.io
+[2017-05-19 17:23:38.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185818304-1187
+[2017-05-19 17:23:40.310] [ERROR] app.js - socket.io
+[2017-05-19 17:23:40.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185820304-1188
+[2017-05-19 17:23:41.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:41.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185821303-1192
+[2017-05-19 17:23:46.306] [ERROR] app.js - socket.io
+[2017-05-19 17:23:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185826303-1189
+[2017-05-19 17:23:47.307] [ERROR] app.js - socket.io
+[2017-05-19 17:23:47.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185827303-1193
+[2017-05-19 17:23:48.308] [ERROR] app.js - socket.io
+[2017-05-19 17:23:48.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185828303-1190
+[2017-05-19 17:23:49.307] [ERROR] app.js - socket.io
+[2017-05-19 17:23:49.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185829303-1194
+[2017-05-19 17:23:54.305] [ERROR] app.js - socket.io
+[2017-05-19 17:23:54.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185834303-1191
+[2017-05-19 17:23:55.304] [ERROR] app.js - socket.io
+[2017-05-19 17:23:55.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185835303-1195
+[2017-05-19 17:24:00.307] [ERROR] app.js - socket.io
+[2017-05-19 17:24:00.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185840303-1192
+[2017-05-19 17:24:01.308] [ERROR] app.js - socket.io
+[2017-05-19 17:24:01.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185841304-1196
+[2017-05-19 17:24:03.305] [ERROR] app.js - socket.io
+[2017-05-19 17:24:03.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185843303-1197
+[2017-05-19 17:24:06.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:06.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185846303-1193
+[2017-05-19 17:24:09.308] [ERROR] app.js - socket.io
+[2017-05-19 17:24:09.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185849303-1198
+[2017-05-19 17:24:12.318] [ERROR] app.js - socket.io
+[2017-05-19 17:24:12.322] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185852311-1194
+[2017-05-19 17:24:15.305] [ERROR] app.js - socket.io
+[2017-05-19 17:24:15.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185855303-1199
+[2017-05-19 17:24:17.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:17.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185857303-1200
+[2017-05-19 17:24:18.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:18.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185858303-1195
+[2017-05-19 17:24:19.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:19.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185859303-1201
+[2017-05-19 17:24:24.311] [ERROR] app.js - socket.io
+[2017-05-19 17:24:24.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185864303-1196
+[2017-05-19 17:24:25.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:25.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185865302-1202
+[2017-05-19 17:24:27.305] [ERROR] app.js - socket.io
+[2017-05-19 17:24:27.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185867303-1203
+[2017-05-19 17:24:30.307] [ERROR] app.js - socket.io
+[2017-05-19 17:24:30.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185870303-1197
+[2017-05-19 17:24:32.309] [ERROR] app.js - socket.io
+[2017-05-19 17:24:32.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185872303-1198
+[2017-05-19 17:24:33.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:33.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185873303-1204
+[2017-05-19 17:24:34.307] [ERROR] app.js - socket.io
+[2017-05-19 17:24:34.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185874304-1199
+[2017-05-19 17:24:35.309] [ERROR] app.js - socket.io
+[2017-05-19 17:24:35.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185875303-1205
+[2017-05-19 17:24:37.307] [ERROR] app.js - socket.io
+[2017-05-19 17:24:37.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185877303-1206
+[2017-05-19 17:24:39.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:39.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185879303-1207
+[2017-05-19 17:24:40.308] [ERROR] app.js - socket.io
+[2017-05-19 17:24:40.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185880304-1200
+[2017-05-19 17:24:41.307] [ERROR] app.js - socket.io
+[2017-05-19 17:24:41.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185881304-1208
+[2017-05-19 17:24:46.305] [ERROR] app.js - socket.io
+[2017-05-19 17:24:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185886303-1201
+[2017-05-19 17:24:47.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:47.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185887303-1209
+[2017-05-19 17:24:53.314] [ERROR] app.js - socket.io
+[2017-05-19 17:24:53.330] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185893304-1202
+[2017-05-19 17:24:53.333] [ERROR] app.js - socket.io
+[2017-05-19 17:24:53.336] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185893305-1210
+[2017-05-19 17:24:59.306] [ERROR] app.js - socket.io
+[2017-05-19 17:24:59.307] [ERROR] app.js - socket.io
+[2017-05-19 17:24:59.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185899303-1203
+[2017-05-19 17:24:59.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185899303-1211
+[2017-05-19 17:25:01.308] [ERROR] app.js - socket.io
+[2017-05-19 17:25:01.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185901303-1204
+[2017-05-19 17:25:03.307] [ERROR] app.js - socket.io
+[2017-05-19 17:25:03.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185903304-1205
+[2017-05-19 17:25:05.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:05.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185905303-1206
+[2017-05-19 17:25:06.307] [ERROR] app.js - socket.io
+[2017-05-19 17:25:06.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185906304-1212
+[2017-05-19 17:25:08.305] [ERROR] app.js - socket.io
+[2017-05-19 17:25:08.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185908303-1213
+[2017-05-19 17:25:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:10.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185910303-1214
+[2017-05-19 17:25:11.308] [ERROR] app.js - socket.io
+[2017-05-19 17:25:11.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185911303-1207
+[2017-05-19 17:25:16.307] [ERROR] app.js - socket.io
+[2017-05-19 17:25:16.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185916303-1215
+[2017-05-19 17:25:18.309] [ERROR] app.js - socket.io
+[2017-05-19 17:25:18.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185918304-1208
+[2017-05-19 17:25:22.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:22.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185922303-1216
+[2017-05-19 17:25:24.313] [ERROR] app.js - socket.io
+[2017-05-19 17:25:24.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185924303-1209
+[2017-05-19 17:25:28.310] [ERROR] app.js - socket.io
+[2017-05-19 17:25:28.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185928307-1217
+[2017-05-19 17:25:30.310] [ERROR] app.js - socket.io
+[2017-05-19 17:25:30.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185930303-1210
+[2017-05-19 17:25:34.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:34.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185934303-1218
+[2017-05-19 17:25:36.310] [ERROR] app.js - socket.io
+[2017-05-19 17:25:36.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185936302-1211
+[2017-05-19 17:25:36.319] [ERROR] app.js - socket.io
+[2017-05-19 17:25:36.323] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185936311-1219
+[2017-05-19 17:25:38.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:38.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185938303-1212
+[2017-05-19 17:25:42.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:42.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185942303-1220
+[2017-05-19 17:25:44.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:44.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185944303-1221
+[2017-05-19 17:25:45.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:45.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185945303-1213
+[2017-05-19 17:25:46.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185946303-1222
+[2017-05-19 17:25:47.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:47.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185947303-1214
+[2017-05-19 17:25:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:48.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185948304-1223
+[2017-05-19 17:25:49.313] [ERROR] app.js - socket.io
+[2017-05-19 17:25:49.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185949305-1215
+[2017-05-19 17:25:50.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:50.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185950303-1224
+[2017-05-19 17:25:51.310] [ERROR] app.js - socket.io
+[2017-05-19 17:25:51.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185951305-1216
+[2017-05-19 17:25:52.310] [ERROR] app.js - socket.io
+[2017-05-19 17:25:52.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185952306-1225
+[2017-05-19 17:25:54.310] [ERROR] app.js - socket.io
+[2017-05-19 17:25:54.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185954305-1226
+[2017-05-19 17:25:58.306] [ERROR] app.js - socket.io
+[2017-05-19 17:25:58.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185958304-1217
+[2017-05-19 17:26:00.308] [ERROR] app.js - socket.io
+[2017-05-19 17:26:00.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185960304-1227
+[2017-05-19 17:26:00.318] [ERROR] app.js - socket.io
+[2017-05-19 17:26:00.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185960306-1218
+[2017-05-19 17:26:06.307] [ERROR] app.js - socket.io
+[2017-05-19 17:26:06.309] [ERROR] app.js - socket.io
+[2017-05-19 17:26:06.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185966304-1228
+[2017-05-19 17:26:06.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185966305-1219
+[2017-05-19 17:26:08.307] [ERROR] app.js - socket.io
+[2017-05-19 17:26:08.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185968304-1229
+[2017-05-19 17:26:10.307] [ERROR] app.js - socket.io
+[2017-05-19 17:26:10.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185970304-1230
+[2017-05-19 17:26:12.316] [ERROR] app.js - socket.io
+[2017-05-19 17:26:12.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185972312-1220
+[2017-05-19 17:26:14.306] [ERROR] app.js - socket.io
+[2017-05-19 17:26:14.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185974304-1221
+[2017-05-19 17:26:16.306] [ERROR] app.js - socket.io
+[2017-05-19 17:26:16.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185976304-1231
+[2017-05-19 17:26:20.306] [ERROR] app.js - socket.io
+[2017-05-19 17:26:20.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185980304-1222
+[2017-05-19 17:26:23.328] [ERROR] app.js - socket.io
+[2017-05-19 17:26:23.336] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185983305-1232
+[2017-05-19 17:26:26.305] [ERROR] app.js - socket.io
+[2017-05-19 17:26:26.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185986304-1223
+[2017-05-19 17:26:28.309] [ERROR] app.js - socket.io
+[2017-05-19 17:26:28.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185988305-1224
+[2017-05-19 17:26:29.307] [ERROR] app.js - socket.io
+[2017-05-19 17:26:29.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185989304-1233
+[2017-05-19 17:26:30.306] [ERROR] app.js - socket.io
+[2017-05-19 17:26:30.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185990304-1225
+[2017-05-19 17:26:32.305] [ERROR] app.js - socket.io
+[2017-05-19 17:26:32.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185992304-1226
+[2017-05-19 17:26:35.309] [ERROR] app.js - socket.io
+[2017-05-19 17:26:35.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185995306-1234
+[2017-05-19 17:26:38.304] [ERROR] app.js - socket.io
+[2017-05-19 17:26:38.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495185998303-1227
+[2017-05-19 17:26:40.305] [ERROR] app.js - socket.io
+[2017-05-19 17:26:40.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186000304-1228
+[2017-05-19 17:26:41.305] [ERROR] app.js - socket.io
+[2017-05-19 17:26:41.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186001304-1235
+[2017-05-19 17:26:46.305] [ERROR] app.js - socket.io
+[2017-05-19 17:26:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186006304-1229
+[2017-05-19 17:26:47.308] [ERROR] app.js - socket.io
+[2017-05-19 17:26:47.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186007305-1236
+[2017-05-19 17:26:48.312] [ERROR] app.js - socket.io
+[2017-05-19 17:26:48.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186008304-1230
+[2017-05-19 17:26:54.305] [ERROR] app.js - socket.io
+[2017-05-19 17:26:54.307] [ERROR] app.js - socket.io
+[2017-05-19 17:26:54.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186014304-1237
+[2017-05-19 17:26:54.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186014305-1231
+[2017-05-19 17:27:00.306] [ERROR] app.js - socket.io
+[2017-05-19 17:27:00.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186020303-1238
+[2017-05-19 17:27:00.311] [ERROR] app.js - socket.io
+[2017-05-19 17:27:00.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186020304-1232
+[2017-05-19 17:27:07.314] [ERROR] app.js - socket.io
+[2017-05-19 17:27:07.317] [ERROR] app.js - socket.io
+[2017-05-19 17:27:07.323] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186027305-1239
+[2017-05-19 17:27:07.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186027308-1233
+[2017-05-19 17:27:09.305] [ERROR] app.js - socket.io
+[2017-05-19 17:27:09.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186029304-1234
+[2017-05-19 17:27:13.304] [ERROR] app.js - socket.io
+[2017-05-19 17:27:13.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186033304-1240
+[2017-05-19 17:27:15.310] [ERROR] app.js - socket.io
+[2017-05-19 17:27:15.313] [ERROR] app.js - socket.io
+[2017-05-19 17:27:15.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186035304-1235
+[2017-05-19 17:27:15.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186035306-1241
+[2017-05-19 17:27:17.311] [ERROR] app.js - socket.io
+[2017-05-19 17:27:17.318] [ERROR] app.js - socket.io
+[2017-05-19 17:27:17.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186037304-1236
+[2017-05-19 17:27:17.331] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186037306-1242
+[2017-05-19 17:27:19.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:19.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186039305-1237
+[2017-05-19 17:27:21.310] [ERROR] app.js - socket.io
+[2017-05-19 17:27:21.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186041304-1238
+[2017-05-19 17:27:23.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:23.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186043304-1243
+[2017-05-19 17:27:25.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:25.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186045304-1244
+[2017-05-19 17:27:27.305] [ERROR] app.js - socket.io
+[2017-05-19 17:27:27.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186047304-1239
+[2017-05-19 17:27:31.308] [ERROR] app.js - socket.io
+[2017-05-19 17:27:31.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186051304-1245
+[2017-05-19 17:27:33.305] [ERROR] app.js - socket.io
+[2017-05-19 17:27:33.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186053304-1240
+[2017-05-19 17:27:33.308] [ERROR] app.js - socket.io
+[2017-05-19 17:27:33.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186053304-1246
+[2017-05-19 17:27:35.306] [ERROR] app.js - socket.io
+[2017-05-19 17:27:35.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186055304-1241
+[2017-05-19 17:27:37.311] [ERROR] app.js - socket.io
+[2017-05-19 17:27:37.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186057304-1242
+[2017-05-19 17:27:39.308] [ERROR] app.js - socket.io
+[2017-05-19 17:27:39.312] [ERROR] app.js - socket.io
+[2017-05-19 17:27:39.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186059304-1247
+[2017-05-19 17:27:39.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186059306-1243
+[2017-05-19 17:27:41.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:41.308] [ERROR] app.js - socket.io
+[2017-05-19 17:27:41.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186061305-1248
+[2017-05-19 17:27:41.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186061305-1244
+[2017-05-19 17:27:43.305] [ERROR] app.js - socket.io
+[2017-05-19 17:27:43.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186063304-1245
+[2017-05-19 17:27:45.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:45.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186065305-1246
+[2017-05-19 17:27:47.306] [ERROR] app.js - socket.io
+[2017-05-19 17:27:47.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:47.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186067304-1249
+[2017-05-19 17:27:47.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186067306-1247
+[2017-05-19 17:27:49.306] [ERROR] app.js - socket.io
+[2017-05-19 17:27:49.307] [ERROR] app.js - socket.io
+[2017-05-19 17:27:49.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186069303-1250
+[2017-05-19 17:27:49.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186069304-1248
+[2017-05-19 17:27:55.311] [ERROR] app.js - socket.io
+[2017-05-19 17:27:55.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186075303-1251
+[2017-05-19 17:27:55.314] [ERROR] app.js - socket.io
+[2017-05-19 17:27:55.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186075309-1249
+[2017-05-19 17:27:57.305] [ERROR] app.js - socket.io
+[2017-05-19 17:27:57.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186077303-1250
+[2017-05-19 17:28:01.305] [ERROR] app.js - socket.io
+[2017-05-19 17:28:01.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186081303-1252
+[2017-05-19 17:28:03.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:03.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186083303-1251
+[2017-05-19 17:28:05.312] [ERROR] app.js - socket.io
+[2017-05-19 17:28:05.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186085303-1252
+[2017-05-19 17:28:07.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:07.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186087302-1253
+[2017-05-19 17:28:07.308] [ERROR] app.js - socket.io
+[2017-05-19 17:28:07.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186087303-1253
+[2017-05-19 17:28:13.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:13.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186093304-1254
+[2017-05-19 17:28:13.309] [ERROR] app.js - socket.io
+[2017-05-19 17:28:13.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186093304-1254
+[2017-05-19 17:28:15.310] [ERROR] app.js - socket.io
+[2017-05-19 17:28:15.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186095303-1255
+[2017-05-19 17:28:19.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:19.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186099303-1255
+[2017-05-19 17:28:21.307] [ERROR] app.js - socket.io
+[2017-05-19 17:28:21.308] [ERROR] app.js - socket.io
+[2017-05-19 17:28:21.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186101303-1256
+[2017-05-19 17:28:21.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186101303-1256
+[2017-05-19 17:28:27.308] [ERROR] app.js - socket.io
+[2017-05-19 17:28:27.311] [ERROR] app.js - socket.io
+[2017-05-19 17:28:27.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186107303-1257
+[2017-05-19 17:28:27.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186107303-1257
+[2017-05-19 17:28:33.343] [ERROR] app.js - socket.io
+[2017-05-19 17:28:33.354] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186113333-1258
+[2017-05-19 17:28:33.356] [ERROR] app.js - socket.io
+[2017-05-19 17:28:33.357] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186113333-1258
+[2017-05-19 17:28:35.311] [ERROR] app.js - socket.io
+[2017-05-19 17:28:35.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186115308-1259
+[2017-05-19 17:28:35.325] [ERROR] app.js - socket.io
+[2017-05-19 17:28:35.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186115320-1259
+[2017-05-19 17:28:37.308] [ERROR] app.js - socket.io
+[2017-05-19 17:28:37.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186117303-1260
+[2017-05-19 17:28:39.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:39.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186119303-1261
+[2017-05-19 17:28:41.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:41.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186121303-1260
+[2017-05-19 17:28:45.307] [ERROR] app.js - socket.io
+[2017-05-19 17:28:45.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186125304-1262
+[2017-05-19 17:28:47.310] [ERROR] app.js - socket.io
+[2017-05-19 17:28:47.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186127304-1261
+[2017-05-19 17:28:47.314] [ERROR] app.js - socket.io
+[2017-05-19 17:28:47.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186127307-1263
+[2017-05-19 17:28:53.307] [ERROR] app.js - socket.io
+[2017-05-19 17:28:53.310] [ERROR] app.js - socket.io
+[2017-05-19 17:28:53.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186133303-1262
+[2017-05-19 17:28:53.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186133304-1264
+[2017-05-19 17:28:55.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:55.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186135303-1265
+[2017-05-19 17:28:57.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:57.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186137304-1266
+[2017-05-19 17:28:59.306] [ERROR] app.js - socket.io
+[2017-05-19 17:28:59.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186139304-1263
+[2017-05-19 17:29:01.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:01.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186141304-1264
+[2017-05-19 17:29:03.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:03.307] [ERROR] app.js - socket.io
+[2017-05-19 17:29:03.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186143304-1267
+[2017-05-19 17:29:03.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186143304-1265
+[2017-05-19 17:29:05.312] [ERROR] app.js - socket.io
+[2017-05-19 17:29:05.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186145304-1266
+[2017-05-19 17:29:07.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:07.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186147304-1267
+[2017-05-19 17:29:09.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:09.307] [ERROR] app.js - socket.io
+[2017-05-19 17:29:09.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186149303-1268
+[2017-05-19 17:29:09.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186149304-1268
+[2017-05-19 17:29:11.305] [ERROR] app.js - socket.io
+[2017-05-19 17:29:11.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186151303-1269
+[2017-05-19 17:29:13.309] [ERROR] app.js - socket.io
+[2017-05-19 17:29:13.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186153304-1270
+[2017-05-19 17:29:15.346] [ERROR] app.js - socket.io
+[2017-05-19 17:29:15.347] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186155344-1269
+[2017-05-19 17:29:15.350] [ERROR] app.js - socket.io
+[2017-05-19 17:29:15.352] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186155348-1271
+[2017-05-19 17:29:21.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:21.307] [ERROR] app.js - socket.io
+[2017-05-19 17:29:21.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186161304-1270
+[2017-05-19 17:29:21.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186161304-1272
+[2017-05-19 17:29:23.305] [ERROR] app.js - socket.io
+[2017-05-19 17:29:23.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186163304-1271
+[2017-05-19 17:29:25.304] [ERROR] app.js - socket.io
+[2017-05-19 17:29:25.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186165304-1272
+[2017-05-19 17:29:27.305] [ERROR] app.js - socket.io
+[2017-05-19 17:29:27.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186167304-1273
+[2017-05-19 17:29:29.311] [ERROR] app.js - socket.io
+[2017-05-19 17:29:29.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186169304-1274
+[2017-05-19 17:29:31.305] [ERROR] app.js - socket.io
+[2017-05-19 17:29:31.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:31.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186171304-1273
+[2017-05-19 17:29:31.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186171304-1275
+[2017-05-19 17:29:33.309] [ERROR] app.js - socket.io
+[2017-05-19 17:29:33.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186173304-1274
+[2017-05-19 17:29:35.308] [ERROR] app.js - socket.io
+[2017-05-19 17:29:35.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186175304-1275
+[2017-05-19 17:29:37.312] [ERROR] app.js - socket.io
+[2017-05-19 17:29:37.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186177304-1276
+[2017-05-19 17:29:39.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:39.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186179304-1277
+[2017-05-19 17:29:41.307] [ERROR] app.js - socket.io
+[2017-05-19 17:29:41.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186181304-1276
+[2017-05-19 17:29:43.304] [ERROR] app.js - socket.io
+[2017-05-19 17:29:43.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186183304-1277
+[2017-05-19 17:29:45.307] [ERROR] app.js - socket.io
+[2017-05-19 17:29:45.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186185305-1278
+[2017-05-19 17:29:47.314] [ERROR] app.js - socket.io
+[2017-05-19 17:29:47.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186187306-1279
+[2017-05-19 17:29:49.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:49.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186189304-1278
+[2017-05-19 17:29:51.305] [ERROR] app.js - socket.io
+[2017-05-19 17:29:51.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186191304-1279
+[2017-05-19 17:29:53.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:53.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186193305-1280
+[2017-05-19 17:29:53.309] [ERROR] app.js - socket.io
+[2017-05-19 17:29:53.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186193308-1280
+[2017-05-19 17:29:55.304] [ERROR] app.js - socket.io
+[2017-05-19 17:29:55.305] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186195304-1281
+[2017-05-19 17:29:57.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:57.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186197304-1282
+[2017-05-19 17:29:59.306] [ERROR] app.js - socket.io
+[2017-05-19 17:29:59.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186199304-1281
+[2017-05-19 17:29:59.309] [ERROR] app.js - socket.io
+[2017-05-19 17:29:59.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186199304-1283
+[2017-05-19 17:30:01.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:01.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186201303-1284
+[2017-05-19 17:30:03.313] [ERROR] app.js - socket.io
+[2017-05-19 17:30:03.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186203304-1285
+[2017-05-19 17:30:05.312] [ERROR] app.js - socket.io
+[2017-05-19 17:30:05.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186205303-1282
+[2017-05-19 17:30:05.325] [ERROR] app.js - socket.io
+[2017-05-19 17:30:05.331] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186205316-1286
+[2017-05-19 17:30:11.306] [ERROR] app.js - socket.io
+[2017-05-19 17:30:11.307] [ERROR] app.js - socket.io
+[2017-05-19 17:30:11.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186211303-1283
+[2017-05-19 17:30:11.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186211303-1287
+[2017-05-19 17:30:13.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:13.306] [ERROR] app.js - socket.io
+[2017-05-19 17:30:13.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186213303-1284
+[2017-05-19 17:30:13.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186213303-1288
+[2017-05-19 17:30:15.307] [ERROR] app.js - socket.io
+[2017-05-19 17:30:15.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186215303-1285
+[2017-05-19 17:30:20.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:20.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186220303-1289
+[2017-05-19 17:30:21.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:21.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186221303-1286
+[2017-05-19 17:30:22.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:22.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186222303-1290
+[2017-05-19 17:30:27.306] [ERROR] app.js - socket.io
+[2017-05-19 17:30:27.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186227303-1287
+[2017-05-19 17:30:28.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:28.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186228303-1291
+[2017-05-19 17:30:29.306] [ERROR] app.js - socket.io
+[2017-05-19 17:30:29.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186229303-1288
+[2017-05-19 17:30:30.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:30.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186230303-1292
+[2017-05-19 17:30:31.309] [ERROR] app.js - socket.io
+[2017-05-19 17:30:31.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186231304-1289
+[2017-05-19 17:30:33.308] [ERROR] app.js - socket.io
+[2017-05-19 17:30:33.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186233303-1290
+[2017-05-19 17:30:35.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:35.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186235303-1291
+[2017-05-19 17:30:37.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:37.306] [ERROR] app.js - socket.io
+[2017-05-19 17:30:37.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186237302-1293
+[2017-05-19 17:30:37.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186237303-1292
+[2017-05-19 17:30:43.305] [ERROR] app.js - socket.io
+[2017-05-19 17:30:43.308] [ERROR] app.js - socket.io
+[2017-05-19 17:30:43.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186243303-1294
+[2017-05-19 17:30:43.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186243303-1293
+[2017-05-19 17:30:45.308] [ERROR] app.js - socket.io
+[2017-05-19 17:30:45.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186245303-1295
+[2017-05-19 17:30:45.318] [ERROR] app.js - socket.io
+[2017-05-19 17:30:45.322] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186245305-1294
+[2017-05-19 17:30:47.304] [ERROR] app.js - socket.io
+[2017-05-19 17:30:47.305] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186247302-1296
+[2017-05-19 17:30:49.307] [ERROR] app.js - socket.io
+[2017-05-19 17:30:49.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186249303-1297
+[2017-05-19 17:30:51.306] [ERROR] app.js - socket.io
+[2017-05-19 17:30:51.307] [ERROR] app.js - socket.io
+[2017-05-19 17:30:51.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186251302-1295
+[2017-05-19 17:30:51.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186251303-1298
+[2017-05-19 17:30:57.308] [ERROR] app.js - socket.io
+[2017-05-19 17:30:57.311] [ERROR] app.js - socket.io
+[2017-05-19 17:30:57.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186257303-1296
+[2017-05-19 17:30:57.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186257304-1299
+[2017-05-19 17:30:59.313] [ERROR] app.js - socket.io
+[2017-05-19 17:30:59.322] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186259304-1297
+[2017-05-19 17:30:59.327] [ERROR] app.js - socket.io
+[2017-05-19 17:30:59.332] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186259307-1300
+[2017-05-19 17:31:06.305] [ERROR] app.js - socket.io
+[2017-05-19 17:31:06.306] [ERROR] app.js - socket.io
+[2017-05-19 17:31:06.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186266304-1298
+[2017-05-19 17:31:06.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186266304-1301
+[2017-05-19 17:31:08.315] [ERROR] app.js - socket.io
+[2017-05-19 17:31:08.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186268307-1299
+[2017-05-19 17:31:10.304] [ERROR] app.js - socket.io
+[2017-05-19 17:31:10.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186270304-1300
+[2017-05-19 17:31:12.304] [ERROR] app.js - socket.io
+[2017-05-19 17:31:12.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186272303-1302
+[2017-05-19 17:31:14.308] [ERROR] app.js - socket.io
+[2017-05-19 17:31:14.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186274305-1303
+[2017-05-19 17:31:16.305] [ERROR] app.js - socket.io
+[2017-05-19 17:31:16.306] [ERROR] app.js - socket.io
+[2017-05-19 17:31:16.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186276304-1301
+[2017-05-19 17:31:16.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186276304-1304
+[2017-05-19 17:31:18.304] [ERROR] app.js - socket.io
+[2017-05-19 17:31:18.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186278304-1302
+[2017-05-19 17:31:22.317] [ERROR] app.js - socket.io
+[2017-05-19 17:31:22.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186282311-1305
+[2017-05-19 17:31:24.306] [ERROR] app.js - socket.io
+[2017-05-19 17:31:24.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186284304-1303
+[2017-05-19 17:31:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:31:28.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186288304-1306
+[2017-05-19 17:31:30.306] [ERROR] app.js - socket.io
+[2017-05-19 17:31:30.307] [ERROR] app.js - socket.io
+[2017-05-19 17:31:30.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186290304-1304
+[2017-05-19 17:31:30.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186290305-1307
+[2017-05-19 17:31:36.314] [ERROR] app.js - socket.io
+[2017-05-19 17:31:36.321] [ERROR] app.js - socket.io
+[2017-05-19 17:31:36.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186296304-1305
+[2017-05-19 17:31:36.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186296306-1308
+[2017-05-19 17:31:38.311] [ERROR] app.js - socket.io
+[2017-05-19 17:31:38.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186298305-1309
+[2017-05-19 17:31:42.307] [ERROR] app.js - socket.io
+[2017-05-19 17:31:42.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186302305-1306
+[2017-05-19 17:31:44.308] [ERROR] app.js - socket.io
+[2017-05-19 17:31:44.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186304304-1310
+[2017-05-19 17:31:48.307] [ERROR] app.js - socket.io
+[2017-05-19 17:31:48.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186308304-1307
+[2017-05-19 17:31:50.313] [ERROR] app.js - socket.io
+[2017-05-19 17:31:50.316] [ERROR] app.js - socket.io
+[2017-05-19 17:31:50.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186310304-1311
+[2017-05-19 17:31:50.326] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186310307-1308
+[2017-05-19 17:31:56.309] [ERROR] app.js - socket.io
+[2017-05-19 17:31:56.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186316304-1312
+[2017-05-19 17:31:56.315] [ERROR] app.js - socket.io
+[2017-05-19 17:31:56.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186316305-1309
+[2017-05-19 17:32:02.308] [ERROR] app.js - socket.io
+[2017-05-19 17:32:02.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186322305-1313
+[2017-05-19 17:32:02.311] [ERROR] app.js - socket.io
+[2017-05-19 17:32:02.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186322306-1310
+[2017-05-19 17:32:04.314] [ERROR] app.js - socket.io
+[2017-05-19 17:32:04.320] [ERROR] app.js - socket.io
+[2017-05-19 17:32:04.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186324305-1314
+[2017-05-19 17:32:04.332] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186324307-1311
+[2017-05-19 17:32:06.308] [ERROR] app.js - socket.io
+[2017-05-19 17:32:06.309] [ERROR] app.js - socket.io
+[2017-05-19 17:32:06.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186326304-1315
+[2017-05-19 17:32:06.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186326305-1312
+[2017-05-19 17:32:08.309] [ERROR] app.js - socket.io
+[2017-05-19 17:32:08.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186328306-1316
+[2017-05-19 17:32:12.314] [ERROR] app.js - socket.io
+[2017-05-19 17:32:12.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186332308-1313
+[2017-05-19 17:32:14.307] [ERROR] app.js - socket.io
+[2017-05-19 17:32:14.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186334304-1317
+[2017-05-19 17:32:18.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:18.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186338304-1314
+[2017-05-19 17:32:20.310] [ERROR] app.js - socket.io
+[2017-05-19 17:32:20.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186340304-1318
+[2017-05-19 17:32:20.314] [ERROR] app.js - socket.io
+[2017-05-19 17:32:20.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186340308-1315
+[2017-05-19 17:32:22.309] [ERROR] app.js - socket.io
+[2017-05-19 17:32:22.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186342305-1319
+[2017-05-19 17:32:24.317] [ERROR] app.js - socket.io
+[2017-05-19 17:32:24.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186344308-1320
+[2017-05-19 17:32:26.309] [ERROR] app.js - socket.io
+[2017-05-19 17:32:26.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186346305-1316
+[2017-05-19 17:32:26.316] [ERROR] app.js - socket.io
+[2017-05-19 17:32:26.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186346307-1321
+[2017-05-19 17:32:28.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:28.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186348304-1317
+[2017-05-19 17:32:28.312] [ERROR] app.js - socket.io
+[2017-05-19 17:32:28.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186348311-1322
+[2017-05-19 17:32:34.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:34.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186354303-1318
+[2017-05-19 17:32:34.307] [ERROR] app.js - socket.io
+[2017-05-19 17:32:34.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186354304-1323
+[2017-05-19 17:32:36.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:36.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186356304-1324
+[2017-05-19 17:32:38.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:38.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186358304-1325
+[2017-05-19 17:32:40.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:40.307] [ERROR] app.js - socket.io
+[2017-05-19 17:32:40.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186360304-1319
+[2017-05-19 17:32:40.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186360305-1326
+[2017-05-19 17:32:42.306] [ERROR] app.js - socket.io
+[2017-05-19 17:32:42.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186362304-1320
+[2017-05-19 17:32:44.306] [ERROR] app.js - socket.io
+[2017-05-19 17:32:44.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186364304-1321
+[2017-05-19 17:32:46.311] [ERROR] app.js - socket.io
+[2017-05-19 17:32:46.320] [ERROR] app.js - socket.io
+[2017-05-19 17:32:46.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186366305-1327
+[2017-05-19 17:32:46.331] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186366308-1322
+[2017-05-19 17:32:52.306] [ERROR] app.js - socket.io
+[2017-05-19 17:32:52.307] [ERROR] app.js - socket.io
+[2017-05-19 17:32:52.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186372304-1328
+[2017-05-19 17:32:52.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186372305-1323
+[2017-05-19 17:32:54.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:54.306] [ERROR] app.js - socket.io
+[2017-05-19 17:32:54.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186374304-1329
+[2017-05-19 17:32:54.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186374304-1324
+[2017-05-19 17:32:56.305] [ERROR] app.js - socket.io
+[2017-05-19 17:32:56.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186376304-1330
+[2017-05-19 17:33:00.304] [ERROR] app.js - socket.io
+[2017-05-19 17:33:00.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186380303-1325
+[2017-05-19 17:33:02.321] [ERROR] app.js - socket.io
+[2017-05-19 17:33:02.330] [ERROR] app.js - socket.io
+[2017-05-19 17:33:02.332] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186382313-1331
+[2017-05-19 17:33:02.334] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186382315-1326
+[2017-05-19 17:33:04.304] [ERROR] app.js - socket.io
+[2017-05-19 17:33:04.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186384303-1332
+[2017-05-19 17:33:06.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:06.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186386303-1333
+[2017-05-19 17:33:08.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:08.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186388303-1327
+[2017-05-19 17:33:12.307] [ERROR] app.js - socket.io
+[2017-05-19 17:33:12.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186392304-1334
+[2017-05-19 17:33:14.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:14.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186394303-1328
+[2017-05-19 17:33:14.314] [ERROR] app.js - socket.io
+[2017-05-19 17:33:14.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186394310-1335
+[2017-05-19 17:33:16.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:16.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186396303-1329
+[2017-05-19 17:33:16.308] [ERROR] app.js - socket.io
+[2017-05-19 17:33:16.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186396304-1336
+[2017-05-19 17:33:18.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:18.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186398303-1337
+[2017-05-19 17:33:20.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:20.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186400303-1338
+[2017-05-19 17:33:22.311] [ERROR] app.js - socket.io
+[2017-05-19 17:33:22.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186402303-1330
+[2017-05-19 17:33:22.328] [ERROR] app.js - socket.io
+[2017-05-19 17:33:22.333] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186402308-1339
+[2017-05-19 17:33:24.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:24.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186404303-1331
+[2017-05-19 17:33:26.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:26.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186406303-1332
+[2017-05-19 17:33:28.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:28.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186408303-1340
+[2017-05-19 17:33:28.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186408304-1333
+[2017-05-19 17:33:30.316] [ERROR] app.js - socket.io
+[2017-05-19 17:33:30.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186410307-1341
+[2017-05-19 17:33:30.327] [ERROR] app.js - socket.io
+[2017-05-19 17:33:30.330] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186410314-1334
+[2017-05-19 17:33:32.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:32.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186412303-1342
+[2017-05-19 17:33:36.309] [ERROR] app.js - socket.io
+[2017-05-19 17:33:36.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186416303-1335
+[2017-05-19 17:33:38.324] [ERROR] app.js - socket.io
+[2017-05-19 17:33:38.326] [ERROR] app.js - socket.io
+[2017-05-19 17:33:38.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186418322-1343
+[2017-05-19 17:33:38.328] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186418323-1336
+[2017-05-19 17:33:40.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:40.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186420302-1337
+[2017-05-19 17:33:44.309] [ERROR] app.js - socket.io
+[2017-05-19 17:33:44.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186424303-1344
+[2017-05-19 17:33:46.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186426303-1338
+[2017-05-19 17:33:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:48.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186428304-1339
+[2017-05-19 17:33:50.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:50.307] [ERROR] app.js - socket.io
+[2017-05-19 17:33:50.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186430303-1345
+[2017-05-19 17:33:50.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186430304-1340
+[2017-05-19 17:33:52.305] [ERROR] app.js - socket.io
+[2017-05-19 17:33:52.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186432303-1346
+[2017-05-19 17:33:54.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:54.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186434304-1347
+[2017-05-19 17:33:56.306] [ERROR] app.js - socket.io
+[2017-05-19 17:33:56.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186436304-1348
+[2017-05-19 17:33:57.304] [ERROR] app.js - socket.io
+[2017-05-19 17:33:57.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186437302-1341
+[2017-05-19 17:33:59.312] [ERROR] app.js - socket.io
+[2017-05-19 17:33:59.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186439304-1342
+[2017-05-19 17:34:02.307] [ERROR] app.js - socket.io
+[2017-05-19 17:34:02.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186442303-1349
+[2017-05-19 17:34:05.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:05.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186445303-1343
+[2017-05-19 17:34:07.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:07.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186447303-1344
+[2017-05-19 17:34:08.304] [ERROR] app.js - socket.io
+[2017-05-19 17:34:08.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186448303-1350
+[2017-05-19 17:34:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:34:10.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186450304-1351
+[2017-05-19 17:34:12.306] [ERROR] app.js - socket.io
+[2017-05-19 17:34:12.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186452304-1352
+[2017-05-19 17:34:13.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:13.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186453303-1345
+[2017-05-19 17:34:15.310] [ERROR] app.js - socket.io
+[2017-05-19 17:34:15.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186455305-1346
+[2017-05-19 17:34:17.306] [ERROR] app.js - socket.io
+[2017-05-19 17:34:17.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186457304-1347
+[2017-05-19 17:34:18.307] [ERROR] app.js - socket.io
+[2017-05-19 17:34:18.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186458303-1353
+[2017-05-19 17:34:23.311] [ERROR] app.js - socket.io
+[2017-05-19 17:34:23.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186463305-1348
+[2017-05-19 17:34:25.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:25.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186465303-1354
+[2017-05-19 17:34:25.308] [ERROR] app.js - socket.io
+[2017-05-19 17:34:25.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186465305-1349
+[2017-05-19 17:34:27.310] [ERROR] app.js - socket.io
+[2017-05-19 17:34:27.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186467304-1350
+[2017-05-19 17:34:29.307] [ERROR] app.js - socket.io
+[2017-05-19 17:34:29.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186469303-1351
+[2017-05-19 17:34:31.306] [ERROR] app.js - socket.io
+[2017-05-19 17:34:31.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186471302-1355
+[2017-05-19 17:34:31.312] [ERROR] app.js - socket.io
+[2017-05-19 17:34:31.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186471303-1352
+[2017-05-19 17:34:33.309] [ERROR] app.js - socket.io
+[2017-05-19 17:34:33.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186473304-1356
+[2017-05-19 17:34:35.312] [ERROR] app.js - socket.io
+[2017-05-19 17:34:35.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186475304-1357
+[2017-05-19 17:34:37.306] [ERROR] app.js - socket.io
+[2017-05-19 17:34:37.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186477302-1353
+[2017-05-19 17:34:41.309] [ERROR] app.js - socket.io
+[2017-05-19 17:34:41.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186481303-1358
+[2017-05-19 17:34:43.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:43.307] [ERROR] app.js - socket.io
+[2017-05-19 17:34:43.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186483303-1354
+[2017-05-19 17:34:43.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186483304-1359
+[2017-05-19 17:34:45.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:45.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186485303-1355
+[2017-05-19 17:34:49.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:49.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186489303-1360
+[2017-05-19 17:34:51.305] [ERROR] app.js - socket.io
+[2017-05-19 17:34:51.307] [ERROR] app.js - socket.io
+[2017-05-19 17:34:51.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186491303-1356
+[2017-05-19 17:34:51.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186491303-1361
+[2017-05-19 17:34:53.314] [ERROR] app.js - socket.io
+[2017-05-19 17:34:53.331] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186493305-1357
+[2017-05-19 17:34:57.306] [ERROR] app.js - socket.io
+[2017-05-19 17:34:57.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186497303-1362
+[2017-05-19 17:34:59.314] [ERROR] app.js - socket.io
+[2017-05-19 17:34:59.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186499303-1358
+[2017-05-19 17:34:59.337] [ERROR] app.js - socket.io
+[2017-05-19 17:34:59.339] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186499331-1363
+[2017-05-19 17:35:05.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:05.311] [ERROR] app.js - socket.io
+[2017-05-19 17:35:05.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186505303-1359
+[2017-05-19 17:35:05.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186505303-1364
+[2017-05-19 17:35:07.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:07.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186507304-1365
+[2017-05-19 17:35:09.304] [ERROR] app.js - socket.io
+[2017-05-19 17:35:09.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186509304-1366
+[2017-05-19 17:35:11.310] [ERROR] app.js - socket.io
+[2017-05-19 17:35:11.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186511304-1360
+[2017-05-19 17:35:15.311] [ERROR] app.js - socket.io
+[2017-05-19 17:35:15.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186515310-1367
+[2017-05-19 17:35:17.305] [ERROR] app.js - socket.io
+[2017-05-19 17:35:17.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186517303-1361
+[2017-05-19 17:35:21.309] [ERROR] app.js - socket.io
+[2017-05-19 17:35:21.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186521304-1368
+[2017-05-19 17:35:23.310] [ERROR] app.js - socket.io
+[2017-05-19 17:35:23.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186523304-1362
+[2017-05-19 17:35:27.312] [ERROR] app.js - socket.io
+[2017-05-19 17:35:27.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186527305-1369
+[2017-05-19 17:35:29.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:29.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186529304-1363
+[2017-05-19 17:35:31.310] [ERROR] app.js - socket.io
+[2017-05-19 17:35:31.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186531304-1364
+[2017-05-19 17:35:33.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:33.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186533304-1370
+[2017-05-19 17:35:37.308] [ERROR] app.js - socket.io
+[2017-05-19 17:35:37.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186537304-1365
+[2017-05-19 17:35:39.312] [ERROR] app.js - socket.io
+[2017-05-19 17:35:39.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186539304-1371
+[2017-05-19 17:35:41.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:41.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186541304-1372
+[2017-05-19 17:35:43.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:43.308] [ERROR] app.js - socket.io
+[2017-05-19 17:35:43.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186543304-1366
+[2017-05-19 17:35:43.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186543305-1373
+[2017-05-19 17:35:45.307] [ERROR] app.js - socket.io
+[2017-05-19 17:35:45.308] [ERROR] app.js - socket.io
+[2017-05-19 17:35:45.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186545304-1367
+[2017-05-19 17:35:45.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186545305-1374
+[2017-05-19 17:35:47.309] [ERROR] app.js - socket.io
+[2017-05-19 17:35:47.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186547305-1368
+[2017-05-19 17:35:51.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:51.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186551304-1375
+[2017-05-19 17:35:53.310] [ERROR] app.js - socket.io
+[2017-05-19 17:35:53.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186553305-1369
+[2017-05-19 17:35:53.323] [ERROR] app.js - socket.io
+[2017-05-19 17:35:53.329] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186553318-1376
+[2017-05-19 17:35:55.311] [ERROR] app.js - socket.io
+[2017-05-19 17:35:55.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186555304-1370
+[2017-05-19 17:35:55.320] [ERROR] app.js - socket.io
+[2017-05-19 17:35:55.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186555307-1377
+[2017-05-19 17:35:57.306] [ERROR] app.js - socket.io
+[2017-05-19 17:35:57.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186557304-1378
+[2017-05-19 17:36:01.310] [ERROR] app.js - socket.io
+[2017-05-19 17:36:01.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186561305-1371
+[2017-05-19 17:36:03.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:03.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186563304-1379
+[2017-05-19 17:36:05.312] [ERROR] app.js - socket.io
+[2017-05-19 17:36:05.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186565305-1380
+[2017-05-19 17:36:07.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:07.307] [ERROR] app.js - socket.io
+[2017-05-19 17:36:07.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186567304-1372
+[2017-05-19 17:36:07.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186567304-1381
+[2017-05-19 17:36:09.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:09.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186569303-1382
+[2017-05-19 17:36:11.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:11.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186571303-1383
+[2017-05-19 17:36:13.309] [ERROR] app.js - socket.io
+[2017-05-19 17:36:13.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186573303-1373
+[2017-05-19 17:36:13.316] [ERROR] app.js - socket.io
+[2017-05-19 17:36:13.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186573313-1384
+[2017-05-19 17:36:15.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:15.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186575303-1374
+[2017-05-19 17:36:19.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:19.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186579303-1385
+[2017-05-19 17:36:21.307] [ERROR] app.js - socket.io
+[2017-05-19 17:36:21.310] [ERROR] app.js - socket.io
+[2017-05-19 17:36:21.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186581302-1375
+[2017-05-19 17:36:21.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186581304-1386
+[2017-05-19 17:36:23.307] [ERROR] app.js - socket.io
+[2017-05-19 17:36:23.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186583303-1376
+[2017-05-19 17:36:23.310] [ERROR] app.js - socket.io
+[2017-05-19 17:36:23.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186583306-1387
+[2017-05-19 17:36:25.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:25.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186585303-1388
+[2017-05-19 17:36:27.307] [ERROR] app.js - socket.io
+[2017-05-19 17:36:27.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186587304-1389
+[2017-05-19 17:36:29.309] [ERROR] app.js - socket.io
+[2017-05-19 17:36:29.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186589303-1377
+[2017-05-19 17:36:33.306] [ERROR] app.js - socket.io
+[2017-05-19 17:36:33.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186593303-1390
+[2017-05-19 17:36:35.309] [ERROR] app.js - socket.io
+[2017-05-19 17:36:35.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186595303-1378
+[2017-05-19 17:36:35.320] [ERROR] app.js - socket.io
+[2017-05-19 17:36:35.326] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186595305-1391
+[2017-05-19 17:36:41.309] [ERROR] app.js - socket.io
+[2017-05-19 17:36:41.312] [ERROR] app.js - socket.io
+[2017-05-19 17:36:41.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186601303-1379
+[2017-05-19 17:36:41.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186601304-1392
+[2017-05-19 17:36:43.308] [ERROR] app.js - socket.io
+[2017-05-19 17:36:43.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186603303-1393
+[2017-05-19 17:36:47.305] [ERROR] app.js - socket.io
+[2017-05-19 17:36:47.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186607303-1380
+[2017-05-19 17:36:49.305] [ERROR] app.js - socket.io
+[2017-05-19 17:36:49.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186609302-1394
+[2017-05-19 17:36:51.307] [ERROR] app.js - socket.io
+[2017-05-19 17:36:51.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186611303-1395
+[2017-05-19 17:36:53.312] [ERROR] app.js - socket.io
+[2017-05-19 17:36:53.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186613305-1381
+[2017-05-19 17:36:57.305] [ERROR] app.js - socket.io
+[2017-05-19 17:36:57.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186617303-1396
+[2017-05-19 17:36:59.308] [ERROR] app.js - socket.io
+[2017-05-19 17:36:59.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186619303-1382
+[2017-05-19 17:36:59.322] [ERROR] app.js - socket.io
+[2017-05-19 17:36:59.326] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186619306-1397
+[2017-05-19 17:37:01.306] [ERROR] app.js - socket.io
+[2017-05-19 17:37:01.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186621303-1398
+[2017-05-19 17:37:05.387] [ERROR] app.js - socket.io
+[2017-05-19 17:37:05.389] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186625308-1383
+[2017-05-19 17:37:07.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:07.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186627303-1399
+[2017-05-19 17:37:09.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:09.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186629303-1400
+[2017-05-19 17:37:11.379] [ERROR] app.js - socket.io
+[2017-05-19 17:37:11.381] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186631377-1384
+[2017-05-19 17:37:11.385] [ERROR] app.js - socket.io
+[2017-05-19 17:37:11.387] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186631383-1401
+[2017-05-19 17:37:13.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:13.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186633303-1385
+[2017-05-19 17:37:15.306] [ERROR] app.js - socket.io
+[2017-05-19 17:37:15.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186635305-1386
+[2017-05-19 17:37:18.306] [ERROR] app.js - socket.io
+[2017-05-19 17:37:18.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186638304-1402
+[2017-05-19 17:37:21.304] [ERROR] app.js - socket.io
+[2017-05-19 17:37:21.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186641303-1387
+[2017-05-19 17:37:23.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:23.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186643303-1388
+[2017-05-19 17:37:24.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:24.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186644303-1403
+[2017-05-19 17:37:25.306] [ERROR] app.js - socket.io
+[2017-05-19 17:37:25.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186645304-1389
+[2017-05-19 17:37:26.311] [ERROR] app.js - socket.io
+[2017-05-19 17:37:26.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186646304-1404
+[2017-05-19 17:37:27.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:27.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186647303-1390
+[2017-05-19 17:37:28.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:28.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186648302-1405
+[2017-05-19 17:37:30.310] [ERROR] app.js - socket.io
+[2017-05-19 17:37:30.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186650305-1406
+[2017-05-19 17:37:32.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:32.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186652303-1407
+[2017-05-19 17:37:33.312] [ERROR] app.js - socket.io
+[2017-05-19 17:37:33.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186653303-1391
+[2017-05-19 17:37:34.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:34.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186654303-1408
+[2017-05-19 17:37:36.304] [ERROR] app.js - socket.io
+[2017-05-19 17:37:36.305] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186656303-1409
+[2017-05-19 17:37:38.308] [ERROR] app.js - socket.io
+[2017-05-19 17:37:38.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186658304-1410
+[2017-05-19 17:37:39.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:39.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186659303-1392
+[2017-05-19 17:37:40.307] [ERROR] app.js - socket.io
+[2017-05-19 17:37:40.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186660304-1411
+[2017-05-19 17:37:42.304] [ERROR] app.js - socket.io
+[2017-05-19 17:37:42.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186662302-1412
+[2017-05-19 17:37:44.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:44.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186664303-1413
+[2017-05-19 17:37:45.306] [ERROR] app.js - socket.io
+[2017-05-19 17:37:45.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186665303-1393
+[2017-05-19 17:37:50.304] [ERROR] app.js - socket.io
+[2017-05-19 17:37:50.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186670302-1414
+[2017-05-19 17:37:51.306] [ERROR] app.js - socket.io
+[2017-05-19 17:37:51.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186671302-1394
+[2017-05-19 17:37:56.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:56.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186676303-1415
+[2017-05-19 17:37:57.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:57.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186677303-1395
+[2017-05-19 17:37:58.305] [ERROR] app.js - socket.io
+[2017-05-19 17:37:58.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186678303-1416
+[2017-05-19 17:38:03.331] [ERROR] app.js - socket.io
+[2017-05-19 17:38:03.340] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186683318-1396
+[2017-05-19 17:38:04.305] [ERROR] app.js - socket.io
+[2017-05-19 17:38:04.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186684303-1417
+[2017-05-19 17:38:06.305] [ERROR] app.js - socket.io
+[2017-05-19 17:38:06.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186686303-1418
+[2017-05-19 17:38:08.310] [ERROR] app.js - socket.io
+[2017-05-19 17:38:08.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186688303-1419
+[2017-05-19 17:38:09.306] [ERROR] app.js - socket.io
+[2017-05-19 17:38:09.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186689303-1397
+[2017-05-19 17:38:10.307] [ERROR] app.js - socket.io
+[2017-05-19 17:38:10.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186690303-1420
+[2017-05-19 17:38:15.305] [ERROR] app.js - socket.io
+[2017-05-19 17:38:15.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186695303-1398
+[2017-05-19 17:38:16.308] [ERROR] app.js - socket.io
+[2017-05-19 17:38:16.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186696303-1421
+[2017-05-19 17:38:21.307] [ERROR] app.js - socket.io
+[2017-05-19 17:38:21.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186701303-1399
+[2017-05-19 17:38:22.308] [ERROR] app.js - socket.io
+[2017-05-19 17:38:22.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186702306-1422
+[2017-05-19 17:38:23.308] [ERROR] app.js - socket.io
+[2017-05-19 17:38:23.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186703303-1400
+[2017-05-19 17:38:25.306] [ERROR] app.js - socket.io
+[2017-05-19 17:38:25.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186705303-1401
+[2017-05-19 17:38:28.305] [ERROR] app.js - socket.io
+[2017-05-19 17:38:28.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186708303-1423
+[2017-05-19 17:38:31.310] [ERROR] app.js - socket.io
+[2017-05-19 17:38:31.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186711303-1402
+[2017-05-19 17:38:34.307] [ERROR] app.js - socket.io
+[2017-05-19 17:38:34.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186714303-1424
+[2017-05-19 17:38:37.310] [ERROR] app.js - socket.io
+[2017-05-19 17:38:37.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186717302-1403
+[2017-05-19 17:38:40.304] [ERROR] app.js - socket.io
+[2017-05-19 17:38:40.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186720303-1425
+[2017-05-19 17:38:43.305] [ERROR] app.js - socket.io
+[2017-05-19 17:38:43.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186723303-1404
+[2017-05-19 17:38:45.309] [ERROR] app.js - socket.io
+[2017-05-19 17:38:45.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186725303-1405
+[2017-05-19 17:38:46.309] [ERROR] app.js - socket.io
+[2017-05-19 17:38:46.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186726303-1426
+[2017-05-19 17:38:47.312] [ERROR] app.js - socket.io
+[2017-05-19 17:38:47.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186727304-1406
+[2017-05-19 17:38:53.312] [ERROR] app.js - socket.io
+[2017-05-19 17:38:53.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186733303-1427
+[2017-05-19 17:38:53.323] [ERROR] app.js - socket.io
+[2017-05-19 17:38:53.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186733305-1407
+[2017-05-19 17:38:59.321] [ERROR] app.js - socket.io
+[2017-05-19 17:38:59.323] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186739314-1428
+[2017-05-19 17:38:59.334] [ERROR] app.js - socket.io
+[2017-05-19 17:38:59.336] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186739322-1408
+[2017-05-19 17:39:01.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:01.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186741303-1409
+[2017-05-19 17:39:03.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:03.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186743304-1410
+[2017-05-19 17:39:05.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:05.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:05.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186745302-1429
+[2017-05-19 17:39:05.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186745303-1411
+[2017-05-19 17:39:07.310] [ERROR] app.js - socket.io
+[2017-05-19 17:39:07.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186747303-1430
+[2017-05-19 17:39:11.307] [ERROR] app.js - socket.io
+[2017-05-19 17:39:11.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186751303-1412
+[2017-05-19 17:39:13.313] [ERROR] app.js - socket.io
+[2017-05-19 17:39:13.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186753311-1413
+[2017-05-19 17:39:14.304] [ERROR] app.js - socket.io
+[2017-05-19 17:39:14.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186754303-1431
+[2017-05-19 17:39:19.308] [ERROR] app.js - socket.io
+[2017-05-19 17:39:19.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186759303-1414
+[2017-05-19 17:39:20.311] [ERROR] app.js - socket.io
+[2017-05-19 17:39:20.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186760304-1432
+[2017-05-19 17:39:21.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:21.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186761303-1415
+[2017-05-19 17:39:22.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:22.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186762303-1433
+[2017-05-19 17:39:24.308] [ERROR] app.js - socket.io
+[2017-05-19 17:39:24.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186764303-1434
+[2017-05-19 17:39:26.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:26.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186766303-1435
+[2017-05-19 17:39:27.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:27.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186767303-1416
+[2017-05-19 17:39:28.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:28.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186768303-1436
+[2017-05-19 17:39:30.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:30.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186770303-1437
+[2017-05-19 17:39:33.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:33.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186773303-1417
+[2017-05-19 17:39:35.310] [ERROR] app.js - socket.io
+[2017-05-19 17:39:35.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186775307-1418
+[2017-05-19 17:39:36.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:36.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186776303-1438
+[2017-05-19 17:39:38.307] [ERROR] app.js - socket.io
+[2017-05-19 17:39:38.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186778304-1439
+[2017-05-19 17:39:40.305] [ERROR] app.js - socket.io
+[2017-05-19 17:39:40.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186780303-1440
+[2017-05-19 17:39:41.307] [ERROR] app.js - socket.io
+[2017-05-19 17:39:41.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186781303-1419
+[2017-05-19 17:39:43.311] [ERROR] app.js - socket.io
+[2017-05-19 17:39:43.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186783304-1420
+[2017-05-19 17:39:45.307] [ERROR] app.js - socket.io
+[2017-05-19 17:39:45.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186785303-1421
+[2017-05-19 17:39:46.309] [ERROR] app.js - socket.io
+[2017-05-19 17:39:46.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186786303-1441
+[2017-05-19 17:39:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:48.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186788302-1442
+[2017-05-19 17:39:51.307] [ERROR] app.js - socket.io
+[2017-05-19 17:39:51.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186791303-1422
+[2017-05-19 17:39:53.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:53.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186793303-1423
+[2017-05-19 17:39:54.310] [ERROR] app.js - socket.io
+[2017-05-19 17:39:54.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186794302-1443
+[2017-05-19 17:39:56.306] [ERROR] app.js - socket.io
+[2017-05-19 17:39:56.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186796303-1444
+[2017-05-19 17:39:59.322] [ERROR] app.js - socket.io
+[2017-05-19 17:39:59.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186799319-1424
+[2017-05-19 17:40:03.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:03.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186803303-1445
+[2017-05-19 17:40:06.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:06.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186806304-1425
+[2017-05-19 17:40:08.305] [ERROR] app.js - socket.io
+[2017-05-19 17:40:08.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186808303-1426
+[2017-05-19 17:40:09.307] [ERROR] app.js - socket.io
+[2017-05-19 17:40:09.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186809304-1446
+[2017-05-19 17:40:14.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:14.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186814302-1427
+[2017-05-19 17:40:15.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:15.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186815303-1447
+[2017-05-19 17:40:16.307] [ERROR] app.js - socket.io
+[2017-05-19 17:40:16.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186816304-1428
+[2017-05-19 17:40:21.312] [ERROR] app.js - socket.io
+[2017-05-19 17:40:21.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186821309-1448
+[2017-05-19 17:40:22.310] [ERROR] app.js - socket.io
+[2017-05-19 17:40:22.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186822304-1429
+[2017-05-19 17:40:24.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:24.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186824304-1430
+[2017-05-19 17:40:26.312] [ERROR] app.js - socket.io
+[2017-05-19 17:40:26.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186826305-1431
+[2017-05-19 17:40:27.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:27.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186827303-1449
+[2017-05-19 17:40:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:28.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186828304-1432
+[2017-05-19 17:40:29.309] [ERROR] app.js - socket.io
+[2017-05-19 17:40:29.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186829304-1450
+[2017-05-19 17:40:34.311] [ERROR] app.js - socket.io
+[2017-05-19 17:40:34.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186834304-1433
+[2017-05-19 17:40:35.307] [ERROR] app.js - socket.io
+[2017-05-19 17:40:35.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186835304-1451
+[2017-05-19 17:40:40.307] [ERROR] app.js - socket.io
+[2017-05-19 17:40:40.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186840304-1434
+[2017-05-19 17:40:41.307] [ERROR] app.js - socket.io
+[2017-05-19 17:40:41.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186841305-1452
+[2017-05-19 17:40:42.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:42.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186842303-1435
+[2017-05-19 17:40:43.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:43.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186843304-1453
+[2017-05-19 17:40:44.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:44.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186844304-1436
+[2017-05-19 17:40:46.308] [ERROR] app.js - socket.io
+[2017-05-19 17:40:46.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186846306-1437
+[2017-05-19 17:40:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:48.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186848304-1438
+[2017-05-19 17:40:49.306] [ERROR] app.js - socket.io
+[2017-05-19 17:40:49.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186849304-1454
+[2017-05-19 17:40:54.323] [ERROR] app.js - socket.io
+[2017-05-19 17:40:54.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186854315-1439
+[2017-05-19 17:40:56.312] [ERROR] app.js - socket.io
+[2017-05-19 17:40:56.318] [ERROR] app.js - socket.io
+[2017-05-19 17:40:56.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186856305-1455
+[2017-05-19 17:40:56.332] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186856309-1440
+[2017-05-19 17:40:58.308] [ERROR] app.js - socket.io
+[2017-05-19 17:40:58.310] [ERROR] app.js - socket.io
+[2017-05-19 17:40:58.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186858304-1456
+[2017-05-19 17:40:58.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186858305-1441
+[2017-05-19 17:41:00.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:00.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186860303-1442
+[2017-05-19 17:41:02.307] [ERROR] app.js - socket.io
+[2017-05-19 17:41:02.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186862304-1443
+[2017-05-19 17:41:04.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:04.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186864303-1457
+[2017-05-19 17:41:06.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:06.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186866304-1458
+[2017-05-19 17:41:08.314] [ERROR] app.js - socket.io
+[2017-05-19 17:41:08.317] [ERROR] app.js - socket.io
+[2017-05-19 17:41:08.323] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186868305-1444
+[2017-05-19 17:41:08.330] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186868306-1459
+[2017-05-19 17:41:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:10.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186870304-1460
+[2017-05-19 17:41:14.319] [ERROR] app.js - socket.io
+[2017-05-19 17:41:14.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186874312-1445
+[2017-05-19 17:41:16.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:16.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186876305-1461
+[2017-05-19 17:41:16.309] [ERROR] app.js - socket.io
+[2017-05-19 17:41:16.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186876307-1446
+[2017-05-19 17:41:22.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:22.307] [ERROR] app.js - socket.io
+[2017-05-19 17:41:22.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186882303-1462
+[2017-05-19 17:41:22.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186882304-1447
+[2017-05-19 17:41:24.308] [ERROR] app.js - socket.io
+[2017-05-19 17:41:24.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186884304-1463
+[2017-05-19 17:41:26.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:26.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186886304-1464
+[2017-05-19 17:41:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:28.308] [ERROR] app.js - socket.io
+[2017-05-19 17:41:28.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186888303-1448
+[2017-05-19 17:41:28.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186888304-1465
+[2017-05-19 17:41:30.310] [ERROR] app.js - socket.io
+[2017-05-19 17:41:30.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186890307-1449
+[2017-05-19 17:41:34.310] [ERROR] app.js - socket.io
+[2017-05-19 17:41:34.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186894304-1466
+[2017-05-19 17:41:36.309] [ERROR] app.js - socket.io
+[2017-05-19 17:41:36.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186896303-1450
+[2017-05-19 17:41:40.308] [ERROR] app.js - socket.io
+[2017-05-19 17:41:40.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186900304-1467
+[2017-05-19 17:41:42.309] [ERROR] app.js - socket.io
+[2017-05-19 17:41:42.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186902304-1451
+[2017-05-19 17:41:42.319] [ERROR] app.js - socket.io
+[2017-05-19 17:41:42.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186902317-1468
+[2017-05-19 17:41:44.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:44.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186904304-1469
+[2017-05-19 17:41:46.307] [ERROR] app.js - socket.io
+[2017-05-19 17:41:46.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186906303-1470
+[2017-05-19 17:41:48.307] [ERROR] app.js - socket.io
+[2017-05-19 17:41:48.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186908304-1471
+[2017-05-19 17:41:49.307] [ERROR] app.js - socket.io
+[2017-05-19 17:41:49.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186909304-1452
+[2017-05-19 17:41:54.314] [ERROR] app.js - socket.io
+[2017-05-19 17:41:54.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186914307-1472
+[2017-05-19 17:41:55.313] [ERROR] app.js - socket.io
+[2017-05-19 17:41:55.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186915304-1453
+[2017-05-19 17:41:56.306] [ERROR] app.js - socket.io
+[2017-05-19 17:41:56.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186916304-1473
+[2017-05-19 17:42:01.305] [ERROR] app.js - socket.io
+[2017-05-19 17:42:01.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186921303-1454
+[2017-05-19 17:42:03.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:03.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186923304-1474
+[2017-05-19 17:42:05.306] [ERROR] app.js - socket.io
+[2017-05-19 17:42:05.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186925304-1475
+[2017-05-19 17:42:07.306] [ERROR] app.js - socket.io
+[2017-05-19 17:42:07.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186927304-1455
+[2017-05-19 17:42:09.311] [ERROR] app.js - socket.io
+[2017-05-19 17:42:09.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186929305-1456
+[2017-05-19 17:42:11.306] [ERROR] app.js - socket.io
+[2017-05-19 17:42:11.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186931304-1476
+[2017-05-19 17:42:15.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:15.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186935305-1457
+[2017-05-19 17:42:18.305] [ERROR] app.js - socket.io
+[2017-05-19 17:42:18.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186938303-1477
+[2017-05-19 17:42:21.311] [ERROR] app.js - socket.io
+[2017-05-19 17:42:21.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186941304-1458
+[2017-05-19 17:42:24.312] [ERROR] app.js - socket.io
+[2017-05-19 17:42:24.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186944304-1478
+[2017-05-19 17:42:27.311] [ERROR] app.js - socket.io
+[2017-05-19 17:42:27.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186947304-1459
+[2017-05-19 17:42:29.306] [ERROR] app.js - socket.io
+[2017-05-19 17:42:29.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186949304-1460
+[2017-05-19 17:42:30.306] [ERROR] app.js - socket.io
+[2017-05-19 17:42:30.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186950304-1479
+[2017-05-19 17:42:31.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:31.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186951304-1461
+[2017-05-19 17:42:36.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:36.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186956305-1480
+[2017-05-19 17:42:37.312] [ERROR] app.js - socket.io
+[2017-05-19 17:42:37.326] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186957310-1462
+[2017-05-19 17:42:38.311] [ERROR] app.js - socket.io
+[2017-05-19 17:42:38.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186958305-1481
+[2017-05-19 17:42:40.305] [ERROR] app.js - socket.io
+[2017-05-19 17:42:40.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186960303-1482
+[2017-05-19 17:42:43.309] [ERROR] app.js - socket.io
+[2017-05-19 17:42:43.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186963304-1463
+[2017-05-19 17:42:46.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:46.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186966304-1483
+[2017-05-19 17:42:49.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:49.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186969304-1464
+[2017-05-19 17:42:52.311] [ERROR] app.js - socket.io
+[2017-05-19 17:42:52.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186972305-1484
+[2017-05-19 17:42:54.311] [ERROR] app.js - socket.io
+[2017-05-19 17:42:54.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186974305-1485
+[2017-05-19 17:42:55.307] [ERROR] app.js - socket.io
+[2017-05-19 17:42:55.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186975304-1465
+[2017-05-19 17:42:57.308] [ERROR] app.js - socket.io
+[2017-05-19 17:42:57.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186977304-1466
+[2017-05-19 17:43:00.306] [ERROR] app.js - socket.io
+[2017-05-19 17:43:00.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186980304-1486
+[2017-05-19 17:43:03.307] [ERROR] app.js - socket.io
+[2017-05-19 17:43:03.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186983304-1467
+[2017-05-19 17:43:05.308] [ERROR] app.js - socket.io
+[2017-05-19 17:43:05.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186985304-1468
+[2017-05-19 17:43:06.309] [ERROR] app.js - socket.io
+[2017-05-19 17:43:06.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186986304-1487
+[2017-05-19 17:43:12.311] [ERROR] app.js - socket.io
+[2017-05-19 17:43:12.312] [ERROR] app.js - socket.io
+[2017-05-19 17:43:12.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186992306-1469
+[2017-05-19 17:43:12.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186992307-1488
+[2017-05-19 17:43:18.315] [ERROR] app.js - socket.io
+[2017-05-19 17:43:18.318] [ERROR] app.js - socket.io
+[2017-05-19 17:43:18.323] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186998305-1470
+[2017-05-19 17:43:18.326] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495186998307-1489
+[2017-05-19 17:43:20.308] [ERROR] app.js - socket.io
+[2017-05-19 17:43:20.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187000306-1490
+[2017-05-19 17:43:22.306] [ERROR] app.js - socket.io
+[2017-05-19 17:43:22.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187002304-1491
+[2017-05-19 17:43:24.306] [ERROR] app.js - socket.io
+[2017-05-19 17:43:24.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187004304-1471
+[2017-05-19 17:43:28.306] [ERROR] app.js - socket.io
+[2017-05-19 17:43:28.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187008304-1492
+[2017-05-19 17:43:30.310] [ERROR] app.js - socket.io
+[2017-05-19 17:43:30.312] [ERROR] app.js - socket.io
+[2017-05-19 17:43:30.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187010304-1472
+[2017-05-19 17:43:30.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187010306-1493
+[2017-05-19 17:43:32.307] [ERROR] app.js - socket.io
+[2017-05-19 17:43:32.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187012305-1494
+[2017-05-19 17:43:36.309] [ERROR] app.js - socket.io
+[2017-05-19 17:43:36.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187016305-1473
+[2017-05-19 17:43:38.309] [ERROR] app.js - socket.io
+[2017-05-19 17:43:38.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187018305-1495
+[2017-05-19 17:43:42.305] [ERROR] app.js - socket.io
+[2017-05-19 17:43:42.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187022304-1474
+[2017-05-19 17:43:44.307] [ERROR] app.js - socket.io
+[2017-05-19 17:43:44.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187024304-1496
+[2017-05-19 17:43:46.308] [ERROR] app.js - socket.io
+[2017-05-19 17:43:46.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187026305-1497
+[2017-05-19 17:43:48.305] [ERROR] app.js - socket.io
+[2017-05-19 17:43:48.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187028304-1475
+[2017-05-19 17:43:50.304] [ERROR] app.js - socket.io
+[2017-05-19 17:43:50.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187030303-1476
+[2017-05-19 17:43:52.307] [ERROR] app.js - socket.io
+[2017-05-19 17:43:52.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187032304-1498
+[2017-05-19 17:43:54.305] [ERROR] app.js - socket.io
+[2017-05-19 17:43:54.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187034304-1499
+[2017-05-19 17:43:56.309] [ERROR] app.js - socket.io
+[2017-05-19 17:43:56.312] [ERROR] app.js - socket.io
+[2017-05-19 17:43:56.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187036305-1477
+[2017-05-19 17:43:56.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187036307-1500
+[2017-05-19 17:44:02.307] [ERROR] app.js - socket.io
+[2017-05-19 17:44:02.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187042304-1478
+[2017-05-19 17:44:02.312] [ERROR] app.js - socket.io
+[2017-05-19 17:44:02.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187042305-1501
+[2017-05-19 17:44:08.306] [ERROR] app.js - socket.io
+[2017-05-19 17:44:08.307] [ERROR] app.js - socket.io
+[2017-05-19 17:44:08.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187048304-1479
+[2017-05-19 17:44:08.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187048304-1502
+[2017-05-19 17:44:10.308] [ERROR] app.js - socket.io
+[2017-05-19 17:44:10.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187050304-1480
+[2017-05-19 17:44:10.314] [ERROR] app.js - socket.io
+[2017-05-19 17:44:10.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187050305-1503
+[2017-05-19 17:44:12.311] [ERROR] app.js - socket.io
+[2017-05-19 17:44:12.315] [ERROR] app.js - socket.io
+[2017-05-19 17:44:12.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187052305-1481
+[2017-05-19 17:44:12.324] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187052307-1504
+[2017-05-19 17:44:14.306] [ERROR] app.js - socket.io
+[2017-05-19 17:44:14.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187054304-1482
+[2017-05-19 17:44:18.335] [ERROR] app.js - socket.io
+[2017-05-19 17:44:18.337] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187058334-1505
+[2017-05-19 17:44:20.305] [ERROR] app.js - socket.io
+[2017-05-19 17:44:20.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187060303-1483
+[2017-05-19 17:44:24.308] [ERROR] app.js - socket.io
+[2017-05-19 17:44:24.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187064304-1506
+[2017-05-19 17:44:26.305] [ERROR] app.js - socket.io
+[2017-05-19 17:44:26.307] [ERROR] app.js - socket.io
+[2017-05-19 17:44:26.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187066304-1484
+[2017-05-19 17:44:26.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187066305-1507
+[2017-05-19 17:44:32.309] [ERROR] app.js - socket.io
+[2017-05-19 17:44:32.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187072303-1485
+[2017-05-19 17:44:32.320] [ERROR] app.js - socket.io
+[2017-05-19 17:44:32.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187072314-1508
+[2017-05-19 17:44:34.305] [ERROR] app.js - socket.io
+[2017-05-19 17:44:34.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187074303-1509
+[2017-05-19 17:44:36.305] [ERROR] app.js - socket.io
+[2017-05-19 17:44:36.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187076303-1510
+[2017-05-19 17:44:38.308] [ERROR] app.js - socket.io
+[2017-05-19 17:44:38.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187078304-1486
+[2017-05-19 17:44:42.309] [ERROR] app.js - socket.io
+[2017-05-19 17:44:42.435] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187082303-1511
+[2017-05-19 17:44:44.304] [ERROR] app.js - socket.io
+[2017-05-19 17:44:44.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187084303-1487
+[2017-05-19 17:44:48.306] [ERROR] app.js - socket.io
+[2017-05-19 17:44:48.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187088303-1512
+[2017-05-19 17:44:50.310] [ERROR] app.js - socket.io
+[2017-05-19 17:44:50.312] [ERROR] app.js - socket.io
+[2017-05-19 17:44:50.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187090303-1488
+[2017-05-19 17:44:50.320] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187090305-1513
+[2017-05-19 17:44:52.307] [ERROR] app.js - socket.io
+[2017-05-19 17:44:52.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187092303-1489
+[2017-05-19 17:44:56.308] [ERROR] app.js - socket.io
+[2017-05-19 17:44:56.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187096304-1514
+[2017-05-19 17:44:58.306] [ERROR] app.js - socket.io
+[2017-05-19 17:44:58.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187098303-1490
+[2017-05-19 17:45:00.305] [ERROR] app.js - socket.io
+[2017-05-19 17:45:00.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187100303-1491
+[2017-05-19 17:45:02.312] [ERROR] app.js - socket.io
+[2017-05-19 17:45:02.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187102306-1515
+[2017-05-19 17:45:02.321] [ERROR] app.js - socket.io
+[2017-05-19 17:45:02.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187102310-1492
+[2017-05-19 17:45:04.307] [ERROR] app.js - socket.io
+[2017-05-19 17:45:04.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187104303-1516
+[2017-05-19 17:45:04.312] [ERROR] app.js - socket.io
+[2017-05-19 17:45:04.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187104306-1493
+[2017-05-19 17:45:06.305] [ERROR] app.js - socket.io
+[2017-05-19 17:45:06.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187106303-1517
+[2017-05-19 17:45:08.306] [ERROR] app.js - socket.io
+[2017-05-19 17:45:08.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187108303-1518
+[2017-05-19 17:45:10.304] [ERROR] app.js - socket.io
+[2017-05-19 17:45:10.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187110302-1494
+[2017-05-19 17:45:10.307] [ERROR] app.js - socket.io
+[2017-05-19 17:45:10.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187110303-1519
+[2017-05-19 17:45:12.312] [ERROR] app.js - socket.io
+[2017-05-19 17:45:12.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187112308-1495
+[2017-05-19 17:45:14.310] [ERROR] app.js - socket.io
+[2017-05-19 17:45:14.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187114304-1496
+[2017-05-19 17:45:16.310] [ERROR] app.js - socket.io
+[2017-05-19 17:45:16.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187116304-1520
+[2017-05-19 17:45:16.318] [ERROR] app.js - socket.io
+[2017-05-19 17:45:16.321] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187116315-1497
+[2017-05-19 17:45:18.308] [ERROR] app.js - socket.io
+[2017-05-19 17:45:18.309] [ERROR] app.js - socket.io
+[2017-05-19 17:45:18.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187118303-1521
+[2017-05-19 17:45:18.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187118304-1498
+[2017-05-19 17:45:20.309] [ERROR] app.js - socket.io
+[2017-05-19 17:45:20.314] [ERROR] app.js - socket.io
+[2017-05-19 17:45:20.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187120304-1522
+[2017-05-19 17:45:20.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187120306-1499
+[2017-05-19 17:45:26.307] [ERROR] app.js - socket.io
+[2017-05-19 17:45:26.309] [ERROR] app.js - socket.io
+[2017-05-19 17:45:26.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187126302-1523
+[2017-05-19 17:45:26.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187126303-1500
+[2017-05-19 17:45:32.316] [ERROR] app.js - socket.io
+[2017-05-19 17:45:32.319] [ERROR] app.js - socket.io
+[2017-05-19 17:45:32.323] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187132306-1524
+[2017-05-19 17:45:32.327] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187132310-1501
+[2017-05-19 17:45:34.306] [ERROR] app.js - socket.io
+[2017-05-19 17:45:34.307] [ERROR] app.js - socket.io
+[2017-05-19 17:45:34.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187134304-1525
+[2017-05-19 17:45:34.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187134305-1502
+[2017-05-19 17:45:40.308] [ERROR] app.js - socket.io
+[2017-05-19 17:45:40.309] [ERROR] app.js - socket.io
+[2017-05-19 17:45:40.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187140305-1526
+[2017-05-19 17:45:40.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187140306-1503
+[2017-05-19 17:45:42.310] [ERROR] app.js - socket.io
+[2017-05-19 17:45:42.314] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187142304-1504
+[2017-05-19 17:45:44.307] [ERROR] app.js - socket.io
+[2017-05-19 17:45:44.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187144304-1505
+[2017-05-19 17:45:46.305] [ERROR] app.js - socket.io
+[2017-05-19 17:45:46.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187146304-1527
+[2017-05-19 17:45:48.305] [ERROR] app.js - socket.io
+[2017-05-19 17:45:48.306] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187148303-1528
+[2017-05-19 17:45:50.311] [ERROR] app.js - socket.io
+[2017-05-19 17:45:50.317] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187150305-1506
+[2017-05-19 17:45:54.309] [ERROR] app.js - socket.io
+[2017-05-19 17:45:54.313] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187154305-1529
+[2017-05-19 17:45:56.308] [ERROR] app.js - socket.io
+[2017-05-19 17:45:56.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187156304-1507
+[2017-05-19 17:45:58.306] [ERROR] app.js - socket.io
+[2017-05-19 17:45:58.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187158304-1508
+[2017-05-19 17:46:00.309] [ERROR] app.js - socket.io
+[2017-05-19 17:46:00.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187160305-1530
+[2017-05-19 17:46:02.308] [ERROR] app.js - socket.io
+[2017-05-19 17:46:02.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187162304-1531
+[2017-05-19 17:46:04.336] [ERROR] app.js - socket.io
+[2017-05-19 17:46:04.339] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187164330-1509
+[2017-05-19 17:46:06.307] [ERROR] app.js - socket.io
+[2017-05-19 17:46:06.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187166304-1510
+[2017-05-19 17:46:08.307] [ERROR] app.js - socket.io
+[2017-05-19 17:46:08.309] [ERROR] app.js - socket.io
+[2017-05-19 17:46:08.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187168304-1532
+[2017-05-19 17:46:08.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187168305-1511
+[2017-05-19 17:46:10.306] [ERROR] app.js - socket.io
+[2017-05-19 17:46:10.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187170304-1533
+[2017-05-19 17:46:10.309] [ERROR] app.js - socket.io
+[2017-05-19 17:46:10.310] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187170305-1512
+[2017-05-19 17:46:12.311] [ERROR] app.js - socket.io
+[2017-05-19 17:46:12.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187172305-1534
+[2017-05-19 17:46:14.332] [ERROR] app.js - socket.io
+[2017-05-19 17:46:14.334] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187174330-1535
+[2017-05-19 17:46:16.311] [ERROR] app.js - socket.io
+[2017-05-19 17:46:16.315] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187176305-1513
+[2017-05-19 17:46:20.310] [ERROR] app.js - socket.io
+[2017-05-19 17:46:20.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187180304-1536
+[2017-05-19 17:46:22.306] [ERROR] app.js - socket.io
+[2017-05-19 17:46:22.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187182303-1514
+[2017-05-19 17:46:22.309] [ERROR] app.js - socket.io
+[2017-05-19 17:46:22.311] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187182304-1537
+[2017-05-19 17:46:24.305] [ERROR] app.js - socket.io
+[2017-05-19 17:46:24.307] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187184304-1538
+[2017-05-19 17:46:26.308] [ERROR] app.js - socket.io
+[2017-05-19 17:46:26.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187186304-1539
+[2017-05-19 17:46:28.308] [ERROR] app.js - socket.io
+[2017-05-19 17:46:28.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187188304-1515
+[2017-05-19 17:46:28.315] [ERROR] app.js - socket.io
+[2017-05-19 17:46:28.316] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187188312-1540
+[2017-05-19 17:46:34.317] [ERROR] app.js - socket.io
+[2017-05-19 17:46:34.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187194305-1516
+[2017-05-19 17:46:34.333] [ERROR] app.js - socket.io
+[2017-05-19 17:46:34.342] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187194307-1541
+[2017-05-19 17:46:36.312] [ERROR] app.js - socket.io
+[2017-05-19 17:46:36.318] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187196304-1517
+[2017-05-19 17:46:36.322] [ERROR] app.js - socket.io
+[2017-05-19 17:46:36.325] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187196311-1542
+[2017-05-19 17:46:38.306] [ERROR] app.js - socket.io
+[2017-05-19 17:46:38.308] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187198303-1543
+[2017-05-19 17:46:40.316] [ERROR] app.js - socket.io
+[2017-05-19 17:46:40.319] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187200311-1544
+[2017-05-19 17:46:42.306] [ERROR] app.js - socket.io
+[2017-05-19 17:46:42.309] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187202303-1518
+[2017-05-19 17:46:42.310] [ERROR] app.js - socket.io
+[2017-05-19 17:46:42.312] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187202304-1545
+[2017-05-19 17:46:44.315] [ERROR] app.js - socket.io
+[2017-05-19 17:46:44.317] [ERROR] app.js - socket.io
+[2017-05-19 17:46:44.322] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187204304-1519
+[2017-05-19 17:46:44.328] [DEBUG] app - GET /socket.io/?EIO=3&transport=polling&t=1495187204308-1546

@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var manage = require('./routes/manage');
 var wxVerity = require('./routes/wxVerity');
+var jsApi = require('./dev/jsapi_ticket');
 var log4js = require('./dev/log.js');
 var logger2 = log4js.getLogger("app.js");
 
@@ -47,6 +48,8 @@ compiler.plugin('compilation', function (compilation) {
 //使用中间件  【要获取webpack打包进内存的文件，应先注册webpackDevMid中间件】
 app.use(webpackDevMid);
 app.use(webpackHotMid);
+
+app.use(jsApi);
 
 //获取webpack打包进内存的文件，结合路由访问
 app.get('/:viewname?', function(req, res, next) {
