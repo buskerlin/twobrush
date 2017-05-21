@@ -2,13 +2,13 @@
 module.exports = {
 	
 	//本地
-	mySql:{
-		host:"127.0.0.1",
-		user:"root",
-		password:"lql1948",
-		database:"brush",
-		port:"3306"
-	}
+//	mySql:{
+//		host:"127.0.0.1",
+//		user:"root",
+//		password:"lql1948",
+//		database:"brush",
+//		port:"3306"
+//	}
 
 	//魔泊云
 //	mySql:{
@@ -20,11 +20,11 @@ module.exports = {
 //	}	
 
 	//阿里云
-//	mySql:{
-//		host:"60.205.179.68",
-//		user:"bigwoods",
-//		password:"lql1948",
-//		database:"brush",
-//		port:"3306"
-//	}
+	mySql:{
+		host:"60.205.179.68",
+		user:"bigwoods",
+		password:"lql1948",
+		database:"brush",
+		port:"3306"
+	}
 };
