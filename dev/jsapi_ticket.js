@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const seqPool = require("./sequelize");
+const seqPool = require("../dao/sequelize");
 const weiXinModel = require("../model/weiXin");
 
 var https = require("https");
