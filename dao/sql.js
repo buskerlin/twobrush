@@ -5,5 +5,7 @@ module.exports = {
 	addThumb: "update products set thumbs=thumbs+1 where id=?",
 	queryThumb: "select thumbs from products where id=?",
 	leaveMessage: "insert into remarks(remark,pid) values(?,?)",
-	queryMessage: "select * from remarks where pid=?"
+	queryMessage: "select * from remarks where pid=?",
+	queryToken: "select time as updatetime from weixin where type=?",
+	updateToken: "update weixin set value=?,time=? where type=?"
 }

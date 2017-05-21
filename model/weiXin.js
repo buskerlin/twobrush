@@ -1,27 +1,28 @@
-var weiXin = function(sequelize,dataTypes){
-	return sequelize.define("weixin",{
-		type:{
+var brushType = function(sequelize,dataTypes){
+	return sequelize.define("brush_type",{
+		id:{
+			type: dataTypes.STRING,
+			allowNull: false,
+		    autoIncrement: true,
+		    primaryKey: true
+		},
+		name:{
 			type: dataTypes.STRING,
 			allowNull: false,
 			autoIncrement: false,
 			primaryKet: false
 		},
-		value:{
+		brushCode:{
 			type: dataTypes.STRING,
 			allowNull: false,
 			autoIncrement: false,
-			primaryKet: false
-		},
-		time:{
-			type: dataTypes.STRING,
-			allowNull: false,
-			autoIncrement: false,
-			primaryKet: false
+			primaryKet: false,
+			field: "brush_code"
 		}
 	},{
-		tableName: "weixin",
+		tableName: "brush_type",
 		timestamps: false
 	});
 }
 
-module.exports = weiXin;
+module.exports = brushType;
