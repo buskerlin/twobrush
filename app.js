@@ -49,7 +49,8 @@ compiler.plugin('compilation', function (compilation) {
 app.use(webpackDevMid);
 app.use(webpackHotMid);
 
-app.use(jsApi);
+//获取jsapi_ticket
+jsApi();
 
 //获取webpack打包进内存的文件，结合路由访问
 app.get('/:viewname?', function(req, res, next) {
