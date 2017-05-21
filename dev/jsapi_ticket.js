@@ -13,7 +13,7 @@ module.exports = function(){
 			getData += data;
 		});
 		res.on("end",function(){
-			console.log(getData.prase());
+			console.log(getData.parse());
 		});
 	});
 }
