@@ -68,35 +68,35 @@ module.exports = {
 		});
 	},
 	//获取access_token和jsapi_ticket
-	matchToken(req,res,next){
-		var type = req.body.type,
-			time = req.body.time;
-		pool.getConnection(function(err,connection){
-			return new Promise(function(reslove,reject){
-				connection.query(sql.queryToken,type,function(err,result){
-					if(err){
-						throw err;
-					}
-					//第一次保存||已过期
-					if(result.val == "" || ){
-						
-					}
-				});
-			})
-			.then(function(){
-				
-			});
-			
-				
-				//mysql同时只能允许一个操作，故update后再select
-				connection.query(sql.queryThumb,id,function(err,result){
-					if(err){
-						throw err;
-					}
-					res.json(result[0]);
-					connection.release();
-				});
-			
-		});
-	}
+//	matchToken(req,res,next){
+//		var type = req.body.type,
+//			time = req.body.time;
+//		pool.getConnection(function(err,connection){
+//			return new Promise(function(reslove,reject){
+//				connection.query(sql.queryToken,type,function(err,result){
+//					if(err){
+//						throw err;
+//					}
+//					//第一次保存||已过期
+//					if(result.val == "" || ){
+//						
+//					}
+//				});
+//			})
+//			.then(function(){
+//				
+//			});
+//			
+//				
+//				//mysql同时只能允许一个操作，故update后再select
+//				connection.query(sql.queryThumb,id,function(err,result){
+//					if(err){
+//						throw err;
+//					}
+//					res.json(result[0]);
+//					connection.release();
+//				});
+//			
+//		});
+//	}
 }
