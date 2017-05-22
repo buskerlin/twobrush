@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 const crypto = require('crypto');
 const seqPool = require("../dao/sequelize");
 const weiXinModel = require("../model/weiXin")(seqPool,Sequelize);
-const logger = require("./log").getLogger("jsapi_ticket.js");
+const logger = require("./log").getLogger("weiXin.js");
 
 var token = "bigwoods";
 var https = require("https");
@@ -73,7 +73,7 @@ var getJsApiTicket = function(){
 				.then(function(res){
 					res = res.dataValues;
 					
-					reslove(res.jsapi_ticket);
+					reslove(res.value);
 					logger.info("access_token未过期,查表获取jsapi_ticket成功");
 				})
 			}
