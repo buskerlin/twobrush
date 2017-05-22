@@ -12,7 +12,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var manage = require('./routes/manage');
 var wxVerity = require('./routes/wxVerity');
-var jsApi = require('./dev/jsapi_ticket');
+var jsApi = require('./dev/weiXin');
 var log4js = require('./dev/log.js');
 var logger2 = log4js.getLogger("app.js");
 
@@ -104,7 +104,7 @@ app.use(cookieParser());
 	//进不来,为什么?被webpack阻塞了?
 //	logger2.error("im in");
 //});
-app.use("/wxVerity",function(req,res,next){wxVerity(req,res)});
+app.use("/wx",wxVerity);
 app.use('/products',users);
 app.use('/manage',manage);
 
