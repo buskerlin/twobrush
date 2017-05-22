@@ -15,8 +15,8 @@ $.post("/wx/getSDKParams",{url:"http://www.bigwoods.cn/"},function(res){
 //分享到朋友圈
 wx.onMenuShareTimeline({
     title: 'test', // 分享标题
-    link: '', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-    imgUrl: '', // 分享图标
+    link: 'www.bigwoods.cn', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    imgUrl: 'http://www.bigwoods.cn/img/brush/moliaosi.jpg', // 分享图标
     success: function () { 
         alert("success");
     },
