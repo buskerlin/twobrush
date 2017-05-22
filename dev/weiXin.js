@@ -3,7 +3,6 @@ const crypto = require('crypto');
 const seqPool = require("../dao/sequelize");
 const weiXinModel = require("../model/weiXin")(seqPool,Sequelize);
 const logger = require("./log").getLogger("weiXin.js");
-const jsSHA = require("jssha");
 
 var token = "bigwoods";
 var https = require("https");
@@ -126,15 +125,13 @@ module.exports = {
 	        keySort.forEach(function(val,index){
 	        	str += val + "=" + datas[val] + "&";
 	        });
-	        str = str.slice(0, -1);
+	        str = str.slice(0, -1) + "/";
 	       	// var signature = sha1(str)
 		   	console.log(str);
 		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
-//		    var sha1Code = crypto.createHash("sha1");
-//		    //生成签名
-//		    var signature = sha1Code.update(str,'utf-8').digest("hex");
-			shaObj = new jsSHA(str, 'TEXT');
-            signature = shaObj.getHash('SHA-1', 'HEX');
+		    var sha1Code = crypto.createHash("sha1");
+		    //生成签名
+		    var signature = sha1Code.update(str,'utf-8').digest("hex");
 	        res.json({
 	        	code: 1, 
 	        	data: {
