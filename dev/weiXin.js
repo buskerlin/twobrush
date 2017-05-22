@@ -125,7 +125,7 @@ module.exports = {
 	        keySort.forEach(function(val,index){
 	        	str += val + "=" + datas[val] + "&";
 	        });
-	        str = str.slice(0, -1) + "/";
+	        str = str.slice(0, -1);
 	       	// var signature = sha1(str)
 		   	console.log(str);
 		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
