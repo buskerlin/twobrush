@@ -3,7 +3,7 @@ var router = express.Router();
 var wx = require('../dev/weiXin.js');
 var logger = require('../dev/log.js').getLogger("wxVerity.js");
 
-router.post("/verity",function(req,res,next){
+router.get("/verity",function(req,res,next){
 	wx.connectWX(req,res,next);
 });
 
