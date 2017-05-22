@@ -134,7 +134,7 @@ module.exports = {
 			logger.info(signature);
 	        res.json({
 	        	code: 1, 
-	        	data: {
+	        	databak: {
 		            appId: appId,
 		            timestamp: timestamp,
 		            noncestr: noncestr,
