@@ -108,7 +108,7 @@ module.exports = {
 	    }
 	},
 	//获取access_token和jsapi_ticket并将配置参数发送前端
-	getSDKParams(req,res,next){
+	getSDKParams(req,respond,next){
 		logger.error("00000000000");
 		getJsApiTicket().then(function(ticket){
 			logger.error(ticket);
@@ -126,7 +126,7 @@ module.exports = {
 		    var sha1Code = crypto.createHash("sha1");
 		    var signature = sha1Code.update(str,'utf-8').digest("hex");
 	
-	        res.json({
+	        respond.json({
 	        	code: 1, 
 	        	data: {
 		            appId: cappId,
