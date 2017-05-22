@@ -40,7 +40,7 @@ var getJsApiTicketUrl = function(access_token){
 	})
 }
 var getJsApiTicket = function(){
-	return Promise(function(resolve,reject){
+	return new Promise(function(reslove,reject){
 		weiXinModel.findOne({where:{type:"access_token"}})
 		.then(function(result){
 			result = result.dataValues;
@@ -62,7 +62,7 @@ var getJsApiTicket = function(){
 						},
 						{where:{type:"jsapi_ticket"}});
 						
-						resolve(result.ticket);
+						reslove(result.ticket);
 						logger.info("access_token已过期,重新获取成功");
 					});
 				})
