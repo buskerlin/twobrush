@@ -14,12 +14,12 @@ var atUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credentia
 
 var getAccessTokenUrl = function(){
 	return new Promise(function(resolve,reject){
-		https.get(atUrl,function(res){
+		https.get(atUrl,function(result){
 			var getData = '';
-			res.on("data",function(data){
+			result.on("data",function(data){
 				getData += data;
 			});
-			res.on("end",function(){
+			result.on("end",function(){
 				resolve(JSON.parse(getData));
 			});
 		});
@@ -27,12 +27,12 @@ var getAccessTokenUrl = function(){
 }
 var getJsApiTicketUrl = function(access_token){
 	return new Promise(function(resolve,reject){
-		https.get('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + access_token + '&type=jsapi',function(res){
+		https.get('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + access_token + '&type=jsapi',function(result){
 			var getData = '';
-			res.on("data",function(data){
+			result.on("data",function(data){
 				getData += data;
 			});
-			res.on("end",function(){
+			result.on("end",function(){
 				console.log(JSON.parse(getData));
 				resolve(JSON.parse(getData));
 			});
