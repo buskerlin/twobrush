@@ -42,6 +42,7 @@ module.exports = function(){
 	weiXinModel.findOne({where:{type:"access_token"}})
 	.then(function(res){
 		res = res.dataValues;
+		console.log(res);
 		var now = new Date().getTime();
 		//未保存或已过期
 		if(res.value == "" || now - res.time > 7000*1000){
