@@ -112,7 +112,7 @@ module.exports = {
 		getJsApiTicket().then(function(ticket){
 			logger.error(ticket);
 			
-			var data = {
+			var datas = {
 				noncestr: Math.random().toString(36).substr(2, 15),
 		        timestamp: Date.now().toString().slice(-10),
 		        url: req.body.url,
@@ -123,17 +123,23 @@ module.exports = {
 		  	var keySort = ['jsapi_ticket', 'timestamp', 'noncestr', 'url'].sort();
 	        var str = '';
 	        keySort.forEach(function(val,index){
-	        	str += val + "=" + data[val] + "&";
+	        	str += val + "=" + datas[val] + "&";
 	        });
 	        str = str.slice(0, -1);
-	       // var signature = sha1(str)
-		   
+	       	// var signature = sha1(str)
+		   	console.log(str);
 		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
 		    var sha1Code = crypto.createHash("sha1");
 		    var signature = sha1Code.update(str,'utf-8').digest("hex");
 			logger.info(signature);
 	        res.json({
-	        	code: 1
+	        	code: 1, 
+	        	data: {
+		            appId: appId,
+		            timestamp: timestamp,
+		            noncestr: noncestr,
+		            signature: signature
+		        }
 	        })
 
 		});
