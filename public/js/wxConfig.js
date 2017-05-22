@@ -8,7 +8,7 @@ wx.config({
 });
 
 console.log(location.href);
-$.post("/wx/getSDKParams",{url:location.href},function(res){
+$.post("/wx/getSDKParams",{url:"http://www.bigwoods.cn"},function(res){
 	console.log(res);
 });
 
