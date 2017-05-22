@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var wx = require('../dev/weixin.js');
+var wx = require('../dev/weiXin.js');
 var logger = require('../dev/log.js').getLogger("wxVerity.js");
 
 router.post("/verity",function(req,res,next){
