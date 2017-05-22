@@ -122,9 +122,14 @@ module.exports = {
 		    //1. 将token、timestamp、nonce三个参数进行字典序排序
 		  	var keySort = ['jsapi_ticket', 'timestamp', 'noncestr', 'url'].sort();
 	        var str = '';
-	        keySort.forEach(function(val,index){
-	        	str = val + "=" + data[val] + "&";
-	        });
+	        //异步
+//	        keySort.forEach(function(val,index){
+//	        	str = val + "=" + data[val] + "&";
+//	        });
+			//同步
+	        for(var i = 0;i < keySort.length;i++){
+	        	str = keySort[i] + "=" + data[keySort[i]] + "&";
+	        }
 	        console.log(str);
 	        str = str.slice(0, -1);
 	        //var signature = sha1(str)
