@@ -8,7 +8,6 @@ router.get("/verity",function(req,res,next){
 });
 
 router.post("/getSDKParams",function(req,res,next){
-	logger.error("ppppppppppppppp");
 	wx.getSDKParams(req,res,next);
 });
 

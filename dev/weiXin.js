@@ -109,6 +109,7 @@ module.exports = {
 	},
 	//获取access_token和jsapi_ticket并将配置参数发送前端
 	getSDKParams(req,res,next){
+		logger.error("00000000000");
 		getJsApiTicket().then(function(ticket){
 			logger.error(ticket);
 			
