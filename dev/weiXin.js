@@ -112,27 +112,28 @@ module.exports = {
 		getJsApiTicket().then(function(ticket){
 			logger.error(ticket);
 			
-	        var noncestr = Math.random().toString(36).substr(2, 15);
-	        var timestamp = Date.now().toString().slice(-10)
-	        var url = req.body.url;
+			var data = {
+				noncestr: Math.random().toString(36).substr(2, 15),
+		        timestamp: Date.now().toString().slice(-10),
+		        url: req.body.url,
+		        jsapi_ticket: ticket
+			}
 	        /*  加密/校验流程如下： */
 		    //1. 将token、timestamp、nonce三个参数进行字典序排序
-		    var arr = new Array(noncestr,timestamp,url,ticket);
-		    arr.sort();
-		    var str = arr.join("");
-		  
+		  	var keySort = ['jsapi_ticket', 'timestamp', 'noncestr', 'url'].sort();
+	        var str = '';
+	        keySort.forEach(function(val,index){
+	        	str += val + "=" + data[val] + "&";
+	        });
+	        str = str.slice(0, -1);
+	       // var signature = sha1(str)
+		   
 		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
 		    var sha1Code = crypto.createHash("sha1");
 		    var signature = sha1Code.update(str,'utf-8').digest("hex");
-	
+			logger.info(signature);
 	        res.json({
-	        	code: 1, 
-	        	data: {
-		            appId: appId,
-		            timestamp: timestamp,
-		            noncestr: noncestr,
-		            signature: signature
-		        }
+	        	code: 1
 	        })
 
 		});
