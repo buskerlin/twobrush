@@ -47,7 +47,7 @@ var getJsApiTicket = function(){
 			console.log(result);
 			var now = new Date().getTime();
 			//未保存或已过期
-			if(res.value == "" || now - res.time > 7000*1000){
+			if(result.value == "" || now - result.time > 7000*1000){
 				getAccessTokenUrl().then(function(result){
 					weiXinModel.update({
 						value: result.access_token,
