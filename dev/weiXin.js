@@ -128,7 +128,7 @@ module.exports = {
 	        res.json({
 	        	code: 1, 
 	        	data: {
-		            appId: cappId,
+		            appId: appId,
 		            timestamp: timestamp,
 		            noncestr: noncestr,
 		            signature: signature
