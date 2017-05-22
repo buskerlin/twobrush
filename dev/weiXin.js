@@ -122,22 +122,16 @@ module.exports = {
 		    //1. 将token、timestamp、nonce三个参数进行字典序排序
 		  	var keySort = ['jsapi_ticket', 'timestamp', 'noncestr', 'url'].sort();
 	        var str = '';
-	        //异步
 	        keySort.forEach(function(val,index){
 	        	str += val + "=" + data[val] + "&";
 	        });
-			//同步
-//	        for(var i = 0;i < keySort.length;i++){
-//	        	str += keySort[i] + "=" + data[keySort[i]] + "&";
-//	        }
-	        console.log(str);
 	        str = str.slice(0, -1);
-	        //var signature = sha1(str)
+	       // var signature = sha1(str)
 		  
 		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
 		    var sha1Code = crypto.createHash("sha1");
 		    var signature = sha1Code.update(str,'utf-8').digest("hex");
-	
+			logger.info(signature);
 	        res.json({
 	        	code: 1, 
 	        	data: {
