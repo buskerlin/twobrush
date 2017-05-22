@@ -137,8 +137,7 @@ module.exports = {
 	        	data: {
 		            appId: appId,
 		            timestamp: timestamp,
-		            noncestr: noncestr,
-		            signature: signature
+		            noncestr: noncestr
 		        }
 	        })
 
