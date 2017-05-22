@@ -42,9 +42,9 @@ var getJsApiTicketUrl = function(access_token){
 var getJsApiTicket = function(){
 	return Promise(function(reslove,reject){
 		weiXinModel.findOne({where:{type:"access_token"}})
-		.then(function(res){
-			res = res.dataValues;
-			console.log(res);
+		.then(function(result){
+			result = result.dataValues;
+			console.log(result);
 			var now = new Date().getTime();
 			//未保存或已过期
 			if(res.value == "" || now - res.time > 7000*1000){
@@ -70,10 +70,10 @@ var getJsApiTicket = function(){
 			//未过期
 			else{
 				weiXinModel.findOne({where:{type:"jsapi_ticket"}})
-				.then(function(res){
-					res = res.dataValues;
+				.then(function(result){
+					result = result.dataValues;
 					
-					reslove(res.value);
+					reslove(result.value);
 					logger.info("access_token未过期,查表获取jsapi_ticket成功");
 				})
 			}
@@ -108,8 +108,7 @@ module.exports = {
 	    }
 	},
 	//获取access_token和jsapi_ticket并将配置参数发送前端
-	getSDKParams(req,respond,next){
-		logger.error("00000000000");
+	getSDKParams(req,res,next){
 		getJsApiTicket().then(function(ticket){
 			logger.error(ticket);
 			
@@ -126,7 +125,7 @@ module.exports = {
 		    var sha1Code = crypto.createHash("sha1");
 		    var signature = sha1Code.update(str,'utf-8').digest("hex");
 	
-	        respond.json({
+	        res.json({
 	        	code: 1, 
 	        	data: {
 		            appId: cappId,
