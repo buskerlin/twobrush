@@ -1,6 +1,7 @@
 const Sequelize = require("sequelize");
 const seqPool = require("../dao/sequelize");
 const weiXinModel = require("../model/weiXin")(seqPool,Sequelize);
+const logger = require("./log").getLogger("jsapi_ticket.js");
 
 var https = require("https");
 var appId = "wx4d40186bc8574aeb",
@@ -17,15 +18,14 @@ var getAccessToken = function(){
 				getData += data;
 			});
 			res.on("end",function(){
-				console.log(JSON.parse(getData));
 				resolve(JSON.parse(getData));
 			});
 		});
 	})
 }
-var getJsApiTicket = function(url){
+var getJsApiTicket = function(access_token){
 	return new Promise(function(resolve,reject){
-		https.get(url,function(res){
+		https.get('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + access_token + '&type=jsapi',function(res){
 			var getData = '';
 			res.on("data",function(data){
 				getData += data;
@@ -41,24 +41,37 @@ var getJsApiTicket = function(url){
 module.exports = function(){
 	weiXinModel.findOne({where:{type:"access_token"}})
 	.then(function(res){
-		console.log(res);
 		res = res.dataValues;
 		var now = new Date().getTime();
-		console.log(res);
+		//未保存或已过期
 		if(res.value == "" || now - res.time > 7000*1000){
 			getAccessToken().then(function(result){
-				console.log();
 				weiXinModel.update({
 					value: result.access_token,
 					time: now
 				},
 				{where:{type:"access_token"}});
 				
-				getJsApiTicket('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + result.access_token + '&type=jsapi');
+				getJsApiTicket(result.access_token).then(function(result){
+					weiXinModel.update({
+						value: result.ticket,
+						time: now
+					},
+					{where:{type:"jsapi_ticket"}});
+					
+					logger.info("access_token已过期,重新获取成功");
+				});
 			})
 		}
+		//未过期
 		else{
-			getJsApiTicket('https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + res.access_token + '&type=jsapi')
+			weiXinModel.findOne({where:{type:"jsapi_ticket"}})
+			.then(function(res){
+				res = res.dataValues;
+				console.log(res);
+				
+				logger.info("access_token未过期,查表获取jsapi_ticket成功");
+			})
 		}
 	});
 //	new Promise(function(resolve,reject){

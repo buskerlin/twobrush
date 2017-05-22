@@ -29,6 +29,7 @@ handler.on('push', function (event) {
   var PATH = "/home/twobrush";
   //在终端执行命令
   var commands = ['cd ' + PATH,'git reset --hard origin/master','git pull'].join(';');
+  	//建立子进程
     require('child_process').exec(commands, function(err, out, code) {
         if (err instanceof Error) {
           throw err
