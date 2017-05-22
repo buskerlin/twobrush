@@ -1,8 +1,10 @@
 const Sequelize = require("sequelize");
+const crypto = require('crypto');
 const seqPool = require("../dao/sequelize");
 const weiXinModel = require("../model/weiXin")(seqPool,Sequelize);
 const logger = require("./log").getLogger("jsapi_ticket.js");
 
+var token = "bigwoods";
 var https = require("https");
 var appId = "wx4d40186bc8574aeb",
 	appSecret = "a86c38ce1ac12c09e7ef35f7d09e17d4";
