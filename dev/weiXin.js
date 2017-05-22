@@ -131,13 +131,20 @@ module.exports = {
 		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
 		    var sha1Code = crypto.createHash("sha1");
 		    var signature = sha1Code.update(str,'utf-8').digest("hex");
-			logger.info(signature);
+		    data = {
+		            appId: appId,
+		            timestamp: timestamp,
+		            noncestr: noncestr,
+		            signature: signature
+		        }
+			logger.info(data);
 	        res.json({
 	        	code: 1, 
 	        	data: {
 		            appId: appId,
 		            timestamp: timestamp,
-		            noncestr: noncestr
+		            noncestr: noncestr,
+		            signature: signature
 		        }
 	        })
 
