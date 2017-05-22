@@ -111,6 +111,30 @@ module.exports = {
 	getSDKParams(req,res,next){
 		getJsApiTicket().then(function(ticket){
 			logger.error(ticket);
+			
+	        var noncestr = Math.random().toString(36).substr(2, 15);
+	        var timestamp = Date.now().toString().slice(-10)
+	        var url = req.body.url;
+	        /*  加密/校验流程如下： */
+		    //1. 将token、timestamp、nonce三个参数进行字典序排序
+		    var arr = new Array(noncestr,timestamp,url,ticket);
+		    arr.sort();
+		    var str = arr.join("");
+		  
+		    //2. 将三个参数字符串拼接成一个字符串进行sha1加密
+		    var sha1Code = crypto.createHash("sha1");
+		    var signature = sha1Code.update(str,'utf-8').digest("hex");
+	
+	        res.json({
+	        	code: 1, 
+	        	data: {
+		            appId: cappId,
+		            timestamp: timestamp,
+		            noncestr: noncestr,
+		            signature: signature
+		        }
+	        })
+
 		});
 	}
 }

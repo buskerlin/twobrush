@@ -7,6 +7,10 @@ wx.config({
     jsApiList: ['onMenuShareTimeline'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
 });
 
+$.post("/wx/getSDKParams",function(res){
+	console.log(res);
+});
+
 //分享到朋友圈
 wx.onMenuShareTimeline({
     title: '', // 分享标题
