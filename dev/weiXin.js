@@ -125,6 +125,7 @@ module.exports = {
 	        keySort.forEach(function(val,index){
 	        	str = val + "=" + data[val] + "&";
 	        });
+	        console.log(str);
 	        str = str.slice(0, -1);
 	        //var signature = sha1(str)
 		  
