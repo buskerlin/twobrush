@@ -73,7 +73,7 @@ var getJsApiTicket = function(){
 				.then(function(result){
 					result = result.dataValues;
 					
-					reslove(result.value);
+					resolve(result.value);
 					logger.info("access_token未过期,查表获取jsapi_ticket成功");
 				})
 			}
