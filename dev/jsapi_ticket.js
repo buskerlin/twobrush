@@ -45,7 +45,7 @@ module.exports = function(){
 		res = res.dataValues;
 		var now = new Date().getTime();
 		console.log(res);
-		if(res.value == "" || now - parseInt(res.time) > 7000*1000){
+		if(res.value == "" || now - res.time > 7000*1000){
 			getAccessToken().then(function(result){
 				console.log();
 				weiXinModel.update({
@@ -74,16 +74,16 @@ module.exports = function(){
 //		});
 //	})
 //	.then(function(access_token){
-		var access_token = 'tZGfl5sbjgfh32BxJNRNgiygPENOLqKcfebh1Q3fkZULP5F5Eiss-7Vti3YcvWqKSRun_lC0xVkgyz1y_o7aaKljwDLJbt5UOWvRhJ6PrmuZwIen1PDEhF7ChnlwJfvmFVAgADAQGL';
-		var jaUrl = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + access_token + '&type=jsapi';
-		https.get(jaUrl,function(res){
-			getData = '';
-			res.on("data",function(data){
-				getData += data;
-			});
-			res.on("end",function(){
-				console.log(JSON.parse(getData));
-			});
-		});
+//		var access_token = 'tZGfl5sbjgfh32BxJNRNgiygPENOLqKcfebh1Q3fkZULP5F5Eiss-7Vti3YcvWqKSRun_lC0xVkgyz1y_o7aaKljwDLJbt5UOWvRhJ6PrmuZwIen1PDEhF7ChnlwJfvmFVAgADAQGL';
+//		var jaUrl = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=' + access_token + '&type=jsapi';
+//		https.get(jaUrl,function(res){
+//			getData = '';
+//			res.on("data",function(data){
+//				getData += data;
+//			});
+//			res.on("end",function(){
+//				console.log(JSON.parse(getData));
+//			});
+//		});
 	//});
 }
