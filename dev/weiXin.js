@@ -135,7 +135,7 @@ module.exports = {
 		            noncestr: noncestr,
 		            signature: signature
 		    }
-			logger.info(data);
+			console.log(data);
 	        res.json({
 	        	code: 1, 
 	        	data: {
