@@ -1,0 +1,40 @@
+[2017-05-31 15:24:50.733] [DEBUG] app - GET /css/bigwoods.ui.mobile.css
+[2017-05-31 15:24:50.750] [DEBUG] app - GET /js/wxConfig.js
+[2017-05-31 15:24:50.753] [DEBUG] app - GET /js/bigwoods.ui.mobile.js
+[2017-05-31 15:24:50.757] [DEBUG] app - GET /img/logo-index.png
+[2017-05-31 15:24:51.569] [DEBUG] app - GET /img/logo.png
+[2017-05-31 15:24:51.572] [DEBUG] app - GET /img/banner03.jpg
+[2017-05-31 15:24:51.573] [DEBUG] app - GET /img/banner02.jpg
+[2017-05-31 15:24:51.591] [DEBUG] app - GET /img/banner01.jpg
+[2017-05-31 15:24:51.599] [DEBUG] app - GET /img/favicon.ico
+[2017-05-31 15:24:51.667] [DEBUG] app - GET /css/bigwoods.ui.mobile.css
+[2017-05-31 15:24:51.682] [DEBUG] app - GET /js/wxConfig.js
+[2017-05-31 15:24:51.683] [DEBUG] app - GET /img/logo-index.png
+[2017-05-31 15:24:51.683] [DEBUG] app - GET /js/bigwoods.ui.mobile.js
+[2017-05-31 15:24:51.800] [DEBUG] app - GET /products/getListData
+[2017-05-31 15:24:51.884] [DEBUG] app - GET /img/brush/maoshuagun.jpg
+[2017-05-31 15:24:51.885] [DEBUG] app - GET /img/brush/mugongjixieshua.jpg
+[2017-05-31 15:24:51.886] [DEBUG] app - GET /img/brush/moliaosi.jpg
+[2017-05-31 15:24:51.888] [DEBUG] app - GET /img/brush/futishua.png
+[2017-05-31 15:24:51.893] [DEBUG] app - GET /img/brush/saolushua.jpg
+[2017-05-31 15:24:51.896] [DEBUG] app - GET /img/brush/jiqirensaodishua.jpg
+[2017-05-31 15:24:51.912] [DEBUG] app - GET /img/carousel/001/1495173061094/1495173073171.jpeg
+[2017-05-31 15:24:52.105] [DEBUG] app - GET /img/logo.png
+[2017-05-31 15:24:52.115] [DEBUG] app - GET /img/banner03.jpg
+[2017-05-31 15:24:52.119] [DEBUG] app - GET /img/banner01.jpg
+[2017-05-31 15:24:52.119] [DEBUG] app - GET /img/banner02.jpg
+[2017-05-31 15:24:52.177] [DEBUG] app - GET /products/getListData
+[2017-05-31 15:24:52.378] [DEBUG] app - GET /img/brush/maoshuagun.jpg
+[2017-05-31 15:24:52.415] [DEBUG] app - GET /img/brush/mugongjixieshua.jpg
+[2017-05-31 15:24:52.416] [DEBUG] app - GET /img/brush/moliaosi.jpg
+[2017-05-31 15:24:52.434] [DEBUG] app - GET /img/brush/futishua.png
+[2017-05-31 15:24:52.452] [DEBUG] app - GET /img/favicon.ico
+[2017-05-31 15:24:52.479] [DEBUG] app - GET /img/carousel/001/1495173061094/1495173073171.jpeg
+[2017-05-31 15:24:52.485] [DEBUG] app - GET /img/brush/saolushua.jpg
+[2017-05-31 15:24:52.533] [DEBUG] app - GET /img/brush/jiqirensaodishua.jpg
+[2017-05-31 15:24:53.113] [INFO] weiXin.js - access_token已过期,重新获取成功
+[2017-05-31 15:24:53.114] [ERROR] weiXin.js - kgt8ON7yVITDhtdwci0qeQwz2lhCIGDmNk37RU0VYuORkBYJfURwgcT24tDP1Fa-kq8nL5XUXZgW_F_-e2rntA
+[2017-05-31 15:24:53.115] [DEBUG] app - POST /wx/getSDKParams
+[2017-05-31 15:24:53.129] [INFO] weiXin.js - access_token已过期,重新获取成功
+[2017-05-31 15:24:53.130] [ERROR] weiXin.js - kgt8ON7yVITDhtdwci0qeQwz2lhCIGDmNk37RU0VYuORkBYJfURwgcT24tDP1Fa-kq8nL5XUXZgW_F_-e2rntA
+[2017-05-31 15:24:53.130] [DEBUG] app - POST /wx/getSDKParams

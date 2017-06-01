@@ -21,7 +21,7 @@ wx.ready(function(){
 	    link: 'www.bigwoods.cn', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
 	    imgUrl: 'http://www.bigwoods.cn/img/brush/moliaosi.jpg', // 分享图标
 	    success: function () { 
-	        alert("success");
+	        //
 	    },
 	    cancel: function () { 
 	        // 用户取消分享后执行的回调函数

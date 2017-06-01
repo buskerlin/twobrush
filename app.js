@@ -128,6 +128,7 @@ app.use('/manage',manage);
 //  }
 //}));
 
+//放到路由之后
 app.use(express.static(path.join(__dirname, 'public')));
 
 

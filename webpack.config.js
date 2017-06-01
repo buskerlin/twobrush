@@ -5,7 +5,6 @@ const HotScript = 'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=200
 const hotjs = "./dev/recieveReLoad.js"; //入口文件之一，接受reload事件 缺点：会直接刷新页面
 
 const hotScript = "webpack-hot-middleware/client?reload=true"; //不能hotload就reload
-const acceptHot = "./dev/acceptHot.js";
 
 module.exports = {
 	//这样配置无法接受.html的更新内容
@@ -89,13 +88,15 @@ module.exports = {
             '.vue'
         ],
         alias: {
-            vue: path.resolve(__dirname, 'node_modules', 'vue', 'dist', 'vue.min.js')
+        	//配置vue文件路径，前端使用import别名调用，使用vue devtools调试故引入开发版本
+            vue: path.resolve(__dirname, 'node_modules', 'vue', 'dist', 'vue.js')
         }
     },
 //  devServer: {
 //  	hot: false
 //  },
     plugins: [
+    	//生成html文件，将vue组件中的html,css注入
         new HtmlWebpackPlugin({
             filename: 'index.html',
             inject: false,

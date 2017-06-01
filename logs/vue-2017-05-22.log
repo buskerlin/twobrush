@@ -88,3 +88,24 @@
 [2017-05-22 20:38:25.877] [INFO] weiXin.js - access_token未过期,查表获取jsapi_ticket成功
 [2017-05-22 20:38:25.877] [ERROR] weiXin.js - kgt8ON7yVITDhtdwci0qeQwz2lhCIGDmNk37RU0VYuPQ514OEl-H1OvqS6D7zHydk5Nzl_XUKMIG3WF0YiQx9g
 [2017-05-22 20:38:25.878] [DEBUG] app - POST /wx/getSDKParams
+[2017-05-22 20:39:47.813] [DEBUG] app - GET /css/bigwoods.ui.mobile.css
+[2017-05-22 20:39:47.840] [DEBUG] app - GET /js/wxConfig.js
+[2017-05-22 20:39:47.862] [DEBUG] app - GET /img/logo-index.png
+[2017-05-22 20:39:47.865] [DEBUG] app - GET /js/bigwoods.ui.mobile.js
+[2017-05-22 20:39:48.686] [INFO] weiXin.js - access_token未过期,查表获取jsapi_ticket成功
+[2017-05-22 20:39:48.701] [ERROR] weiXin.js - kgt8ON7yVITDhtdwci0qeQwz2lhCIGDmNk37RU0VYuPQ514OEl-H1OvqS6D7zHydk5Nzl_XUKMIG3WF0YiQx9g
+[2017-05-22 20:39:48.703] [DEBUG] app - POST /wx/getSDKParams
+[2017-05-22 20:39:48.725] [DEBUG] app - GET /maps/swiper.js.map
+[2017-05-22 20:39:48.776] [DEBUG] app - GET /img/logo.png
+[2017-05-22 20:39:48.810] [DEBUG] app - GET /img/banner01.jpg
+[2017-05-22 20:39:48.822] [DEBUG] app - GET /img/banner02.jpg
+[2017-05-22 20:39:48.842] [DEBUG] app - GET /img/banner03.jpg
+[2017-05-22 20:39:49.072] [DEBUG] app - GET /products/getListData
+[2017-05-22 20:39:49.324] [DEBUG] app - GET /img/brush/maoshuagun.jpg
+[2017-05-22 20:39:49.370] [DEBUG] app - GET /img/brush/futishua.png
+[2017-05-22 20:39:49.382] [DEBUG] app - GET /img/brush/moliaosi.jpg
+[2017-05-22 20:39:49.390] [DEBUG] app - GET /img/brush/mugongjixieshua.jpg
+[2017-05-22 20:39:49.400] [DEBUG] app - GET /img/brush/saolushua.jpg
+[2017-05-22 20:39:49.415] [DEBUG] app - GET /img/brush/jiqirensaodishua.jpg
+[2017-05-22 20:39:49.425] [DEBUG] app - GET /img/carousel/001/1495173061094/1495173073171.jpeg
+[2017-05-22 20:39:49.748] [DEBUG] app - GET /img/favicon.ico

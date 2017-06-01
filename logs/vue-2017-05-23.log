@@ -1,0 +1,42 @@
+[2017-05-23 09:41:32.628] [DEBUG] app - GET /css/bigwoods.ui.mobile.css
+[2017-05-23 09:41:32.648] [DEBUG] app - GET /img/logo-index.png
+[2017-05-23 09:41:32.650] [DEBUG] app - GET /js/bigwoods.ui.mobile.js
+[2017-05-23 09:41:32.652] [DEBUG] app - GET /js/wxConfig.js
+[2017-05-23 09:41:33.351] [DEBUG] app - GET /img/banner01.jpg
+[2017-05-23 09:41:33.375] [DEBUG] app - GET /img/banner02.jpg
+[2017-05-23 09:41:33.414] [DEBUG] app - GET /img/banner03.jpg
+[2017-05-23 09:41:33.417] [DEBUG] app - GET /img/logo.png
+[2017-05-23 09:41:33.629] [DEBUG] app - GET /products/getListData
+[2017-05-23 09:41:33.924] [DEBUG] app - GET /img/brush/maoshuagun.jpg
+[2017-05-23 09:41:33.958] [DEBUG] app - GET /img/brush/futishua.png
+[2017-05-23 09:41:33.962] [DEBUG] app - GET /img/brush/moliaosi.jpg
+[2017-05-23 09:41:34.104] [DEBUG] app - GET /img/brush/mugongjixieshua.jpg
+[2017-05-23 09:41:34.267] [DEBUG] app - GET /img/brush/saolushua.jpg
+[2017-05-23 09:41:34.356] [DEBUG] app - GET /img/brush/jiqirensaodishua.jpg
+[2017-05-23 09:41:34.404] [DEBUG] app - GET /img/carousel/001/1495173061094/1495173073171.jpeg
+[2017-05-23 09:41:35.382] [INFO] weiXin.js - access_token已过期,重新获取成功
+[2017-05-23 09:41:35.383] [ERROR] weiXin.js - kgt8ON7yVITDhtdwci0qeQwz2lhCIGDmNk37RU0VYuP12p9GRGJZ9zpT8PrtdKlazEVJi2nVVx7pIf6bzEDZ2w
+[2017-05-23 09:41:35.385] [DEBUG] app - POST /wx/getSDKParams
+[2017-05-23 09:41:35.986] [DEBUG] app - GET /css/bigwoods.ui.mobile.css
+[2017-05-23 09:41:36.748] [DEBUG] app - GET /maps/swiper.js.map
+[2017-05-23 09:41:42.684] [DEBUG] app - GET /css/bigwoods.ui.mobile.css
+[2017-05-23 09:41:42.693] [DEBUG] app - GET /js/wxConfig.js
+[2017-05-23 09:41:42.696] [DEBUG] app - GET /img/logo-index.png
+[2017-05-23 09:41:42.699] [DEBUG] app - GET /js/bigwoods.ui.mobile.js
+[2017-05-23 09:41:42.945] [INFO] weiXin.js - access_token未过期,查表获取jsapi_ticket成功
+[2017-05-23 09:41:42.945] [ERROR] weiXin.js - kgt8ON7yVITDhtdwci0qeQwz2lhCIGDmNk37RU0VYuP12p9GRGJZ9zpT8PrtdKlazEVJi2nVVx7pIf6bzEDZ2w
+[2017-05-23 09:41:42.947] [DEBUG] app - POST /wx/getSDKParams
+[2017-05-23 09:41:43.005] [DEBUG] app - GET /maps/swiper.js.map
+[2017-05-23 09:41:43.021] [DEBUG] app - GET /img/logo.png
+[2017-05-23 09:41:43.036] [DEBUG] app - GET /img/banner01.jpg
+[2017-05-23 09:41:43.037] [DEBUG] app - GET /img/banner02.jpg
+[2017-05-23 09:41:43.040] [DEBUG] app - GET /img/banner03.jpg
+[2017-05-23 09:41:43.180] [DEBUG] app - GET /img/favicon.ico
+[2017-05-23 09:41:43.225] [DEBUG] app - GET /products/getListData
+[2017-05-23 09:41:43.263] [DEBUG] app - GET /img/brush/maoshuagun.jpg
+[2017-05-23 09:41:43.279] [DEBUG] app - GET /img/brush/futishua.png
+[2017-05-23 09:41:43.294] [DEBUG] app - GET /img/brush/moliaosi.jpg
+[2017-05-23 09:41:43.303] [DEBUG] app - GET /img/brush/mugongjixieshua.jpg
+[2017-05-23 09:41:43.307] [DEBUG] app - GET /img/brush/saolushua.jpg
+[2017-05-23 09:41:43.338] [DEBUG] app - GET /img/brush/jiqirensaodishua.jpg
+[2017-05-23 09:41:43.339] [DEBUG] app - GET /img/carousel/001/1495173061094/1495173073171.jpeg
