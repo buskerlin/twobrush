@@ -2,13 +2,13 @@
 	<div class="content-part box-shadow-top">
 		<a name="top">
 			<div class="nav-title border-bottom">产品展示区域<span>[点击图片可查看详细说明]</span></div>
-			<!-- 分割线 start -->
+			<!-- 分割线  start -->
 			<div class="slot-line">
 				<hr></hr>
 				<span>类型1</span>
 				<hr></hr>
 			</div>
-			<!-- 分割线 end -->
+			<!-- 分割线  end -->
 			<ul>
 				<li v-for="item in listData" :param="item.id">
 					<router-link :to="/pDetails/+item.id">
