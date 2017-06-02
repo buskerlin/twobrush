@@ -8,8 +8,10 @@
 				</router-link>
 			</li>
 			<li>
-				<i class="fa fa-list db"></i>
-				<span>产品中心</span>
+				<router-link to="/productType">
+					<i class="fa fa-list db"></i>
+					<span>产品分类</span>
+				</router-link>
 			</li >
 			<li>
 				<router-link to="/contactUs">
@@ -90,11 +92,11 @@
 				height:100%;
 				i {
 					color:@lightText;
-					margin:0.3rem 0 0.3rem 0;
+					margin:0.5rem 0 0.3rem 0;
 					font-size:1rem;
 				}
 				span {
-					font-size:0.6rem;
+					font-size:0.4rem;
 					color: @darkText;
 					display: block;
 				}
@@ -107,7 +109,7 @@
 					height:2.6rem;
 					border:0.2rem solid @elebg;
 					border-radius:50%;
-					margin:-1.4rem auto 0.1rem auto;
+					margin:-1.4rem auto 0.2rem auto;
 					background-color:@iconbg;
 					text-align: center;
 					line-height:2.8rem;

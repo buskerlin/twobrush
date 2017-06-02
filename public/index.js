@@ -25,7 +25,8 @@ const router = new Router({
 //	mode: "history",
 	routes:[
 		{path: "/contactUs",component: resolve => require(['./components/index/contact-us.vue'],resolve)},
-		{path: "/pDetails/:id",component: resolve => require(['./components/index/product-details.vue'],resolve)}
+		{path: "/pDetails/:id",component: resolve => require(['./components/index/product-details.vue'],resolve)},
+		{path: "/productType",component: resolve => require(['./components/index/product-type.vue'],resolve)}
 	]
 });
 //如果#app元素还没有生成则需要延迟挂载 $mount("#app")

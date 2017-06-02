@@ -1,19 +1,28 @@
 <template>
 	<div class="content-part box-shadow-top">
-		<div class="nav-title border-bottom">产品展示区域<span>[点击图片可查看详细说明]</span></div>
-		<ul>
-			<li v-for="item in listData" :param="item.id">
-				<router-link :to="/pDetails/+item.id">
-					<div class="border-bottom">
-						<img :src="item.cover" />
-					</div>
-					<div>
-						<span class="tips">{{item.desc}}</span>
-						<span class="scan-num"><i class="fa fa-eye"></i><span>{{item.pv}}</span></span>
-					</div>
-				</router-link>
-			</li>
-		</ul>
+		<a name="top">
+			<div class="nav-title border-bottom">产品展示区域<span>[点击图片可查看详细说明]</span></div>
+			<!-- 分割线 start -->
+			<div class="slot-line">
+				<hr></hr>
+				<span>类型1</span>
+				<hr></hr>
+			</div>
+			<!-- 分割线 end -->
+			<ul>
+				<li v-for="item in listData" :param="item.id">
+					<router-link :to="/pDetails/+item.id">
+						<div class="border-bottom">
+							<img :src="item.cover" />
+						</div>
+						<div>
+							<span class="tips">{{item.desc}}</span>
+							<span class="scan-num"><i class="fa fa-eye"></i><span>{{item.pv}}</span></span>
+						</div>
+					</router-link>
+				</li>
+			</ul>
+		</a>
 	</div>
 </template>
 <script>
@@ -46,7 +55,8 @@
 			width:100%;
 		}
 		/*直系子元素*/
-		& > ul {
+		ul {
+			width:100%;
 			display:flex;
 			align-content: center;
 			justify-content: space-around;
@@ -93,6 +103,29 @@
 						}
 					}
 				}
+			}
+		}
+		.slot-line {
+			overflow: hidden;
+			margin-top:0.6rem;
+			color:#9aabb8;
+			font-size:0.6rem;
+			text-align:center;
+			& > * {
+				
+			}
+			hr {
+				height:0;
+				border:1px dashed #ddd;
+				-webkit-transform: scaleY(0.5);
+				width:42%;
+				vertical-align: middle;
+				display: inline-block;
+			}
+			span {
+				width:12%;
+				display: inline-block;
+				text-align:center;
 			}
 		}
 	}
