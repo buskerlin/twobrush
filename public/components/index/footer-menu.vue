@@ -107,7 +107,7 @@
 				i {
 					width:2.6rem;
 					height:2.6rem;
-					border:0.2rem solid @elebg;
+					border:0.2rem solid #eee;
 					border-radius:50%;
 					margin:-1.4rem auto 0.2rem auto;
 					background-color:@iconbg;
