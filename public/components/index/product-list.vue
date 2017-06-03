@@ -63,6 +63,7 @@
 			flex-wrap: wrap;
 			padding:0.5rem 2% 3rem 2%;
 			background-color: #fff;
+			box-sizing: border-box;
 			& > li {
 				width:48%;
 				background-color:#fff;
