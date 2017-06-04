@@ -96,9 +96,9 @@
 				margin:0 1rem;
 			}
 			.qrcode {
-				width:70%;
+				width:80%;
 				margin:0 auto;
-				padding-top:1.4rem;
+				padding-top:1rem;
 			}
 			div {
 				.button (@height:2rem,@radius:5px,@color:#00B7FF);
