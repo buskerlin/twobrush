@@ -106,28 +106,28 @@
 				}
 			}
 		}
-		.slot-line {
-			overflow: hidden;
-			margin-top:0.6rem;
-			color:#9aabb8;
-			font-size:0.6rem;
+	}
+	.slot-line {
+		overflow: hidden;
+		margin-top:0.6rem;
+		color:#9aabb8;
+		font-size:0.6rem;
+		text-align:center;
+		& > * {
+			
+		}
+		hr {
+			height:0;
+			border:1px dashed #ddd;
+			-webkit-transform: scaleY(0.5);
+			width:42%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		span {
+			width:12%;
+			display: inline-block;
 			text-align:center;
-			& > * {
-				
-			}
-			hr {
-				height:0;
-				border:1px dashed #ddd;
-				-webkit-transform: scaleY(0.5);
-				width:42%;
-				vertical-align: middle;
-				display: inline-block;
-			}
-			span {
-				width:12%;
-				display: inline-block;
-				text-align:center;
-			}
 		}
 	}
 </style>

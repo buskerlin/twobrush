@@ -20,8 +20,10 @@
 				</router-link>
 			</li>
 			<li>
-				<i class="fa fa-trophy db"></i>
-				<span>活动推广</span>
+				<router-link to="/actives">
+					<i class="fa fa-trophy db"></i>
+					<span>活动推广</span>
+				</router-link>
 			</li>
 			<li>
 				<i class="fa fa-users db"></i>
