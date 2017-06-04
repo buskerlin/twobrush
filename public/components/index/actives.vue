@@ -92,4 +92,5 @@
 			margin-top:1.6rem;
 		}
 	}
+	
 </style>
