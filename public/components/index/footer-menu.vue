@@ -20,12 +20,12 @@
 				</router-link>
 			</li>
 			<li>
-				<i class="fa fa-newspaper-o db"></i>
-				<span>行业资讯</span>
+				<i class="fa fa-trophy db"></i>
+				<span>活动推广</span>
 			</li>
 			<li>
-				<i class="fa fa-trophy db"></i>
-				<span>活动</span>
+				<i class="fa fa-users db"></i>
+				<span>代理商</span>
 			</li>
 		</ul>
 	</div>
