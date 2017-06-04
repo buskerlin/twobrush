@@ -20,6 +20,7 @@ import myContent from "./components/index/product-list";
 
 console.log(this); //undefined ES6默认js的严格模式 ，this禁止指向全局对象 
 
+
 //实例化传的参数 属性名是 routes 而不是 routers
 const router = new Router({
 //	mode: "history",
