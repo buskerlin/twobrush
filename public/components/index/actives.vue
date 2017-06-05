@@ -3,17 +3,19 @@
 		<div>
 			<ul>
 				<li v-for="item in testArr">
-					<div class="left">
-						<p class="time">发布时间：2017.06.04</p>
-						<h4 class="title">父亲节温情来电显示创意H5</h4>
-						<div class="share">
-							<span>浏览1989</span>
-							<span>分享198</span>
+					<a href="http://fatherday.butterfly.mopaasapp.com/">
+						<div class="left">
+							<p class="time">发布时间：2017.06.04</p>
+							<h4 class="title">父亲节温情来电显示创意H5</h4>
+							<div class="share">
+								<span>浏览1989</span>
+								<span>分享198</span>
+							</div>
 						</div>
-					</div>
-					<div class="right">
-						<img src="../../img/actives/fatherDay.jpg" />
-					</div>
+						<div class="right">
+							<img src="../../img/actives/fatherDay.jpg" />
+						</div>
+					</a>
 				</li>
 			</ul>
 			<!-- 分割线  start -->
