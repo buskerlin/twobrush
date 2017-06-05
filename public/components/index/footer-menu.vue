@@ -55,11 +55,11 @@
 			}
 		},
 		mounted(){
-			bus.$on("indexInit",function(){
-				console.log("init index");
-				$(".footer li").removeClass("active");
-				$(".footer li").eq(0).addClass("active");
-			});
+//			bus.$on("indexInit",function(){
+//				console.log("init index");
+//				$(".footer li").removeClass("active");
+//				$(".footer li").eq(0).addClass("active");
+//			});
 		},
 		props:["message"]
 	}
