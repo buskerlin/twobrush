@@ -25,11 +25,27 @@ console.log(this); //undefined ES6默认js的严格模式 ，this禁止指向全
 const router = new Router({
 //	mode: "history",
 	routes:[
-		{path: "/contactUs",component: resolve => require(['./components/index/contact-us.vue'],resolve)},
-		{path: "/pDetails/:id",component: resolve => require(['./components/index/product-details.vue'],resolve)},
-		{path: "/productType",component: resolve => require(['./components/index/product-type.vue'],resolve)},
-		{path: "/actives",component: resolve => require(['./components/index/actives.vue'],resolve)}
+		{path: "/contactUs",name:"contactUs",component: resolve => require(['./components/index/contact-us.vue'],resolve)},
+		{path: "/pDetails/:id",name:"pDetails",component: resolve => require(['./components/index/product-details.vue'],resolve)},
+		{path: "/productType",name:"productType",component: resolve => require(['./components/index/product-type.vue'],resolve)},
+		{path: "/actives",name:"actives",component: resolve => require(['./components/index/actives.vue'],resolve)}
 	]
+});
+router.beforeEach((to,from,next) => {
+	var urlArr = ["productType","contactUs","actives"];
+	$(".footer li").removeClass("active");
+	console.log(to.name);
+	if(to.name == undefined)
+		$(".footer li").eq(0).addClass("active");
+	else{
+		for(var i = 0;i < urlArr.length;i++){
+			if(to.name == urlArr[i]){
+				$(".footer li").eq(i+1).addClass("active");
+				break;
+			}	
+		}	
+	}
+	next();
 });
 //如果#app元素还没有生成则需要延迟挂载 $mount("#app")
 //components内包含的组件和contact-us.vue里的this都指向下面的这个Vue实例 ? err:组件也会被实例化，所以都指向组件本身的实例

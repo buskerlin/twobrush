@@ -1,6 +1,6 @@
 <template>
 	<div class="footer">
-		<ul class="footer-ul box-shadow-top" @click="changeMenu($event)">
+		<ul class="footer-ul box-shadow-top">
 			<li class="active">
 				<router-link to="/">
 					<i class="fa fa-home db active"></i>
