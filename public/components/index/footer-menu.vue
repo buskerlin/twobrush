@@ -26,8 +26,10 @@
 				</router-link>
 			</li>
 			<li>
-				<i class="fa fa-users db"></i>
-				<span>代理商</span>
+				<router-link to="/agent">
+					<i class="fa fa-users db"></i>
+					<span>代理商</span>
+				</router-link>
 			</li>
 		</ul>
 	</div>

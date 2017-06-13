@@ -28,11 +28,12 @@ const router = new Router({
 		{path: "/contactUs",name:"contactUs",component: resolve => require(['./components/index/contact-us.vue'],resolve)},
 		{path: "/pDetails/:id",name:"pDetails",component: resolve => require(['./components/index/product-details.vue'],resolve)},
 		{path: "/productType",name:"productType",component: resolve => require(['./components/index/product-type.vue'],resolve)},
-		{path: "/actives",name:"actives",component: resolve => require(['./components/index/actives.vue'],resolve)}
+		{path: "/actives",name:"actives",component: resolve => require(['./components/index/actives.vue'],resolve)},
+		{path: "/agent",name:"agent",component: resolve => require(['./components/index/agent.vue'],resolve)}
 	]
 });
 router.beforeEach((to,from,next) => {
-	var urlArr = ["productType","contactUs","actives"];
+	var urlArr = ["productType","contactUs","actives","agent"];
 	$(".footer li").removeClass("active");
 	console.log(to.name);
 	if(to.name == undefined)
