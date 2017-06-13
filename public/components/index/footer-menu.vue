@@ -47,14 +47,14 @@
 			}
 		},
 		methods: {
-			changeMenu(e){
-				if($(e.target).parents(".footer-ul").length <= 0) return;
-				$(".footer li").removeClass("active");
-				if(e.target.tagName == "LI") 
-					$(e.target).addClass("active");
-				else 
-					$(e.target).parents("li").addClass("active");
-			}
+//			changeMenu(e){
+//				if($(e.target).parents(".footer-ul").length <= 0) return;
+//				$(".footer li").removeClass("active");
+//				if(e.target.tagName == "LI") 
+//					$(e.target).addClass("active");
+//				else 
+//					$(e.target).parents("li").addClass("active");
+//			}
 		},
 		mounted(){
 //			bus.$on("indexInit",function(){
@@ -88,6 +88,11 @@
 			.active {
 				i,span {
 					color:@iconbg;
+				}
+			}
+			li:nth-child(3).active {
+				i {
+					background-color:#FD6365;
 				}
 			}
 			li{
