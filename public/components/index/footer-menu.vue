@@ -92,7 +92,7 @@
 			}
 			li:nth-child(3).active {
 				i {
-					background-color:#FD6365;
+					background-color:@red;
 				}
 			}
 			li{

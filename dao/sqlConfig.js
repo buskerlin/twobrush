@@ -21,9 +21,9 @@ module.exports = {
 
 	//阿里云
 	mySql:{
-		host:"60.205.179.68",
+		host:"123.56.221.185",
 		user:"bigwoods",
-		password:"lql1948",
+		password:"123456",
 		database:"brush",
 		port:"3306"
 	}

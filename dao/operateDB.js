@@ -7,7 +7,6 @@ const common = require("./common.js");
 //创建连接池
 var pool = mySql.createPool(sqlConfig.mySql);
 
-//是exports而不是export
 module.exports = {
 	getListData(req,res,next){
 		pool.getConnection(function(err,connection){
